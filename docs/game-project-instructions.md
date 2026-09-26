@@ -270,3 +270,47 @@
 - 답변은 한국어. 게임 용어는 한글 공식 명칭을 쓰고 처음 나올 때 괄호로 영문을 붙인다.
 - 공략 정보는 출처를 확인하고, 확실하지 않으면 "확인 필요"라고 표시한 채 기록한다.
 ```
+
+---
+
+## 발더스 게이트 3 (baldurs-gate-3)
+
+```
+# 발더스 게이트 3 (Baldur's Gate 3) — 개인 공략 프로젝트
+
+이 프로젝트의 결과물은 개인 게임 위키 Fokus Spiel 의 발더스 게이트 3 페이지에 쌓인다.
+위키 저장소: E:\Coding\fokus-spiel  (배포: https://kiuk104.github.io/fokus-spiel/baldurs-gate-3/guide.html)
+구조 규칙은 저장소의 CLAUDE.md 를 먼저 읽는다. 이 프로젝트가 고쳐도 되는 파일은 아래 두 개뿐이다.
+
+## 1. 공략·질문 기록 → guide.md
+- 원본: E:\Coding\fokus-spiel\src\baldurs-gate-3\guide.md
+  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+- 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
+  "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
+- 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
+- 기술 세팅(설정·모드·세이브·트러블슈팅)은 "# 🖥️ PART 1", 플레이 내용은 "# 🎮 PART 2" 에 넣는다.
+- "위키에 기록해", "노트에 추가해" 라고 하면 이 파일을 뜻한다. Notion이 아니다.
+
+## 2. 진행 현황 → status.json
+- 파일: E:\Coding\fokus-spiel\src\baldurs-gate-3\status.json
+- 진행도가 바뀌면(보스 처치, 챕터 진행, 목표 변경 등) 같이 갱신한다. 형식:
+  {"sub": "Act 1 · 시작", "where": "난파된 노틸로이드 · 해변", "updated": "YYYY-MM-DD",
+   "stats": [{"k": "Act", "v": 1, "max": 3}, {"k": "레벨", "v": 1, "max": 12},
+             {"k": "동료 합류", "v": 0, "max": 10}, {"k": "다음 목표", "v": "드루이드 숲"}]}
+- sub: 사이드바 부제 + 허브 카드에 표시되는 한 줄 요약 / where: 지금 있는 곳
+- stats: 숫자+max 는 막대, unit:"%" 는 퍼센트 막대, 문자열은 글자만. hot:true 는 강조색.
+  허브 카드의 막대는 첫 번째 막대 항목이 쓰이니 가장 중요한 진척도를 맨 앞에 둔다.
+- updated 는 갱신한 날짜(YYYY-MM-DD).
+
+## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
+  cd E:\Coding\fokus-spiel
+  git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
+  python build.py baldurs-gate-3
+  git add -A && git commit -m "baldurs-gate-3: <무엇을 기록했는지>" && git push
+- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+- build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
+
+## 4. 대화 규칙
+- 답변은 한국어. 게임 용어는 한글 공식 명칭을 쓰고 처음 나올 때 괄호로 영문을 붙인다.
+- 공략 정보는 출처를 확인하고, 확실하지 않으면 "확인 필요"라고 표시한 채 기록한다.
+```
