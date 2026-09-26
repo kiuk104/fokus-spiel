@@ -21,11 +21,11 @@
   "qmax": 9
  },
  "street-fighter-5": {
-  "hash": "2aa2158b42f1770574b9b59dafc641832416610d",
+  "hash": "5d9290f669fc74192b78cebd0740fafb40cf5916",
   "updated": "2026-09-26",
-  "q": 0,
-  "sections": 4,
-  "qmax": 0
+  "q": 1,
+  "sections": 6,
+  "qmax": 1
  },
  "total-war-three-kingdoms": {
   "hash": "2dba3e31f00d1bf30181499e9925296c94224ab3",
