@@ -16,6 +16,7 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
   (예전 `status.html`은 json이 없을 때만 쓰임)
 - `templates/` — guide.html · hub.html · sw.js 틀. `shared/` — 공통 CSS/JS (테마·검색·북마크·구글 로그인 동기화).
 - 테마·폰트는 `bible_viewer` 와 같은 팔레트(라이트 #f2f3ef/청록 #255e66, 다크 #121514/금색 #d39c3c)와 Noto Serif KR + IBM Plex Sans KR 를 쓴다.
+  설정 패널에서 테마 6종(시스템/밝게/종이/세피아/진회색/검정 — `data-theme`)과 제목·본문 글꼴을 고를 수 있다. 글꼴 목록은 `shared/fonts.js`(bible_viewer 와 같은 출처), 저장 키 `cd-theme` `cd-fdisp` `cd-fbody`. 새 테마를 추가하면 fokus.css 의 `:root:not([data-theme=…])` 목록과 checklist.html 에도 같이 넣는다.
 - `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물.
 - `crimson-desert/checklist.html`, `infographic*.html` — 손으로 관리하는 붉은사막 전용 페이지.
 

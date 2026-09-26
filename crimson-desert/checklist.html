@@ -16,6 +16,7 @@
 <meta name="apple-mobile-web-app-title" content="Fokus Spiel">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 
+<script src="../shared/fonts.js"></script>
 <script>try{var st=localStorage.getItem('cd-theme');if(st)document.documentElement.setAttribute('data-theme',st);var fs=localStorage.getItem('cd-fs');if(fs)document.documentElement.style.setProperty('--fs',fs);}catch(e){}</script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
 <style>
@@ -27,7 +28,7 @@
   --amber:#94620c; --amber-soft:#f1e6cc; --done:#a4977f;
   --f-disp:'Noto Serif KR',"Apple SD Gothic Neo",serif; --f-body:'IBM Plex Sans KR',system-ui,-apple-system,"Segoe UI","Malgun Gothic",sans-serif; --f-mono:'IBM Plex Mono',"D2Coding",monospace;
 }
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]){
   color-scheme:dark; --bg:#121514; --surf:#171b19; --surf2:#1e2321; --line:#2d3531; --line2:#3b453f;
   --ink:#e1e5df; --ink2:#c3cac4; --muted:#909b95; --crimson:#e0654a; --crimson-soft:#3a1d15;
   --abyss:#79b4d8; --abyss-soft:#152a36; --amber:#dcaa4c; --amber-soft:#3a2f1c; --done:#6f6452;}}
@@ -35,6 +36,11 @@
   color-scheme:dark; --bg:#121514; --surf:#171b19; --surf2:#1e2321; --line:#2d3531; --line2:#3b453f;
   --ink:#e1e5df; --ink2:#c3cac4; --muted:#909b95; --crimson:#e0654a; --crimson-soft:#3a1d15;
   --abyss:#79b4d8; --abyss-soft:#152a36; --amber:#dcaa4c; --amber-soft:#3a2f1c; --done:#6f6452;}
+/* 공략집과 같은 테마 6종 (종이·세피아·진회색) */
+:root[data-theme="paper"]{ color-scheme:light; --bg:#ece4d4; --surf:#f4eee2; --surf2:#e3d9c6; --line:#d6cab4; --line2:#c4b79f; --ink:#2a2219; --ink2:#4a3f33; --muted:#7a6c5c; --amber:#8a5a10; --amber-soft:#e8d9a8; }
+:root[data-theme="sepia"]{ color-scheme:light; --bg:#cfc9bb; --surf:#d8d3c7; --surf2:#c9c3b3; --line:#b6b0a0; --line2:#a59d8a; --ink:#3a3733; --ink2:#4d4943; --muted:#6b6558; --amber:#7a5a2a; --amber-soft:#c2b394; }
+:root[data-theme="dim"]{ color-scheme:dark; --bg:#2b2d31; --surf:#303237; --surf2:#34363b; --line:#4a4d53; --line2:#585c63; --ink:#e6e6e8; --ink2:#c9cacf; --muted:#a6a8ae; --amber:#dcbe83; --amber-soft:#4a3d24; --crimson:#e0654a; --crimson-soft:#3a1d15; --abyss:#79b4d8; --abyss-soft:#152a36; --done:#6f6452; }
+
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -160,7 +166,7 @@ footer a{color:var(--abyss)}
 
 <div class="setpanel" id="setPanel" role="dialog" aria-label="설정" hidden>
   <div class="sp-row"><span class="sp-lab">테마</span>
-    <div class="seg" id="segTheme" role="group" aria-label="테마"><button data-v="system">시스템</button><button data-v="light">라이트</button><button data-v="dark">다크</button></div></div>
+    <div class="seg" id="segTheme" role="group" aria-label="테마"><button data-v="system">시스템</button><button data-v="light">밝게</button><button data-v="paper">종이</button><button data-v="sepia">세피아</button><button data-v="dim">진회색</button><button data-v="dark">검정</button></div></div>
   <div class="sp-row"><span class="sp-lab">글자 크기</span>
     <div class="seg" id="segFs" role="group" aria-label="글자 크기"><button data-v="0.9">작게</button><button data-v="1">보통</button><button data-v="1.12">크게</button><button data-v="1.25">아주 크게</button></div></div>
     <div class="sp-row"><span class="sp-lab">앱</span>

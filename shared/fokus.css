@@ -11,7 +11,7 @@
   --f-mono:'IBM Plex Mono',"D2Coding",monospace;
 }
 @media (prefers-color-scheme:dark){
- :root:not([data-theme="light"]){
+ :root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]){
   --bg:#121514; --surf:#171b19; --surf2:#1e2321; --line:#2d3531; --line2:#3b453f;
   --ink:#e1e5df; --ink2:#c3cac4; --muted:#909b95;
   --acc:#d39c3c; --acc-soft:#3a2f1c;
@@ -28,29 +28,49 @@
   --amber:#dcaa4c; --amber-soft:#3a2f1c;
   --shadow:0 1px 2px rgba(0,0,0,.4);
 }
+/* 테마 — bible_viewer 와 같은 6가지 (시스템/밝게/종이/세피아/진회색/검정). 종이·세피아는 밝은 계열, 진회색은 어두운 계열.
+   강조색(--acc/--acc2)은 건드리지 않아 게임별 색이 그대로 유지된다. */
+:root[data-theme="paper"]{
+  --bg:#ece4d4; --surf:#f4eee2; --surf2:#e3d9c6; --line:#d6cab4; --line2:#c4b79f;
+  --ink:#2a2219; --ink2:#4a3f33; --muted:#7a6c5c;
+  --amber:#8a5a10; --amber-soft:#e8d9a8;
+  --shadow:0 1px 2px rgba(60,40,10,.12);
+}
+:root[data-theme="sepia"]{
+  --bg:#cfc9bb; --surf:#d8d3c7; --surf2:#c9c3b3; --line:#b6b0a0; --line2:#a59d8a;
+  --ink:#3a3733; --ink2:#4d4943; --muted:#6b6558;
+  --amber:#7a5a2a; --amber-soft:#c2b394;
+  --shadow:0 1px 2px rgba(60,40,10,.16);
+}
+:root[data-theme="dim"]{
+  --bg:#2b2d31; --surf:#303237; --surf2:#34363b; --line:#4a4d53; --line2:#585c63;
+  --ink:#e6e6e8; --ink2:#c9cacf; --muted:#a6a8ae;
+  --amber:#dcbe83; --amber-soft:#4a3d24;
+  --shadow:0 1px 2px rgba(0,0,0,.35);
+}
 /* 게임별 강조색 — html 또는 아무 요소에 data-game을 달면 적용 */
 [data-game="crimson-desert"]{--acc:#b03a22; --acc-soft:#f0ded7; --acc2:#2f6f96; --acc2-soft:#dce9f1;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="crimson-desert"],:root:not([data-theme="light"])[data-game="crimson-desert"]{--acc:#e0654a; --acc-soft:#3a1d15; --acc2:#79b4d8; --acc2-soft:#152a36;}}
-:root[data-theme="dark"] [data-game="crimson-desert"],:root[data-theme="dark"][data-game="crimson-desert"]{--acc:#e0654a; --acc-soft:#3a1d15; --acc2:#79b4d8; --acc2-soft:#152a36;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="crimson-desert"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="crimson-desert"]{--acc:#e0654a; --acc-soft:#3a1d15; --acc2:#79b4d8; --acc2-soft:#152a36;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="crimson-desert"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="crimson-desert"]{--acc:#e0654a; --acc-soft:#3a1d15; --acc2:#79b4d8; --acc2-soft:#152a36;}
 [data-game="hub"]{--acc:#255e66; --acc-soft:#dbe8e7; --acc2:#94620c; --acc2-soft:#f1e6cc;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="hub"],:root:not([data-theme="light"])[data-game="hub"]{--acc:#d39c3c; --acc-soft:#3a2f1c; --acc2:#72b8b4; --acc2-soft:#1c3332;}}
-:root[data-theme="dark"] [data-game="hub"],:root[data-theme="dark"][data-game="hub"]{--acc:#d39c3c; --acc-soft:#3a2f1c; --acc2:#72b8b4; --acc2-soft:#1c3332;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="hub"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="hub"]{--acc:#d39c3c; --acc-soft:#3a2f1c; --acc2:#72b8b4; --acc2-soft:#1c3332;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="hub"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="hub"]{--acc:#d39c3c; --acc-soft:#3a2f1c; --acc2:#72b8b4; --acc2-soft:#1c3332;}
 [data-game="street-fighter-5"]{--acc:#c2410c; --acc-soft:#f8e0d2; --acc2:#6b3fa0; --acc2-soft:#e8def4;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="street-fighter-5"],:root:not([data-theme="light"])[data-game="street-fighter-5"]{--acc:#f28a4c; --acc-soft:#3d200f; --acc2:#b594e0; --acc2-soft:#241a33;}}
-:root[data-theme="dark"] [data-game="street-fighter-5"],:root[data-theme="dark"][data-game="street-fighter-5"]{--acc:#f28a4c; --acc-soft:#3d200f; --acc2:#b594e0; --acc2-soft:#241a33;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="street-fighter-5"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="street-fighter-5"]{--acc:#f28a4c; --acc-soft:#3d200f; --acc2:#b594e0; --acc2-soft:#241a33;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="street-fighter-5"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="street-fighter-5"]{--acc:#f28a4c; --acc-soft:#3d200f; --acc2:#b594e0; --acc2-soft:#241a33;}
 [data-game="total-war-three-kingdoms"]{--acc:#2f7a5a; --acc-soft:#d9ece2; --acc2:#94620c; --acc2-soft:#f1e6cc;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="total-war-three-kingdoms"],:root:not([data-theme="light"])[data-game="total-war-three-kingdoms"]{--acc:#6cc39b; --acc-soft:#12291f; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}}
-:root[data-theme="dark"] [data-game="total-war-three-kingdoms"],:root[data-theme="dark"][data-game="total-war-three-kingdoms"]{--acc:#6cc39b; --acc-soft:#12291f; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="total-war-three-kingdoms"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="total-war-three-kingdoms"]{--acc:#6cc39b; --acc-soft:#12291f; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="total-war-three-kingdoms"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="total-war-three-kingdoms"]{--acc:#6cc39b; --acc-soft:#12291f; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}
 [data-game="dark-souls"]{--acc:#a8541a; --acc-soft:#f3e0cf; --acc2:#55606e; --acc2-soft:#e2e5e9;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="dark-souls"],:root:not([data-theme="light"])[data-game="dark-souls"]{--acc:#e8914f; --acc-soft:#35200f; --acc2:#a3adba; --acc2-soft:#22262c;}}
-:root[data-theme="dark"] [data-game="dark-souls"],:root[data-theme="dark"][data-game="dark-souls"]{--acc:#e8914f; --acc-soft:#35200f; --acc2:#a3adba; --acc2-soft:#22262c;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="dark-souls"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="dark-souls"]{--acc:#e8914f; --acc-soft:#35200f; --acc2:#a3adba; --acc2-soft:#22262c;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="dark-souls"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="dark-souls"]{--acc:#e8914f; --acc-soft:#35200f; --acc2:#a3adba; --acc2-soft:#22262c;}
 [data-game="dont-starve-together"]{--acc:#8c2f3f; --acc-soft:#f1dade; --acc2:#5d6b2f; --acc2-soft:#e5e9d3;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="dont-starve-together"],:root:not([data-theme="light"])[data-game="dont-starve-together"]{--acc:#e07385; --acc-soft:#361a1f; --acc2:#b5c47a; --acc2-soft:#23281a;}}
-:root[data-theme="dark"] [data-game="dont-starve-together"],:root[data-theme="dark"][data-game="dont-starve-together"]{--acc:#e07385; --acc-soft:#361a1f; --acc2:#b5c47a; --acc2-soft:#23281a;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="dont-starve-together"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="dont-starve-together"]{--acc:#e07385; --acc-soft:#361a1f; --acc2:#b5c47a; --acc2-soft:#23281a;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="dont-starve-together"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="dont-starve-together"]{--acc:#e07385; --acc-soft:#361a1f; --acc2:#b5c47a; --acc2-soft:#23281a;}
 
 [data-game="uncharted-waters-2"]{--acc:#1f5a85; --acc-soft:#dbe7f1; --acc2:#94620c; --acc2-soft:#f1e6cc;}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) [data-game="uncharted-waters-2"],:root:not([data-theme="light"])[data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}}
-:root[data-theme="dark"] [data-game="uncharted-waters-2"],:root[data-theme="dark"][data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="uncharted-waters-2"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="uncharted-waters-2"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}
 
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-weight:400;
@@ -113,6 +133,21 @@ a.btn{text-decoration:none;display:inline-flex;align-items:center;white-space:no
 .seg button+button{border-left:1px solid var(--line2)}
 .seg button[aria-pressed="true"]{background:var(--acc);color:#fff}
 .sp-note{margin:0;font-size:11.5px;color:var(--muted)}
+/* 설정 패널 — 테마 카드 · 글꼴 고르기 (bible_viewer 방식) */
+.thg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.thg button{border:2px solid var(--line);border-radius:12px;padding:8px 6px 7px;display:grid;gap:2px;justify-items:center;background:var(--tb);color:var(--ti);font:inherit;cursor:pointer}
+.thg button b{font-family:var(--f-disp);font-size:17px;font-weight:600;line-height:1.2}
+.thg button small{font-size:11.5px;opacity:.8}
+.thg button[aria-pressed="true"]{border-color:var(--acc);box-shadow:0 0 0 2px var(--acc-soft)}
+.thg button.sys{background:linear-gradient(135deg,#f2f3ef 50%,#121514 50%)}
+.thg button.sys b,.thg button.sys small{background:var(--surf);color:var(--ink);border-radius:6px;padding:0 5px}
+.fpk{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
+.fpk button{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:1px;padding:6px 10px;min-height:42px;border:1px solid var(--line);border-radius:10px;background:var(--surf2);color:var(--ink);text-align:left;font:inherit;cursor:pointer}
+.fpk button b{font-size:15px;font-weight:500;line-height:1.3;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.fpk button small{font-size:10.5px;color:var(--muted);line-height:1.2}
+.fpk button[aria-pressed="true"]{border-color:var(--acc);background:var(--acc-soft)}
+.setpanel{max-height:calc(100vh - 90px);overflow:auto}
+
 .btn:focus-visible,.seg button:focus-visible,.xbtn:focus-visible{outline:2px solid var(--acc2);outline-offset:2px}
 .wrap{zoom:var(--fs,1)}
 .topbar.searching #bmBtn{display:none}

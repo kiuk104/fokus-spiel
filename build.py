@@ -243,7 +243,7 @@ def build_hub():
 
 def build_sw():
     core = ['./', './index.html', './manifest.webmanifest', './shared/fokus.css', './shared/core.js',
-            './shared/guide.js', './shared/sync.js', './icons/icon-192.png', './icons/favicon.svg']
+            './shared/guide.js', './shared/sync.js', './shared/fonts.js', './icons/icon-192.png', './icons/favicon.svg']
     core += ['./%s/guide.html' % g['id'] for g in games]
     core += ['./%s/cover.jpg' % g['id'] for g in games if os.path.exists(P(g['id'], 'cover.jpg'))]
     tpl = open(P('templates', 'sw.js'), encoding='utf-8').read()
