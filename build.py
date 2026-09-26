@@ -155,14 +155,18 @@ def build_hub():
         stat = ('기록 Q%d까지' % m['qmax']) if m.get('qmax') else '기록 시작 전'
         links = ''.join('<a href="%s/%s">%s</a>' % (g['id'], l['href'], html.escape(l['hub'])) for l in live_links(g))
         badge = '<span class="badge">플레이 중</span>' if g.get('playing') else ''
+        # 대표 이미지: <id>/cover.jpg 가 있으면 썸네일로, 없으면 글자 타일
+        thumb = ('<img class="cover" src="%s/cover.jpg?v=%s" alt="" width="60" height="90" loading="lazy">' % (g['id'], BUILD)
+                 if os.path.exists(P(g['id'], 'cover.jpg')) else
+                 '<span class="mono" aria-hidden="true">%s</span>' % html.escape(g['mono']))
         cards.append(
             '<article class="card" data-game="%(id)s">'
             '<a class="card-main" href="%(id)s/guide.html">'
-            '<span class="mono" aria-hidden="true">%(mono)s</span>'
+            '%(thumb)s'
             '<span class="card-tx"><span class="card-en">%(en)s</span><span class="card-name">%(name)s</span>'
             '<span class="card-title">%(title)s</span></span></a>'
             '<div class="card-ft"><span class="card-stat">%(badge)s%(stat)s · %(upd)s 갱신</span>%(links)s</div>'
-            '</article>' % {'id': g['id'], 'mono': html.escape(g['mono']), 'en': html.escape(g['en']),
+            '</article>' % {'id': g['id'], 'thumb': thumb, 'en': html.escape(g['en']),
                             'name': html.escape(g['name']), 'title': html.escape(g['title']), 'badge': badge,
                             'stat': stat, 'upd': (m.get('updated', TODAY)[5:].replace('-', '.')),
                             'links': ('<span class="card-links">%s</span>' % links) if links else ''})
@@ -177,6 +181,7 @@ def build_sw():
     core = ['./', './index.html', './manifest.webmanifest', './shared/fokus.css', './shared/core.js',
             './shared/guide.js', './shared/sync.js', './icons/icon-192.png', './icons/favicon.svg']
     core += ['./%s/guide.html' % g['id'] for g in games]
+    core += ['./%s/cover.jpg' % g['id'] for g in games if os.path.exists(P(g['id'], 'cover.jpg'))]
     tpl = open(P('templates', 'sw.js'), encoding='utf-8').read()
     open(P('sw.js'), 'w', encoding='utf-8').write(tpl.replace('{{BUILD}}', BUILD).replace('{{CORE}}', json.dumps(core)))
 

@@ -8,8 +8,8 @@
 <meta name="cd-build" content="{{BUILD}}">
 <script>try{var _t=localStorage.getItem('cd-theme');if(_t)document.documentElement.setAttribute('data-theme',_t);var _f=localStorage.getItem('cd-fs');if(_f)document.documentElement.style.setProperty('--fs',_f);}catch(e){}</script>
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#16120e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f2f3ef" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121514" media="(prefers-color-scheme: dark)">
 <link rel="icon" type="image/svg+xml" href="icons/favicon.svg">
 <link rel="icon" type="image/png" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
@@ -17,7 +17,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Fokus Spiel">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <link rel="stylesheet" href="shared/fokus.css?v={{V}}">
 <style>
 .hub{max-width:1040px;margin:0 auto;padding:0 28px 80px;zoom:var(--fs,1)}
@@ -41,6 +41,7 @@
 .card{background:var(--surf);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;box-shadow:var(--shadow);transition:border-color .15s,transform .15s}
 .card:hover{border-color:var(--acc);transform:translateY(-2px)}
 .card-main{display:flex;gap:14px;align-items:flex-start;padding:18px 18px 14px;border:0;color:var(--ink);flex:1;position:relative}
+.cover{flex:none;width:60px;height:90px;border-radius:8px;object-fit:cover;background:var(--surf2);box-shadow:0 1px 3px rgba(0,0,0,.25);border:1px solid color-mix(in srgb,var(--line) 70%,transparent)}
 .mono{flex:none;width:52px;height:52px;border-radius:12px;background:var(--acc);color:#fff;display:flex;align-items:center;justify-content:center;font-family:var(--f-disp);font-weight:700;font-size:26px;line-height:1;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
 .card-tx{display:flex;flex-direction:column;min-width:0}
 .card-en{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}

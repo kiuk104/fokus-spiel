@@ -8,6 +8,7 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 - `src/<id>/guide.md` — 게임별 원본 노트. **HTML을 직접 고치지 말고 md를 고친 뒤 빌드**한다.
 - `src/<id>/status.html` — (선택) 가이드 맨 위 진행 현황 상자.
 - `templates/` — guide.html · hub.html · sw.js 틀. `shared/` — 공통 CSS/JS (테마·검색·북마크·구글 로그인 동기화).
+- 테마·폰트는 `bible_viewer` 와 같은 팔레트(라이트 #f2f3ef/청록 #255e66, 다크 #121514/금색 #d39c3c)와 Noto Serif KR + IBM Plex Sans KR 를 쓴다.
 - `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물.
 - `crimson-desert/checklist.html`, `infographic*.html` — 손으로 관리하는 붉은사막 전용 페이지.
 
@@ -33,7 +34,8 @@ Pages 반영은 약 1분. 페이지를 열어 둔 기기에는 "새 버전이 �
 1. `games.json` 에 항목 추가 (id는 영문 소문자-하이픈)
 2. `src/<id>/guide.md` 작성 (위 규칙의 PART 1/2 뼈대)
 3. `shared/fokus.css` 의 게임별 강조색 블록에 `[data-game="<id>"]` 라이트/다크 색 추가
-4. `python build.py`
+4. (선택) `<id>/cover.jpg` — 허브 카드 썸네일용 대표 이미지(세로 2:3, 240×360 권장). 없으면 `mono` 글자 타일이 나온다.
+5. `python build.py`
 
 ## 동기화 (Firebase `reddesert-checklist`)
 문서 `checklists/{uid}` 하나에 필드로 나눠 저장: 붉은사막 북마크 `bookmarks`, 어비스 체크 `checked`, 다른 게임 북마크 `bm_<id(하이픈→_)>`.
