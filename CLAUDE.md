@@ -6,7 +6,14 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 ## 구조
 - `games.json` — 게임 목록 (id, 이름, 허브 카드 문구, 상단 링크). 허브 카드 순서 = `playing: true` 먼저.
 - `src/<id>/guide.md` — 게임별 원본 노트. **HTML을 직접 고치지 말고 md를 고친 뒤 빌드**한다.
-- `src/<id>/status.html` — (선택) 가이드 맨 위 진행 현황 상자.
+- `src/<id>/status.json` — (선택) 진행 현황. 빌드가 가이드 맨 위 상자 + 허브 카드 한 줄 + 사이드바 부제(`sub`)로 만든다. 게임별 Claude 프로젝트가 이 파일을 갱신한다.
+  ```json
+  {"sub": "Chapter 6 · Day 39", "where": "에르난드 공국 · 유니콘 절벽", "updated": "2026-09-26",
+   "stats": [{"k": "메인", "v": 1, "max": 6}, {"k": "어비스 흔적", "v": 3, "max": 40, "hot": true},
+             {"k": "숙련", "v": 0, "unit": "%"}, {"k": "현재 보스", "v": "오른스타인"}]}
+  ```
+  `v`가 숫자+`max`면 막대, `unit:"%"`면 퍼센트 막대, 문자열이면 글자만. `hot:true`는 강조색. 허브 카드 막대는 첫 번째 막대 항목.
+  (예전 `status.html`은 json이 없을 때만 쓰임)
 - `templates/` — guide.html · hub.html · sw.js 틀. `shared/` — 공통 CSS/JS (테마·검색·북마크·구글 로그인 동기화).
 - 테마·폰트는 `bible_viewer` 와 같은 팔레트(라이트 #f2f3ef/청록 #255e66, 다크 #121514/금색 #d39c3c)와 Noto Serif KR + IBM Plex Sans KR 를 쓴다.
 - `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물.
@@ -17,9 +24,14 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 - 퀘스트·질문 기록은 `## 진행 기록`(붉은사막은 `## 퀘스트 진행 기록`) 아래 `### Q번호. 제목 (날짜)` 로 이어 붙이고, 출처는 `## 참고 자료` 에 추가.
 - md를 고치면 **항상 빌드 후 push** — md와 웹페이지는 늘 같은 내용이어야 한다.
 
-## 붉은사막 원본 위치 (예외)
-붉은사막 노트의 원본은 `E:\GameDev\Crimson-Desert\붉은사막살아남기\붉은사막_가이드.md` 이다.
-빌드 전에 이 파일을 `src/crimson-desert/guide.md` 로 복사한다.
+## 외부 원본 (games.json `source`)
+`games.json`에 `source` 경로가 있으면 `build.py`가 빌드 전에 그 파일을 `src/<id>/guide.md`로 **자동 복사**한다(내용이 다를 때만).
+현재 붉은사막만 해당: `E:\GameDev\Crimson-Desert\붉은사막살아남기\붉은사막_가이드.md`. 손으로 복사할 필요 없음.
+
+## 게임별 Claude 프로젝트와의 역할 분담
+- 게임 프로젝트(다크소울, 굶지마 등)는 자기 게임의 `src/<id>/guide.md`(진행 기록)와 `src/<id>/status.json`만 고치고 `python build.py <id>` → push 한다.
+- 이 프로젝트(fokus-spiel)는 템플릿·build.py·CSS·games.json 등 공통 구조와 세션 충돌 정리를 맡는다.
+- 두 세션이 같은 시각에 push 할 수 있으니, 커밋 전 `git status`로 남의 미커밋 변경이 섞였는지 확인.
 
 ## 빌드 · 배포
 ```

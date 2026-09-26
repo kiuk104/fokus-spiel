@@ -51,7 +51,62 @@ def live_links(g):
     return [l for l in g.get('links', []) if os.path.exists(P(g['id'], l['href']))]
 
 
+def sync_source(g):
+    """games.json 의 source(외부 원본 md)가 있으면 빌드 전에 src/<id>/guide.md 로 자동 복사한다."""
+    src = g.get('source')
+    if not src or not os.path.exists(src):
+        return
+    dst = P('src', g['id'], 'guide.md')
+    new = open(src, encoding='utf-8').read()
+    old = open(dst, encoding='utf-8').read() if os.path.exists(dst) else None
+    if new != old:
+        os.makedirs(os.path.dirname(dst), exist_ok=True)
+        open(dst, 'w', encoding='utf-8').write(new)
+        print('%-26s source -> src/%s/guide.md' % (g['id'], g['id']))
+
+
+def load_status(g):
+    """src/<id>/status.json (게임 프로젝트가 갱신하는 진행 현황). 없으면 None."""
+    p = P('src', g['id'], 'status.json')
+    if not os.path.exists(p):
+        return None
+    st = json.load(open(p, encoding='utf-8'))
+    for x in st.get('stats', []):
+        v, mx = x.get('v'), x.get('max')
+        if isinstance(v, (int, float)):
+            if mx:
+                x['_txt'] = '%s / %s' % (v, mx)
+                x['_pct'] = max(1, min(100, round(v / mx * 100)))
+            else:
+                x['_txt'] = '%s%s' % (v, (' ' + x['unit']) if x.get('unit') else '')
+                x['_pct'] = max(1, min(100, round(v))) if x.get('unit') == '%' else None
+        else:
+            x['_txt'], x['_pct'] = str(v), None
+    return st
+
+
+def render_status(g):
+    """status.json → 가이드 상단 진행 현황 상자 HTML. json 이 없으면 예전 방식(status.html)을 그대로 쓴다."""
+    st = load_status(g)
+    if st is None:
+        p = P('src', g['id'], 'status.html')
+        return open(p, encoding='utf-8').read() if os.path.exists(p) else ''
+    hd = html.escape(st.get('where', ''))
+    if st.get('updated'):
+        hd += ('%s%s 기준' % (' · ' if hd else '', html.escape(st['updated'])))
+    cells = []
+    for x in st.get('stats', []):
+        hot = ' hot' if x.get('hot') else ''
+        bar = ('<div class="bar"><i%s style="width:%d%%"></i></div>' % (' class="warn"' if x.get('hot') else '', x['_pct'])) if x['_pct'] else ''
+        cells.append('        <div class="stat"><div class="k">%s</div><div class="v%s">%s</div>%s</div>'
+                     % (html.escape(x['k']), hot, html.escape(x['_txt']), bar))
+    return ('    <div class="status">\n      <div class="hd"><b>%s</b><span>%s</span></div>\n'
+            '      <div class="stats">\n%s\n      </div>\n    </div>\n'
+            % (html.escape(st.get('title', '현재 진행 현황')), hd, '\n'.join(cells)))
+
+
 def build_game(g):
+    sync_source(g)
     md = open(P('src', g['id'], 'guide.md'), encoding='utf-8').read()
     lines = md.split('\n')
     assert lines[0].startswith('# '), 'md 첫 줄은 "# 제목" 이어야 해요'
@@ -95,8 +150,9 @@ def build_game(g):
     src_note = g.get('source') or ('src/%s/guide.md' % g['id'])
     foot = '%s · %s<br>원본: %s — 문서가 갱신되면 이 페이지도 다시 발행됩니다.' % (html.escape(g['title']), qtxt, html.escape(src_note))
 
-    status_p = P('src', g['id'], 'status.html')
-    status = open(status_p, encoding='utf-8').read() if os.path.exists(status_p) else ''
+    status = render_status(g)
+    st = load_status(g) or {}
+    brand_sub = st.get('sub') or g.get('brand_sub', '')
     extra = ''
     for l in live_links(g):
         if l.get('label'):
@@ -111,7 +167,7 @@ def build_game(g):
     tpl = open(P('templates', 'guide.html'), encoding='utf-8').read()
     rep = {
         'GAME_ID': g['id'], 'TITLE': html.escape(g['title']), 'GAME_EN': html.escape(g['en']),
-        'BRAND_SUB': html.escape(g.get('brand_sub', '')), 'DESC': html.escape(g.get('desc', ''), quote=True),
+        'BRAND_SUB': html.escape(brand_sub), 'DESC': html.escape(g.get('desc', ''), quote=True),
         'BUILD': BUILD, 'V': BUILD, 'NAV': '\n'.join(nav), 'STATUS': status, 'CONTENT': '\n'.join(secs),
         'FOOT': foot, 'EXTRA_LINKS': extra, 'SEARCH_HINT': html.escape(g.get('search_hint', '검색'), quote=True),
         'FSG_JSON': json.dumps(fsg, ensure_ascii=False),
@@ -155,6 +211,14 @@ def build_hub():
         stat = ('기록 Q%d까지' % m['qmax']) if m.get('qmax') else '기록 시작 전'
         links = ''.join('<a href="%s/%s">%s</a>' % (g['id'], l['href'], html.escape(l['hub'])) for l in live_links(g))
         badge = '<span class="badge">플레이 중</span>' if g.get('playing') else ''
+        st = load_status(g) or {}
+        prog = ''
+        if st:
+            line = ' · '.join(x for x in (st.get('sub'), st.get('where')) if x)
+            first = next((x for x in st.get('stats', []) if x.get('_pct')), None)
+            bar = ('<span class="card-bar" title="%s %s"><i style="width:%d%%"></i></span>'
+                   % (html.escape(first['k'], quote=True), html.escape(first['_txt'], quote=True), first['_pct'])) if first else ''
+            prog = '<span class="card-prog">📍 %s%s</span>' % (html.escape(line), bar)
         # 대표 이미지: <id>/cover.jpg 가 있으면 썸네일로, 없으면 글자 타일
         thumb = ('<img class="cover" src="%s/cover.jpg?v=%s" alt="" width="60" height="90" loading="lazy">' % (g['id'], BUILD)
                  if os.path.exists(P(g['id'], 'cover.jpg')) else
@@ -164,10 +228,10 @@ def build_hub():
             '<a class="card-main" href="%(id)s/guide.html">'
             '%(thumb)s'
             '<span class="card-tx"><span class="card-en">%(en)s</span><span class="card-name">%(name)s</span>'
-            '<span class="card-title">%(title)s</span></span></a>'
+            '<span class="card-title">%(title)s</span>%(prog)s</span></a>'
             '<div class="card-ft"><span class="card-stat">%(badge)s%(stat)s · %(upd)s 갱신</span>%(links)s</div>'
             '</article>' % {'id': g['id'], 'thumb': thumb, 'en': html.escape(g['en']),
-                            'name': html.escape(g['name']), 'title': html.escape(g['title']), 'badge': badge,
+                            'name': html.escape(g['name']), 'title': html.escape(g['title']), 'badge': badge, 'prog': prog,
                             'stat': stat, 'upd': (m.get('updated', TODAY)[5:].replace('-', '.')),
                             'links': ('<span class="card-links">%s</span>' % links) if links else ''})
     names = {g['id']: g['name'] for g in games}
