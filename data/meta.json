@@ -14,11 +14,11 @@
   "qmax": 0
  },
  "dont-starve-together": {
-  "hash": "c31d88affae2c2aac9247ae8e91f6ddb79ceab39",
+  "hash": "ffac21b181a05492c8a8e6a9ee437cd150ce4c59",
   "updated": "2026-09-26",
-  "q": 0,
-  "sections": 4,
-  "qmax": 0
+  "q": 9,
+  "sections": 16,
+  "qmax": 9
  },
  "street-fighter-5": {
   "hash": "2aa2158b42f1770574b9b59dafc641832416610d",
