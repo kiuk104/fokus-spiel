@@ -1,0 +1,94 @@
+[
+ {
+  "id": "crimson-desert",
+  "name": "붉은사막",
+  "en": "Crimson Desert",
+  "title": "붉은사막 생존 노트",
+  "mono": "붉",
+  "brand_sub": "Chapter 6 · Day 39",
+  "desc": "붉은사막 개인 공략 노트 — 기술 세팅과 퀘스트 진행 기록",
+  "search_hint": "검색 — 담금질, 어비스, 혈석…",
+  "playing": true,
+  "keys": {
+   "bm": "cd-bookmarks",
+   "nav": "cd-nav-open",
+   "pos": "cd-guide-pos"
+  },
+  "cloudField": "bookmarks",
+  "links": [
+   {
+    "href": "checklist.html",
+    "label": "✓ 어비스 체크",
+    "hub": "어비스 체크리스트"
+   },
+   {
+    "href": "infographic.html",
+    "label": "",
+    "hub": "판매량 인포그래픽"
+   }
+  ],
+  "source": "E:\\GameDev\\Crimson-Desert\\붉은사막살아남기\\붉은사막_가이드.md"
+ },
+ {
+  "id": "dark-souls",
+  "name": "다크 소울 리마스터",
+  "en": "Dark Souls Remastered",
+  "title": "다크소울 1 공략 노트",
+  "mono": "다",
+  "brand_sub": "리마스터 · PC",
+  "desc": "다크 소울 리마스터 개인 공략 노트 — 세이브 백업과 진행 기록",
+  "search_hint": "검색 — 보스, 화톳불, 세이브…",
+  "playing": true,
+  "links": []
+ },
+ {
+  "id": "dont-starve-together",
+  "name": "굶지마 투게더",
+  "en": "Don't Starve Together",
+  "title": "굶지마 투게더 생존 노트",
+  "mono": "굶",
+  "brand_sub": "생존 기록",
+  "desc": "굶지마 투게더 개인 생존 노트",
+  "search_hint": "검색 — 캐릭터, 계절, 요리…",
+  "links": []
+ },
+ {
+  "id": "street-fighter-5",
+  "name": "스트리트 파이터 V",
+  "en": "Street Fighter V",
+  "title": "스파5 수련 노트",
+  "mono": "스",
+  "brand_sub": "트레이닝 기록",
+  "desc": "스트리트 파이터 V 개인 수련 노트",
+  "search_hint": "검색 — 캐릭터, 콤보, 커맨드…",
+  "links": []
+ },
+ {
+  "id": "total-war-three-kingdoms",
+  "name": "토탈 워: 삼국",
+  "en": "Total War: Three Kingdoms",
+  "title": "토탈 워 삼국 전략 노트",
+  "mono": "삼",
+  "brand_sub": "캠페인 기록",
+  "desc": "토탈 워: 삼국 개인 전략 노트",
+  "search_hint": "검색 — 세력, 장수, 외교…",
+  "links": []
+ },
+ {
+  "id": "uncharted-waters-2",
+  "name": "대항해시대 II",
+  "en": "Uncharted Waters II",
+  "title": "대항해시대 2 항해 노트",
+  "mono": "항",
+  "brand_sub": "KOEI 클래식",
+  "desc": "대항해시대 II 게임 매뉴얼과 개인 항해 노트",
+  "search_hint": "검색 — 항구, 교역품, 발견물…",
+  "links": [
+   {
+    "href": "manual.html",
+    "label": "📜 매뉴얼",
+    "hub": "게임 매뉴얼"
+   }
+  ]
+ }
+]

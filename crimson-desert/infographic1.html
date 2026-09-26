@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>붉은사막 판매량 추이 인포그래픽 (2026.09 기준)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Noto Sans KR',sans-serif;background:#0a0a0f;color:#fff;overflow-x:hidden}
+.hero{position:relative;background:linear-gradient(135deg,#1a0505 0%,#2d0a0a 30%,#0a0a1a 70%,#0d0d22 100%);padding:60px 40px 50px;text-align:center;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 0%,rgba(200,30,30,0.25) 0%,transparent 65%);pointer-events:none}
+.hero-badge{display:inline-block;background:linear-gradient(90deg,#c0392b,#e74c3c);color:#fff;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin-bottom:18px}
+.hero h1{font-size:clamp(28px,5vw,52px);font-weight:900;letter-spacing:-1px;line-height:1.15;margin-bottom:10px}
+.hero h1 span{color:#e74c3c}
+.hero-sub{font-size:14px;color:rgba(255,255,255,0.55);margin-bottom:8px}
+.hero-date{font-size:13px;color:rgba(255,255,255,0.35)}
+.back-btn{display:inline-block;margin-top:20px;padding:10px 22px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:10px;color:rgba(255,255,255,.7);text-decoration:none;font-size:13px;font-weight:600;transition:all .2s}
+.back-btn:hover{background:rgba(231,76,60,.15);border-color:rgba(231,76,60,.3);color:#fff}
+.container{max-width:1100px;margin:0 auto;padding:0 24px 80px}
+.sec-title{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:rgba(255,255,255,0.45);margin-bottom:24px;margin-top:56px}
+.sec-title::after{content:'';flex:1;height:1px;background:rgba(255,255,255,0.08)}
+.kpi-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+@media(max-width:860px){.kpi-grid{grid-template-columns:repeat(2,1fr)}}
+.kpi-card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:16px;padding:24px 20px;position:relative;overflow:hidden}
+.kpi-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--accent,linear-gradient(90deg,#e74c3c,#c0392b))}
+.kpi-icon{font-size:22px;margin-bottom:12px}
+.kpi-value{font-size:clamp(22px,3.5vw,34px);font-weight:900;color:#e74c3c;line-height:1;margin-bottom:6px}
+.kpi-label{font-size:12px;color:rgba(255,255,255,0.5);font-weight:500}
+.kpi-sub{font-size:11px;color:rgba(255,255,255,0.3);margin-top:4px;line-height:1.5}
+.chart-box{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:36px 32px 28px}
+.chart-title{font-size:15px;font-weight:700;margin-bottom:28px;display:flex;align-items:center;gap:8px}
+.dot{width:10px;height:10px;border-radius:50%;background:#e74c3c;flex-shrink:0}
+.bar-row{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.bar-label{width:86px;font-size:12px;color:rgba(255,255,255,0.55);text-align:right;flex-shrink:0;line-height:1.35}
+.bar-track{flex:1;background:rgba(255,255,255,0.06);border-radius:8px;height:38px;position:relative;overflow:hidden}
+.bar-fill{height:100%;border-radius:8px;background:linear-gradient(90deg,#7b1a1a,#e74c3c);display:flex;align-items:center;justify-content:flex-end;padding-right:12px;min-width:74px}
+.bar-fill.gold{background:linear-gradient(90deg,#7a5500,#f39c12)}
+.bar-fill.blue{background:linear-gradient(90deg,#1a3a8b,#3498db)}
+.bar-fill.hl{background:linear-gradient(90deg,#8b0000,#ff2020);box-shadow:0 0 20px rgba(231,76,60,0.4)}
+.bar-value{font-size:13px;font-weight:700;color:#fff;white-space:nowrap}
+.bar-note{width:150px;font-size:11px;color:rgba(255,255,255,0.35);flex-shrink:0;line-height:1.4}
+@media(max-width:760px){.bar-note{display:none}.bar-label{width:70px;font-size:11px}}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media(max-width:860px){.two-col{grid-template-columns:1fr}}
+.timeline{position:relative;padding-left:32px}
+.timeline::before{content:'';position:absolute;left:10px;top:6px;bottom:6px;width:2px;background:linear-gradient(to bottom,#e74c3c 0%,rgba(231,76,60,0.2) 100%);border-radius:2px}
+.tl-item{position:relative;margin-bottom:26px}
+.tl-item::before{content:'';position:absolute;left:-26px;top:6px;width:14px;height:14px;border-radius:50%;background:#e74c3c;border:3px solid #0a0a0f;box-shadow:0 0 0 2px #e74c3c}
+.tl-item.ms::before{background:#f39c12;box-shadow:0 0 0 2px #f39c12,0 0 12px rgba(243,156,18,0.5);width:18px;height:18px;left:-28px;top:4px}
+.tl-item.dim::before{background:#555;box-shadow:0 0 0 2px #555}
+.tl-date{font-size:11px;color:#e74c3c;font-weight:700;letter-spacing:1px;margin-bottom:4px}
+.tl-head{font-size:15px;font-weight:700;margin-bottom:4px;line-height:1.4}
+.tl-body{font-size:13px;color:rgba(255,255,255,0.5);line-height:1.6}
+.tl-badge{display:inline-block;background:rgba(231,76,60,0.15);border:1px solid rgba(231,76,60,0.3);color:#e74c3c;font-size:11px;font-weight:700;padding:2px 10px;border-radius:20px;margin-left:6px;vertical-align:middle}
+.sec-table{width:100%;border-collapse:collapse}
+.sec-table th{background:rgba(231,76,60,0.1);color:rgba(255,255,255,0.6);font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 14px;text-align:left}
+.sec-table td{padding:12px 14px;font-size:13px;border-bottom:1px solid rgba(255,255,255,0.05);color:rgba(255,255,255,0.8)}
+.sec-table tr:last-child td{border-bottom:none}
+.up{color:#e74c3c;font-weight:700}
+.gc{color:#f39c12;font-weight:700}
+.dn{color:#3498db;font-weight:700}
+.gauge-wrap{display:flex;flex-direction:column;gap:16px}
+.g-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;gap:10px}
+.g-label{font-size:13px;color:rgba(255,255,255,0.7)}
+.g-val{font-size:14px;font-weight:700;color:#e74c3c;white-space:nowrap}
+.g-track{height:8px;background:rgba(255,255,255,0.07);border-radius:4px;overflow:hidden}
+.g-fill{height:100%;border-radius:4px;background:linear-gradient(90deg,#c0392b,#e74c3c);box-shadow:0 0 8px rgba(231,76,60,0.4)}
+.g-fill.blue{background:linear-gradient(90deg,#1a3a8b,#3498db);box-shadow:0 0 8px rgba(52,152,219,0.4)}
+.g-fill.green{background:linear-gradient(90deg,#1a5a2a,#27ae60);box-shadow:0 0 8px rgba(39,174,96,0.4)}
+.g-fill.gold{background:linear-gradient(90deg,#7a5500,#f39c12);box-shadow:0 0 8px rgba(243,156,18,0.4)}
+.insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:860px){.insight-grid{grid-template-columns:1fr}}
+.insight-card{background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:14px;padding:22px 18px}
+.i-icon{font-size:28px;margin-bottom:10px}
+.i-head{font-size:14px;font-weight:700;margin-bottom:8px}
+.i-body{font-size:12px;color:rgba(255,255,255,0.45);line-height:1.75}
+.comp-list{display:flex;flex-direction:column;gap:12px}
+.comp-item{display:flex;align-items:center;gap:12px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.07);border-radius:10px;padding:12px 16px}
+.comp-rank{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:12px;font-weight:900;flex-shrink:0}
+.r1{background:#e74c3c}.r2{background:rgba(255,255,255,0.15)}.r3{background:rgba(255,255,255,0.1)}
+.comp-name{flex:1;font-size:13px;font-weight:600}
+.comp-detail{font-size:11px;color:rgba(255,255,255,0.4);margin-top:2px}
+.comp-copies{font-size:13px;font-weight:700;color:#e74c3c;white-space:nowrap;text-align:right}
+.note{background:rgba(243,156,18,.07);border:1px solid rgba(243,156,18,.22);border-radius:12px;padding:14px 18px;font-size:12px;color:rgba(255,255,255,.55);line-height:1.7;margin-top:18px}
+.note b{color:#f39c12}
+.ccu-wrap{display:flex;align-items:flex-end;gap:8px;height:190px;padding:0 4px;margin-bottom:10px}
+.ccu-col{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:flex-end;height:100%;gap:6px}
+.ccu-bar{width:100%;border-radius:6px 6px 0 0;background:linear-gradient(180deg,#e74c3c,#5c1010);position:relative}
+.ccu-bar.now{background:linear-gradient(180deg,#f39c12,#6b4400)}
+.ccu-top{font-size:11px;font-weight:700;color:rgba(255,255,255,.75);white-space:nowrap}
+.ccu-x{font-size:11px;color:rgba(255,255,255,.4);white-space:nowrap}
+.tag-row{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.tg{font-size:11px;padding:4px 11px;border-radius:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);color:rgba(255,255,255,.5)}
+.tg.ok{background:rgba(39,174,96,.12);border-color:rgba(39,174,96,.3);color:#27ae60}
+.tg.warn{background:rgba(243,156,18,.12);border-color:rgba(243,156,18,.3);color:#f39c12}
+.footer{text-align:center;padding:32px;font-size:11px;color:rgba(255,255,255,0.2);border-top:1px solid rgba(255,255,255,0.05);margin-top:60px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="hero">
+<div class="hero-badge">📊 Sales Report · D+169</div>
+<h1>붉은사막 <span>(Crimson Desert)</span><br>판매량 추이 인포그래픽</h1>
+<p class="hero-sub">Pearl Abyss · PC &amp; Console · Global Release 2026.03.20</p>
+<p class="hero-date">기준일: 2026년 9월 5일 (출시 D+169) | 출처: 펄어비스 2Q 실적, SteamDB, SteamCharts, 알리네아, Circana 등</p>
+<a class="back-btn" href="infographic.html">← 목록으로 돌아가기</a>
+</div>
+<div class="container">
+
+<div class="sec-title">📌 핵심 지표</div>
+<div class="kpi-grid">
+<div class="kpi-card" style="--accent:linear-gradient(90deg,#c0392b,#e74c3c)"><div class="kpi-icon">🏆</div><div class="kpi-value">600만+</div><div class="kpi-label">글로벌 누적 판매량 (공식)</div><div class="kpi-sub">2026.06.11 발표 이후 갱신 없음<br>2Q 실적에서 "600만 이상" 재확인</div></div>
+<div class="kpi-card" style="--accent:linear-gradient(90deg,#1a5a2a,#27ae60)"><div class="kpi-icon">💰</div><div class="kpi-value">4,026억</div><div class="kpi-label">붉은사막 누적 매출 (1Q+2Q 확정)</div><div class="kpi-sub">1Q 2,665억 + 2Q 1,361억<br>2Q 인식 판매 211만 장</div></div>
+<div class="kpi-card" style="--accent:linear-gradient(90deg,#7a5500,#f39c12)"><div class="kpi-icon">🏷️</div><div class="kpi-value">-20%</div><div class="kpi-label">출시 후 첫 공식 할인</div><div class="kpi-sub">8.25~9.9 전 플랫폼 · 스팀 글로벌 판매 1위 복귀 (8.26)</div></div>
+<div class="kpi-card" style="--accent:linear-gradient(90deg,#1a3a8b,#3498db)"><div class="kpi-icon">👥</div><div class="kpi-value">3.7만</div><div class="kpi-label">8월 스팀 최고 동시접속</div><div class="kpi-sub">37,002명 · 7월 대비 +39% 반등<br>역대 최고 276,261명 (3.29)</div></div>
+</div>
+
+<div class="sec-title">📈 누적 판매량 마일스톤</div>
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>출시일 기준 경과일별 누적 판매량 (단위: 만 장)</div>
+<div class="bar-row"><div class="bar-label">D+1일<br><span style="font-size:10px;opacity:.6">3.20</span></div><div class="bar-track"><div class="bar-fill" style="width:20%"><span class="bar-value">200만</span></div></div><div class="bar-note">출시 당일, 한국 게임 최초 200만</div></div>
+<div class="bar-row"><div class="bar-label">D+4일<br><span style="font-size:10px;opacity:.6">3.24</span></div><div class="bar-track"><div class="bar-fill" style="width:30%"><span class="bar-value">300만</span></div></div><div class="bar-note">손익분기점 조기 돌파</div></div>
+<div class="bar-row"><div class="bar-label">D+12일<br><span style="font-size:10px;opacity:.6">4.01</span></div><div class="bar-track"><div class="bar-fill" style="width:40%"><span class="bar-value">400만</span></div></div><div class="bar-note">한국 게임 최단기 흥행 기록</div></div>
+<div class="bar-row"><div class="bar-label">D+26일<br><span style="font-size:10px;opacity:.6">4.15</span></div><div class="bar-track"><div class="bar-fill hl" style="width:50%"><span class="bar-value">500만</span></div></div><div class="bar-note">한국 콘솔 게임 최속 500만</div></div>
+<div class="bar-row"><div class="bar-label">D+83일<br><span style="font-size:10px;opacity:.6">6.11</span></div><div class="bar-track"><div class="bar-fill hl" style="width:60%"><span class="bar-value">600만 🏆</span></div></div><div class="bar-note">마지막 공식 발표 · 한국 싱글 게임 최고</div></div>
+<div class="bar-row" style="opacity:.55"><div class="bar-label">D+169일<br><span style="font-size:10px;opacity:.6">9.05 현재</span></div><div class="bar-track"><div class="bar-fill blue" style="width:68%"><span class="bar-value">670~700만 (추정)</span></div></div><div class="bar-note">2Q 211만 + 할인 효과 반영 자체 추정</div></div>
+<div class="bar-row" style="opacity:.5"><div class="bar-label">2026 연간</div><div class="bar-track"><div class="bar-fill gold" style="width:100%"><span class="bar-value" style="color:#fff">~750만 (가이던스 함의) ~ 1,000만 (NH 기대)</span></div></div><div class="bar-note">회사 가이던스 vs 증권가 최고치</div></div>
+<div class="note">⚠️ <b>공식 누적 판매량은 600만 장(6.11)이 마지막입니다.</b> 8.11 2분기 실적에서도 "600만 장 이상"만 재확인했고, 대신 <b>2분기 인식 판매량 211만 장</b>(디지털 82% / 패키지 18%)이 처음 공개됐습니다. D+169 추정치는 2Q 판매량, 스팀 동접, 8월 말 첫 할인 효과를 반영한 <b>자체 추정</b>입니다.</div>
+</div>
+
+<div class="sec-title">📉 판매 속도 둔화 곡선</div>
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>구간별 일평균 판매량 (만 장/일) — 로그 스케일 시각화</div>
+<div class="bar-row"><div class="bar-label">D+1</div><div class="bar-track"><div class="bar-fill hl" style="width:100%"><span class="bar-value">200만/일</span></div></div><div class="bar-note">출시 당일 폭발</div></div>
+<div class="bar-row"><div class="bar-label">D+2~4</div><div class="bar-track"><div class="bar-fill" style="width:62%"><span class="bar-value">33.3만/일</span></div></div><div class="bar-note">▼ -83%</div></div>
+<div class="bar-row"><div class="bar-label">D+5~12</div><div class="bar-track"><div class="bar-fill" style="width:48%"><span class="bar-value">12.5만/일</span></div></div><div class="bar-note">▼ -62%</div></div>
+<div class="bar-row"><div class="bar-label">D+13~26</div><div class="bar-track"><div class="bar-fill" style="width:38%"><span class="bar-value">7.1만/일</span></div></div><div class="bar-note">▼ -43%</div></div>
+<div class="bar-row"><div class="bar-label">D+27~83</div><div class="bar-track"><div class="bar-fill blue" style="width:20%"><span class="bar-value">1.8만/일</span></div></div><div class="bar-note">▼ -75% · 롱테일 진입</div></div>
+<div class="bar-row"><div class="bar-label">2Q 전체<br><span style="font-size:10px;opacity:.6">4~6월 인식</span></div><div class="bar-track"><div class="bar-fill blue" style="width:22%"><span class="bar-value">2.3만/일</span></div></div><div class="bar-note">211만 장 ÷ 91일 · 회사 공식</div></div>
+<div class="note">📌 2분기 인식 판매 211만 장은 1분기 대비 <b>약 41% 감소</b>. 장당 평균 매출(ASP)도 <b>7.4만 → 6.3만 원</b>으로 하락했습니다(유통 채널 구성 변화·환불 유보금 20% 이연). 회사는 이를 근거로 <b>연간 가이던스를 하향</b>했고, 대응으로 8월 말 <b>첫 할인 + 인핸스드 무료 업데이트</b>, 10월 <b>유료 DLC</b>를 투입합니다.</div>
+</div>
+
+<div class="sec-title">📅 주요 이벤트 타임라인 &amp; 스팀 지표</div>
+<div class="two-col">
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>출시 ~ 현재 주요 이벤트</div>
+<div class="timeline">
+<div class="tl-item ms"><div class="tl-date">2026.03.20 · D+1</div><div class="tl-head">출시 당일 200만 장 <span class="tl-badge">신기록</span></div><div class="tl-body">한국 게임 최초 첫날 200만 장. 스팀 평가는 "복합적(62%)"으로 출발.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.03.29 · D+10</div><div class="tl-head">스팀 최고 동접 276,261명 <span class="tl-badge">역대 최고</span></div><div class="tl-body">3차례 패치로 평가 "매우 긍정적(81%)" 반전. 출시일이 아닌 <b>패치 직후 주말에 피크</b>.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.04.15 · D+26</div><div class="tl-head">누적 500만 장</div><div class="tl-body">한국 콘솔 게임 역사상 최속.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.05.12</div><div class="tl-head">1분기 실적 — 창사 최대 <span class="tl-badge">서프라이즈</span></div><div class="tl-body">매출 3,285억 / 영업이익 2,121억. 증권가 판매 전망 526만→950만 장 상향.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.06.11 · D+83</div><div class="tl-head">누적 600만 장 🎉 <span class="tl-badge">마지막 공식</span></div><div class="tl-body">한국 싱글플레이 게임 사상 최고. 이후 판매량 공식 발표 중단.</div></div>
+<div class="tl-item"><div class="tl-date">2026.07.07 · 주주간담회</div><div class="tl-head">중국 판호 사실상 보류</div><div class="tl-body">"판호를 통한 출시가 유의미한 기회라고 판단할 만한 단계는 아니다." 7.16 크로스 세이브 출시.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.08.11</div><div class="tl-head">2분기 실적 — 어닝 미스 <span class="tl-badge" style="background:rgba(52,152,219,.15);border-color:rgba(52,152,219,.3);color:#3498db">쇼크</span></div><div class="tl-body">매출 1,926억(컨센 대비 <b>-30%</b>) / 영업이익 676억(<b>-52%</b>). 붉은사막 1,361억·211만 장. <b>연간 가이던스 하향</b>. 다음날 주가 -14.5%.</div></div>
+<div class="tl-item"><div class="tl-date">2026.08.24~28 · 게임스컴</div><div class="tl-head">개발자 강연 · 어워드 2개 부문 후보</div><div class="tl-body">gamescom dev 강연 320명 사전등록(세션 1위). 'Most Epic'·'Best PC Game' 후보 지명 → <b>수상은 불발</b>. 삼성 6K 모니터 부스 시연.</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.08.25 · ONL</div><div class="tl-head">"붉은사막 인핸스드" 2.0 + 첫 할인 20% <span class="tl-badge">전환점</span></div><div class="tl-body">컷신·대사 대량 추가, 음성 5개 언어, 클리프 신규 스킬 8종, 어비스 링크, 회차 이월(뉴게임+ 유사). 출시 158일 만의 <b>첫 공식 할인</b>(~9.9). 8.26 <b>스팀 글로벌 판매 1위 복귀</b>, 동접 3.7만 반등.</div></div>
+<div class="tl-item"><div class="tl-date">2026.08.26 · IGN 인터뷰</div><div class="tl-head">"무료 업데이트 속도·규모 축소"</div><div class="tl-body">마케팅 디렉터: "2.0이 전환점. 개발 리소스를 정기 업데이트에서 DLC로 이동."</div></div>
+<div class="tl-item ms"><div class="tl-date">2026.09.03 · State of Play</div><div class="tl-head">첫 유료 DLC '미지의 여정' 공개 <span class="tl-badge">10.16 출시</span></div><div class="tl-body">27,800원 / $24.99. 해상·수중 탐험, 거점 건설, 엔딩 이후 스토리. 9.4 예약 시작, <b>주가 +11.5%</b>.</div></div>
+<div class="tl-item dim"><div class="tl-date">2026.10.16 (예정)</div><div class="tl-head">DLC 출시 — 하반기 최대 변수</div><div class="tl-body">본편 재구매 + DLC 매출 동시 기대. 연말 할인·TGA(11월 후보 발표)로 이어지는 4분기 모멘텀의 출발점.</div></div>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>스팀 월별 최고 동시접속자 추이</div>
+<div class="ccu-wrap">
+<div class="ccu-col"><div class="ccu-top">27.6만</div><div class="ccu-bar" style="height:100%"></div><div class="ccu-x">3월</div></div>
+<div class="ccu-col"><div class="ccu-top">23.6만</div><div class="ccu-bar" style="height:86%"></div><div class="ccu-x">4월</div></div>
+<div class="ccu-col"><div class="ccu-top">10.4만</div><div class="ccu-bar" style="height:38%"></div><div class="ccu-x">5월</div></div>
+<div class="ccu-col"><div class="ccu-top">4.7만</div><div class="ccu-bar" style="height:17%"></div><div class="ccu-x">6월</div></div>
+<div class="ccu-col"><div class="ccu-top">2.7만</div><div class="ccu-bar" style="height:10%"></div><div class="ccu-x">7월</div></div>
+<div class="ccu-col"><div class="ccu-top" style="color:#f39c12">3.7만 ▲</div><div class="ccu-bar now" style="height:13.5%"></div><div class="ccu-x">8월</div></div>
+</div>
+<div style="font-size:11px;color:rgba(255,255,255,.35);line-height:1.7;border-top:1px solid rgba(255,255,255,.06);padding-top:14px">월평균 동접: 7월 1.23만 → 8월 1.15만 → <b style="color:#27ae60">최근 30일 1.28만 (+11.6%)</b>. 출시 후 <b style="color:#27ae60">첫 월간 반등</b> — 8.25 인핸스드 + 첫 할인 효과. 9.5 기준 24시간 피크 약 2.9만.</div>
+</div>
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>평가 &amp; 시장 지표</div>
+<div class="gauge-wrap">
+<div><div class="g-header"><span class="g-label">스팀 전체 평가 (전 언어)</span><span class="g-val" style="color:#27ae60">매우 긍정적 84%</span></div><div class="g-track"><div class="g-fill green" style="width:84%"></div></div></div>
+<div><div class="g-header"><span class="g-label">스팀 최근 30일 평가</span><span class="g-val" style="color:#27ae60">대체로 긍정적 76%</span></div><div class="g-track"><div class="g-fill green" style="width:76%"></div></div></div>
+<div><div class="g-header"><span class="g-label">메타크리틱 (PC/PS5)</span><span class="g-val" style="color:#f39c12">77점</span></div><div class="g-track"><div class="g-fill gold" style="width:77%"></div></div></div>
+<div><div class="g-header"><span class="g-label">오픈크리틱 Top Critic</span><span class="g-val" style="color:#f39c12">79점 (Strong)</span></div><div class="g-track"><div class="g-fill gold" style="width:79%"></div></div></div>
+<div><div class="g-header"><span class="g-label">북미·유럽 매출 비중 (2Q)</span><span class="g-val" style="color:#3498db">75%</span></div><div class="g-track"><div class="g-fill blue" style="width:75%"></div></div></div>
+<div><div class="g-header"><span class="g-label">PC 매출 비중 (2Q, 전사)</span><span class="g-val" style="color:#3498db">61%</span></div><div class="g-track"><div class="g-fill blue" style="width:61%"></div></div></div>
+</div>
+<div class="tag-row">
+<span class="tg ok">✅ 스팀 리뷰 17.2만 개</span>
+<span class="tg ok">✅ 스팀 판매 1위 복귀 (8.26)</span>
+<span class="tg warn">⚠️ 북미·유럽 81% → 75%</span>
+<span class="tg">아시아 16% · 국내 9%</span>
+</div>
+</div>
+</div>
+</div>
+
+<div class="sec-title">🥇 시장 내 위치 &amp; 순위</div>
+<div class="two-col">
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>2026년 글로벌 시장 순위</div>
+<div class="comp-list">
+<div class="comp-item"><div class="comp-rank r2">2</div><div style="flex:1"><div class="comp-name">2026 스팀 신작 매출 2위 · $2.03억</div><div class="comp-detail">알리네아 9.3 · 1위 포르자 호라이즌 6($2.11억)에 역전 · 신규 IP 1위 유지</div></div></div>
+<div class="comp-item"><div class="comp-rank r3">3</div><div style="flex:1"><div class="comp-name">미국 연간 누적 매출 3위</div><div class="comp-detail">Circana YTD 7월 기준 · 2위→3위 (007 First Light에 추월)</div></div></div>
+<div class="comp-item"><div class="comp-rank r1">1</div><div style="flex:1"><div class="comp-name">스팀 글로벌 판매 1위 복귀</div><div class="comp-detail">8.26 · 인핸스드 + 첫 할인 직후 · 매출 순위 66계단 상승</div></div></div>
+<div class="comp-item"><div class="comp-rank r3">5</div><div style="flex:1"><div class="comp-name">글로벌 PC·콘솔 판매 5위</div><div class="comp-detail">센서타워 · 2026.05.08 (500만 장 시점) 기준</div></div></div>
+</div>
+</div>
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>한국 게임 초기 판매 속도 비교</div>
+<div class="comp-list">
+<div class="comp-item"><div class="comp-rank r1">1</div><div style="flex:1"><div class="comp-name">붉은사막 (펄어비스)</div><div class="comp-detail">2026.03 출시 · 한국 싱글 게임 역대 최고</div></div><div class="comp-copies">600만<span style="font-size:11px;color:rgba(255,255,255,0.4)"> / 83일</span></div></div>
+<div class="comp-item"><div class="comp-rank r2">2</div><div style="flex:1"><div class="comp-name">P의 거짓 (네오위즈)</div><div class="comp-detail">이전 한국 싱글 게임 최고 기록</div></div><div class="comp-copies">약 400만<span style="font-size:11px;color:rgba(255,255,255,0.4)"> / 누적</span></div></div>
+<div class="comp-item"><div class="comp-rank r3">ref</div><div style="flex:1"><div class="comp-name">클레르 옵스퀴르: 33원정대</div><div class="comp-detail">2025 GOTY · 서구권 AA 흥행 기준</div></div><div class="comp-copies">500만<span style="font-size:11px;color:rgba(255,255,255,0.4)"> / 5개월</span></div></div>
+</div>
+<div style="font-size:11px;color:rgba(255,255,255,.35);line-height:1.7;margin-top:16px;border-top:1px solid rgba(255,255,255,.06);padding-top:14px">초기 속도는 압도적이었지만, 2분기 이후 순위가 한 계단씩 밀리는 중입니다(스팀 신작 1→2위, 미국 YTD 2→3위). 하반기 DLC와 할인이 이 흐름을 되돌릴 수 있을지가 관건입니다.</div>
+</div>
+</div>
+
+<div class="sec-title">💵 매출 실적 &amp; 가이던스</div>
+<div class="chart-box">
+<div class="chart-title"><div class="dot"></div>펄어비스 실적 기준 매출 추이 (원화)</div>
+<div class="bar-row"><div class="bar-label">1Q26 확정<br><span style="font-size:10px;opacity:.6">붉은사막</span></div><div class="bar-track"><div class="bar-fill hl" style="width:36%"><span class="bar-value">2,665억</span></div></div><div class="bar-note">전사 매출의 81%</div></div>
+<div class="bar-row"><div class="bar-label">2Q26 확정<br><span style="font-size:10px;opacity:.6">붉은사막</span></div><div class="bar-track"><div class="bar-fill hl" style="width:18%"><span class="bar-value">1,361억</span></div></div><div class="bar-note">QoQ -49% · 전사의 71%</div></div>
+<div class="bar-row"><div class="bar-label">상반기 확정<br><span style="font-size:10px;opacity:.6">전사</span></div><div class="bar-track"><div class="bar-fill" style="width:70%"><span class="bar-value">5,211억</span></div></div><div class="bar-note">영업이익 2,797억 · 컨센(6,086억) 하회</div></div>
+<div class="bar-row" style="opacity:.75"><div class="bar-label">2026 연간<br><span style="font-size:10px;opacity:.6">기존 가이던스</span></div><div class="bar-track"><div class="bar-fill" style="width:100%;opacity:.35"><span class="bar-value" style="text-decoration:line-through;opacity:.7">8,790~9,754억</span></div></div><div class="bar-note">5.12 제시 → 8.11 철회</div></div>
+<div class="bar-row"><div class="bar-label">2026 연간<br><span style="font-size:10px;opacity:.6">수정 가이던스</span></div><div class="bar-track"><div class="bar-fill gold" style="width:76%"><span class="bar-value">7,098~7,438억</span></div></div><div class="bar-note">▼ 약 -22% · 영업이익 3,155~3,452억</div></div>
+<div class="note">📊 <b>가이던스 하향의 의미:</b> 붉은사막 연간 매출 가이던스는 <b>4,689~4,973억</b>. 상반기에 이미 4,026억을 인식했으므로 <b>하반기 붉은사막 매출은 663~947억</b>만 남습니다. ASP 6.3만 원 기준으로 환산하면 하반기 본편 신규 판매는 약 <b>100~150만 장</b>(DLC 매출 포함 시 그 이하) — 회사 스스로 연말 누적 <b>약 700~760만 장</b> 수준을 상정하고 있다는 뜻입니다. 그럼에도 2025년 연간(매출 3,655억 / 영업손실 148억) 대비로는 압도적 턴어라운드입니다.</div>
+</div>
+
+<div class="sec-title">💡 핵심 분석 포인트</div>
+<div class="insight-grid">
+<div class="insight-card"><div class="i-icon">📉</div><div class="i-head">2분기 어닝 미스가 서사를 바꿨다</div><div class="i-body">매출 1,926억은 컨센서스 2,759억 대비 <b>-30%</b>, 영업이익 676억은 1,402억 대비 <b>-52%</b>. 판매 둔화(211만 장)에 ASP 하락, 환불 유보금 이연, 성과급 748억이 겹쳤습니다. 회사는 연간 가이던스를 22% 낮췄고, 주가는 다음날 -14.5%.</div></div>
+<div class="insight-card"><div class="i-icon">🏷️</div><div class="i-head">첫 할인 카드, 결국 꺼냈다</div><div class="i-body">출시 158일간 지킨 정가를 8.25 인핸스드 공개와 함께 <b>20% 할인</b>으로 풀었습니다. 효과는 즉각적 — 스팀 글로벌 판매 1위 복귀, 8월 최고 동접 3.7만(7월 대비 +39%), <b>출시 후 첫 월간 동접 반등</b>. 다만 할인 종료(9.9) 후 지속성은 미검증.</div></div>
+<div class="insight-card"><div class="i-icon">📦</div><div class="i-head">DLC — 27,800원의 시험대</div><div class="i-body">9.3 State of Play에서 '미지의 여정' 공개, <b>10.16 출시</b>. 해상·수중·거점 건설로 본편에 없던 축을 추가합니다. 시장은 즉시 반응(주가 +11.5%). 첫 DLC 성과가 <b>추가 DLC 여부와 2027년 매출 공백</b>의 크기를 결정합니다.</div></div>
+<div class="insight-card"><div class="i-icon">🔀</div><div class="i-head">"업데이트에서 DLC로" 리소스 이동</div><div class="i-body">8.26 IGN 인터뷰에서 무료 업데이트의 <b>범위·규모·속도 축소</b>를 공식화. 17회 업데이트로 평가를 뒤집은 성공 공식을 접고 유료 콘텐츠로 전환합니다. 라이브 서비스 기대를 갖던 유저층의 이탈 여부가 관전 포인트.</div></div>
+<div class="insight-card"><div class="i-icon">🌍</div><div class="i-head">서구 비중 81% → 75%, 아시아 16%</div><div class="i-body">2분기 지역 비중에서 북미·유럽이 6%p 줄고 아시아가 늘었습니다. 서구 초기 수요가 소진되는 국면. 중국은 판호 "구체적 신청 계획 없음"으로 스팀 우회만 유지, <b>스위치2 버전은 2027년 상반기</b> 목표로 일본 시장이 다음 카드입니다.</div></div>
+<div class="insight-card"><div class="i-icon">⚠️</div><div class="i-head">증권가는 갈라졌다</div><div class="i-body">실적 직후 유진 목표가 72,000→<b>50,000</b>, 미래에셋 <b>매도·30,000</b>, 신한 <b>매수→중립</b>. 반면 NH 안재민 연구원은 9.4 "연말까지 1,000만 장 판매량을 기대해도 좋을 것"(파이낸셜투데이)이라며 낙관 유지. 회사 가이던스가 함의하는 ~750만과 NH의 1,000만 사이 <b>250만 장 괴리</b>가 하반기 최대 쟁점입니다.</div></div>
+</div>
+</div>
+
+<div class="footer">📌 본 인포그래픽은 공개된 기업 IR 자료, 언론 보도, 증권사 리포트를 기반으로 작성되었습니다.<br>
+출처: 펄어비스 2Q26 실적 서한, 인벤, 디지털데일리, 경향게임스, 머니투데이, 이투데이, 파이낸셜투데이, ZDNet Korea, SteamDB, SteamCharts, Steam 상점, Metacritic, OpenCritic, 알리네아 애널리틱스, Circana, GamesRadar, Gematsu<br>
+기준일: 2026.09.05 | 최신 공식 판매량: 600만 장(2026.06.11) | D+169 추정치·하반기 판매량 환산은 자체 산출값이며 공식 수치가 아닙니다.</div>
+</body></html>

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>어비스 수집 체크리스트 · Fokus Spiel</title>
+<meta name="cd-build" content="20260923180537">
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16120e" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="../icons/favicon.svg">
+<link rel="icon" type="image/png" href="../icons/icon-192.png">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fokus Spiel">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<script>try{var st=localStorage.getItem('cd-theme');if(st)document.documentElement.setAttribute('data-theme',st);var fs=localStorage.getItem('cd-fs');if(fs)document.documentElement.style.setProperty('--fs',fs);}catch(e){}</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+:root{
+  color-scheme:light;
+  --bg:#f6f1e7; --surf:#fffdf7; --surf2:#efe8da; --line:#ddd3c2; --line2:#c9bda6;
+  --ink:#2a231b; --ink2:#5d5244; --muted:#83765f;
+  --crimson:#b03a22; --crimson-soft:#f0ded7; --abyss:#2f6f96; --abyss-soft:#dce9f1;
+  --amber:#9a6a12; --amber-soft:#f5e8cc; --done:#a4977f;
+  --f-disp:'Gowun Batang',"Nanum Myeongjo",serif; --f-body:'IBM Plex Sans KR',"Malgun Gothic","Apple SD Gothic Neo",sans-serif; --f-mono:'IBM Plex Mono',"D2Coding",monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark; --bg:#16120e; --surf:#1f1a14; --surf2:#2a2219; --line:#372e23; --line2:#4a3e2f;
+  --ink:#ece3d4; --ink2:#c2b6a2; --muted:#968973; --crimson:#e0654a; --crimson-soft:#3a1d15;
+  --abyss:#79b4d8; --abyss-soft:#152a36; --amber:#e0b155; --amber-soft:#32270f; --done:#6f6452;}}
+:root[data-theme="dark"]{
+  color-scheme:dark; --bg:#16120e; --surf:#1f1a14; --surf2:#2a2219; --line:#372e23; --line2:#4a3e2f;
+  --ink:#ece3d4; --ink2:#c2b6a2; --muted:#968973; --crimson:#e0654a; --crimson-soft:#3a1d15;
+  --abyss:#79b4d8; --abyss-soft:#152a36; --amber:#e0b155; --amber-soft:#32270f; --done:#6f6452;}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:860px;margin:0 auto}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;border-bottom:1px solid var(--line);display:grid;gap:10px}
+.row{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.row .sp{flex:1}
+h1{font-family:var(--f-disp);font-weight:700;font-size:1.55rem;margin:0;text-wrap:balance}
+.btn{flex:none;background:var(--surf);border:1px solid var(--line2);color:var(--ink2);border-radius:7px;padding:6px 11px;font:inherit;font-size:12.5px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;white-space:nowrap}
+.btn:hover{border-color:var(--crimson);color:var(--crimson)}
+.toprow{gap:6px;flex-wrap:nowrap;height:34px}
+.toprow .btn{height:34px;line-height:1.2}
+#backBtn{width:108px;justify-content:center;padding:0}
+header.top{padding-block:10px 12px}
+@media (max-width:420px){.who{max-width:28vw}}
+.btn.icon{width:36px;height:34px;padding:0;justify-content:center}
+.btn[aria-expanded="true"]{border-color:var(--crimson);color:var(--crimson)}
+.setpanel{position:fixed;z-index:30;right:16px;top:calc(env(safe-area-inset-top,0px) + 56px);width:min(340px,calc(100vw - 32px));background:var(--surf);border:1px solid var(--line2);border-radius:10px;box-shadow:0 10px 30px rgba(0,0,0,.25);padding:14px 16px;display:grid;gap:14px}
+.sp-row{display:grid;gap:7px}
+.sp-lab{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.seg{display:flex;border:1px solid var(--line2);border-radius:8px;overflow:hidden}
+.seg button{flex:1;border:0;background:transparent;color:var(--ink2);font:inherit;font-size:13px;padding:8px 4px;cursor:pointer;white-space:nowrap}
+.seg button+button{border-left:1px solid var(--line2)}
+.seg button[aria-pressed="true"]{background:var(--crimson);color:#fff}
+.sp-note{margin:0;font-size:11.5px;color:var(--muted)}
+.zoomed{zoom:var(--fs,1)}
+header.top h1,header.top .stats{zoom:var(--fs,1)}
+.btn.primary{background:var(--abyss);border-color:var(--abyss);color:#fff}
+.btn.primary:hover{color:#fff;filter:brightness(1.08)}
+.acct{display:inline-flex;align-items:center;gap:8px;min-width:0}
+.who{font-size:.78rem;color:var(--muted);max-width:40vw;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.syncst{font-size:.78rem;color:var(--muted)}
+.syncst.on{color:var(--abyss)}
+.syncst.err{color:var(--crimson)}
+.stats{display:flex;flex-wrap:wrap;gap:6px 18px;align-items:baseline;font-size:.9rem;color:var(--muted)}
+.stats b{font-family:var(--f-mono);color:var(--ink);font-size:1.05rem}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--abyss);width:0;transition:width .3s}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:inherit;font-size:.82rem;padding:4px 11px;border:1px solid var(--line2);border-radius:999px;background:var(--surf);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.chip:focus-visible,button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--abyss);outline-offset:2px}
+.elements{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:18px}
+.el{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.85rem}
+.el .n{font-family:var(--f-disp);font-weight:700;font-size:1.05rem;display:block}
+.el .s{color:var(--muted);font-size:.78rem}
+.el.got{border-color:var(--abyss);background:var(--abyss-soft)}
+@media (max-width:560px){.elements{grid-template-columns:repeat(2,1fr)}}
+section.spire{margin-top:28px}
+.spire-h{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:4px 12px;border-bottom:2px solid var(--ink);padding-bottom:6px}
+.spire-h h2{font-family:var(--f-disp);font-weight:700;font-size:1.2rem;margin:0}
+.spire-h .meta{font-size:.8rem;color:var(--muted)}
+.spire-h .cnt{font-family:var(--f-mono);font-size:.85rem}
+ul.list{list-style:none;margin:0;padding:0}
+li.abyss{padding:12px 0;border-bottom:1px solid var(--line);display:grid;gap:6px}
+li.abyss.hide{display:none}
+label.main{display:flex;gap:10px;align-items:flex-start;cursor:pointer}
+label.main .name{font-weight:600;font-size:1rem}
+label.main .en{color:var(--muted);font-size:.78rem;margin-left:6px}
+label.main .tip{display:block;color:var(--muted);font-size:.82rem;font-weight:400}
+li.abyss.complete label.main .name{color:var(--done);text-decoration:line-through}
+.rewards{display:flex;flex-wrap:wrap;gap:6px;padding-left:30px}
+.rw{display:inline-flex;align-items:center;gap:6px;font-size:.8rem;padding:3px 10px 3px 7px;border-radius:6px;cursor:pointer;border:1px solid transparent}
+.rw.ability{background:var(--abyss-soft);border-color:var(--abyss)}
+.rw.gear{background:var(--amber-soft)}
+.rw.chest{background:var(--surf);border-color:var(--line2)}
+.rw.warn{background:var(--crimson-soft)}
+.rw.got{opacity:.55;text-decoration:line-through}
+input[type=checkbox]{width:18px;height:18px;accent-color:var(--abyss);flex:none;margin:3px 0 0}
+.rw input[type=checkbox]{width:14px;height:14px;margin:0}
+.legend{display:flex;flex-wrap:wrap;gap:10px;font-size:.78rem;color:var(--muted);margin-top:14px}
+.legend span{display:inline-flex;gap:5px;align-items:center}
+.sw{width:12px;height:12px;border-radius:3px;display:inline-block}
+.note{background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:.85rem;margin-top:16px}
+details.sync{margin-top:32px;background:var(--surf);border:1px solid var(--line);border-radius:8px;padding:10px 14px;font-size:.85rem}
+details.sync summary{cursor:pointer;font-weight:600}
+details.sync textarea{width:100%;min-height:70px;margin-top:8px;font-family:var(--f-mono);font-size:.78rem;background:var(--bg);color:var(--ink);border:1px solid var(--line2);border-radius:6px;padding:8px;resize:vertical}
+details.sync .row{margin-top:8px}
+#syncMsg{color:var(--muted);font-size:.8rem}
+footer{margin-top:28px;font-size:.8rem;color:var(--muted);display:grid;gap:6px}
+footer a{color:var(--abyss)}
+.upd-toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:40;
+ display:flex;align-items:center;gap:12px;max-width:calc(100vw - 32px);background:var(--ink);color:var(--bg);
+ border-radius:10px;padding:10px 10px 10px 16px;box-shadow:0 8px 24px rgba(0,0,0,.3);font-size:13.5px}
+.upd-toast span{white-space:nowrap}
+.upd-toast button{border:0;border-radius:7px;background:var(--crimson);color:#fff;font:inherit;font-size:13px;font-weight:600;padding:7px 12px;cursor:pointer;white-space:nowrap}
+.upd-toast .x{background:transparent;color:inherit;opacity:.7;padding:7px 8px;font-weight:400}
+.sp-app{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.sp-app button{border:1px solid var(--line2);border-radius:8px;background:transparent;color:var(--ink);font:inherit;font-size:13px;padding:8px 14px;cursor:pointer}
+.sp-app button:hover{border-color:var(--crimson);color:var(--crimson)}
+.sp-app span{font-size:11.5px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div class="row toprow">
+    <span class="acct" id="acct">
+      <button class="btn primary" id="loginBtn" hidden>구글로 로그인</button>
+      <span class="who" id="who"></span>
+      <button class="btn" id="logoutBtn" hidden>로그아웃</button>
+    </span>
+    <span class="sp"></span>
+    <a class="btn icon" href="../" title="Fokus Spiel 홈" aria-label="Fokus Spiel 홈"><img src="../icons/icon-192.png" alt="" width="20" height="20" style="border-radius:4px;display:block"></a>
+    <a class="btn" id="backBtn" href="guide.html">← 공략집</a>
+    <button class="btn icon" id="setBtn" aria-label="설정" aria-haspopup="dialog" aria-expanded="false"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg></button>
+  </div>
+  <h1>어비스 수집 체크리스트</h1>
+  <div class="stats">
+    <span>복구 <b id="sRest">0</b>/40</span>
+    <span>원소 <b id="sEl">0</b>/4</span>
+    <span>상자·기어 <b id="sGear">0</b>/<span id="sGearT">0</span></span>
+    <span class="syncst" id="syncSt">이 기기에 저장</span>
+  </div>
+  <div class="bar" aria-hidden="true"><i id="barFill"></i></div>
+  <div class="chips" role="group" aria-label="보기 필터">
+    <button class="chip" aria-pressed="true" data-f="all">전체</button>
+    <button class="chip" aria-pressed="false" data-f="left">남은 것만</button>
+    <button class="chip" aria-pressed="false" data-f="loot">보상 남은 곳</button>
+  </div>
+</header>
+
+<div class="setpanel" id="setPanel" role="dialog" aria-label="설정" hidden>
+  <div class="sp-row"><span class="sp-lab">테마</span>
+    <div class="seg" id="segTheme" role="group" aria-label="테마"><button data-v="system">시스템</button><button data-v="light">라이트</button><button data-v="dark">다크</button></div></div>
+  <div class="sp-row"><span class="sp-lab">글자 크기</span>
+    <div class="seg" id="segFs" role="group" aria-label="글자 크기"><button data-v="0.9">작게</button><button data-v="1">보통</button><button data-v="1.12">크게</button><button data-v="1.25">아주 크게</button></div></div>
+    <div class="sp-row"><span class="sp-lab">앱</span>
+      <div class="sp-app"><button type="button" id="reloadBtn">↻ 새로고침</button><span id="buildInfo"></span></div></div>
+  <p class="sp-note">공략집과 같은 설정을 써요. 이 기기에 저장돼요.</p>
+</div>
+<div class="zoomed">
+<div class="elements" id="elements"></div>
+
+<div class="legend">
+  <span><i class="sw" style="background:var(--abyss-soft);border:1px solid var(--abyss)"></i>원소 능력·스킬</span>
+  <span><i class="sw" style="background:var(--amber-soft)"></i>이름 확인된 어비스 기어</span>
+  <span><i class="sw" style="background:var(--surf);border:1px solid var(--line2)"></i>상자 (내용 미확인)</span>
+  <span><i class="sw" style="background:var(--crimson-soft)"></i>주의</span>
+</div>
+
+<div class="note">어비스마다 <b>① 흔적 활성화 → ② 복구 → ③ 아티팩트 획득</b> 3단계를 다 해야 도전과제가 올라가요. ③을 빼먹기 쉬우니 굵은 체크는 아티팩트까지 먹었을 때 하세요. <b>구글로 로그인</b>하면 PC·폰 어디서든 체크가 자동으로 맞춰져요. 로그인 안 하면 이 기기에만 저장돼요.</div>
+
+<main id="app"></main>
+
+<details class="sync" id="syncBox">
+  <summary>로그인 없이 진행 옮기기 (코드)</summary>
+  <p>로그인하면 필요 없어요. 로그인 없이 쓸 때만, 한쪽에서 <b>코드 복사</b> → 다른 기기에서 칸에 붙여넣고 <b>불러오기</b>.</p>
+  <textarea id="code" aria-label="진행 코드"></textarea>
+  <div class="row"><button class="btn" id="copyBtn">코드 복사</button><button class="btn" id="loadBtn">불러오기</button><span id="syncMsg"></span></div>
+</details>
+
+<footer>
+  <div>한글 이름은 인벤 공략 글 제목 기준이라 게임 표기와 조금 다를 수 있어요. 영어로 적힌 기어는 영문 공략(mapmaster) 기준. 차원의 뼈대는 챕터 12와 어비스 39곳을 끝내야 열려요. 자세한 설명은 공략집 Q17·Q25·Q26.</div>
+  <div>출처: <a href="https://www.inven.co.kr/board/crimson/6511?name=subjcont&amp;keyword=%EC%96%B4%EB%B9%84%EC%8A%A4%20-" target="_blank" rel="noopener">붉은사막 인벤 어비스 공략</a> · <a href="https://www.powerpyx.com/crimson-desert-all-abyss-restoration-puzzle-locations-solutions/" target="_blank" rel="noopener">PowerPyx</a> · <a href="https://raiderking.com/crimson-desert-all-abyss-restoration-challenges-puzzle-solutions-and-locations/" target="_blank" rel="noopener">Raider King</a> · <a href="https://mapmaster.io/games/crimson-desert/guides/Abyss%20Gear" target="_blank" rel="noopener">mapmaster</a></div>
+</footer>
+</div>
+</div>
+
+<script>
+const DATA = [
+ {spire:"스토리 · 섭리의 길", meta:"챕터 1", items:[
+  {id:"ethereal",n:"천상의 길",en:"Ethereal Pathway",r:[{id:"ethereal-c",k:"gear",t:"공중 발판 상자 · Destruction I"}]},
+  {id:"axiom",n:"섭리의 대서고",en:"Axiom Archive",tip:"진입 지점 옆 기둥 쪽으로 몇 걸음 가면 아티팩트",r:[]},
+  {id:"rootsend",n:"뿌리의 끝",en:"Root's End",r:[{id:"rootsend-c",k:"gear",t:"북동쪽 부유섬 상자 · Destruction II"}]},
+  {id:"precipice",n:"진실의 낭떠러지",en:"Precipice of Truth",r:[]},
+ ]},
+ {spire:"별의 탑", meta:"챕터 4~5 메인 스토리", items:[
+  {id:"insight",n:"통찰의 지성소",en:"Sanctorum of Insight",r:[{id:"insight-c",k:"gear",t:"상자 · Haste I"}]},
+  {id:"garden",n:"비밀정원",en:"Secret Garden",r:[]},
+  {id:"vault",n:"복수의 문",en:"Vault of Vengeance",tip:"집중 사격 필요",r:[{id:"vault-c",k:"chest",t:"제단 맞은편 상자 3개"},{id:"vault-g",k:"gear",t:"덩굴 뒤 상자 · Swift I"},{id:"vault-s",k:"chest",t:"중간 보상 황금검"}]},
+  {id:"courtyard",n:"진실의 뜰",en:"Courtyard of Precision",r:[{id:"el-lightning",k:"ability",t:"원소 벼락 + 전류 역장"},{id:"courtyard-g",k:"gear",t:"상자 · Swift II"}]},
+  {id:"altar",n:"고독의 제단",en:"Altar of Solitude",r:[]},
+  {id:"icecradle",n:"얼음의 요람",en:"Ice Cradle",tip:"멜로디 퍼즐 5-1-2-3-4-5-1-1",r:[{id:"icecradle-g",k:"gear",t:"회전 가르기로 여는 곳 · 신속 III"}]},
+ ]},
+ {spire:"도약의 탑 · 삼각고리", meta:"챕터 5 · 바이런 영지 왕의 산", items:[
+  {id:"crescent",n:"초승달 하늘길",en:"Crescent Skybridge",r:[]},
+  {id:"crow",n:"까마귀 둥지",en:"Crow's Nest",tip:"까마귀 부르는 자 보스전",r:[]},
+  {id:"monolith",n:"거석 왕관",en:"Monolith Crown",tip:"동쪽 누운 기둥 홈에 동력핵",r:[{id:"monolith-c",k:"gear",t:"보물방 · 빛바랜 어비스 아티팩트 + 활력 III"}]},
+ ]},
+ {spire:"혜안의 탑", meta:"강철 산맥 서쪽 · 지금 진입 가능", items:[
+  {id:"chaos",n:"혼돈의 숲",en:"Chaos Forest",tip:"자연의 손아귀 필요",r:[]},
+  {id:"rootstruth",n:"진실의 뿌리",en:"Roots of Truth",r:[{id:"rootstruth-c",k:"gear",t:"궤짝 · Bloodbane I / Hexebane I"}]},
+ ]},
+ {spire:"울림의 탑", meta:"파일룬 서쪽 산악 · 보스 고대의 프리스쿠스", items:[
+  {id:"etherrest",n:"창공의 안식처",en:"Ether Rest",r:[]},
+  {id:"frostparadise",n:"혹한의 낙원",en:"Frostbitten Paradise",tip:"쿠쿠 냄비(요리) 챙겨가기",r:[]},
+  {id:"trials",n:"시련의 길",en:"Path of Trials",r:[{id:"el-frost",k:"ability",t:"원소 빙결 + 혹한의 망토"}]},
+  {id:"darkness",n:"어둠의 지성소",en:"Sanctorum of Darkness",r:[{id:"darkness-c",k:"chest",t:"보물상자 1"}]},
+  {id:"loop",n:"생명의 고리",en:"Loop of Life",r:[]},
+  {id:"slumber",n:"꿈의 나무",en:"Tree of Slumber",r:[{id:"el-flame",k:"ability",t:"원소 화염 + 잿불 강타"}]},
+  {id:"skyloop",n:"하늘고리 다리",en:"Skyloop Bridge",r:[]},
+  {id:"thicket",n:"뒤틀린 수풀길",en:"Twisted Thicketway",r:[{id:"thicket-c",k:"chest",t:"상자 2"}]},
+ ]},
+ {spire:"혹한의 탑", meta:"데메니스 북쪽 · 지금 진입 가능", items:[
+  {id:"malice",n:"타락의 통로",en:"Passage of Malice",r:[{id:"malice-g",k:"gear",t:"레이저 3개 집중 사격 · 서리 장막 II"},{id:"malice-w",k:"warn",t:"생명의 열매는 퀘스트 전에 줍지 말 것"}]},
+  {id:"tomb",n:"영원한 안식의 무덤",en:"Tomb of Perdition",r:[{id:"tomb-g",k:"gear",t:"상자 · 물가르기 III"}]},
+  {id:"desertfrag",n:"사막의 파편",en:"Desert Fragment",r:[{id:"desertfrag-g",k:"gear",t:"지정타로 문 열기 · 서리 장막 III"}]},
+  {id:"cradletruth",n:"진실의 요람",en:"Cradle of Truth",r:[{id:"cradletruth-c",k:"chest",t:"궤짝 1"}]},
+ ]},
+ {spire:"톱니바퀴 탑", meta:"챕터 8 이후", items:[
+  {id:"riddle",n:"수수께끼 광장",en:"Riddle Square",r:[{id:"el-wind",k:"ability",t:"원소 바람 + 먹구름"}]},
+  {id:"origin",n:"생각의 근원",en:"Origin of Thoughts",r:[]},
+  {id:"forgotten",n:"잊혀진 제단",en:"Forgotten Altar",r:[{id:"forgotten-c",k:"chest",t:"덩굴 사이 보물상자"}]},
+  {id:"dryttruth",n:"메마른 진실",en:"Disconnected Truth",r:[{id:"drytruth-g",k:"gear",t:"동쪽 지하 상자 · 간파 III"}]},
+  {id:"etherfrag",n:"창공의 파편",en:"Ether Fragment",tip:"덴강 경유",r:[]},
+ ]},
+ {spire:"태양의 탑", meta:"챕터 9", items:[
+  {id:"valor",n:"용맹의 둥지",en:"Nest of Valor",tip:"보스전",r:[{id:"valor-c",k:"chest",t:"상자 여러 개"}]},
+  {id:"throne",n:"진실의 옥좌",en:"Throne of Truth",tip:"지정타 순서 중요",r:[]},
+  {id:"labyrinth",n:"차원의 미궁",en:"Dimensional Labyrinth",r:[]},
+  {id:"transcend",n:"초월의 성소",en:"Sanctum of Transcendence",r:[]},
+ ]},
+ {spire:"지정사 석탑", meta:"챕터 9 · 내면과 마주하기", items:[
+  {id:"ascetic",n:"도인의 안식처",en:"Ascetic's Rest",r:[{id:"ascetic-c",k:"chest",t:"상자 2"}]},
+  {id:"serpents",n:"뱀의 길",en:"Path of Serpents",tip:"뱃머리곶 경유",r:[{id:"serpents-c",k:"chest",t:"상자 2 (1개는 덩굴 태우기)"}]},
+  {id:"crossroads",n:"회의의 나들목",en:"Crossroads of Uncertainty",tip:"공중 구르기 필요",r:[]},
+ ]},
+ {spire:"최종 어비스", meta:"챕터 12 심연 속의 그림자 + 어비스 39곳", items:[
+  {id:"bonds",n:"차원의 뼈대",en:"Dimensional Bonds",r:[{id:"bonds-c",k:"gear",t:"상자 21개 · 마르지 않는 화살 III, 행운 III, 생명의 순환 등 기어 21종"}]},
+ ]},
+];
+const ELEMENTS=[["el-lightning","벼락","진실의 뜰 · 별의 탑"],["el-frost","빙결","시련의 길 · 울림의 탑"],["el-flame","화염","꿈의 나무 · 울림의 탑"],["el-wind","바람","수수께끼 광장 · 톱니바퀴 탑"]];
+
+
+const KEY="cd-abyss-checked";
+const DEFAULT={ethereal:true,axiom:true,crescent:true,crow:true};
+let checked;
+try{ const raw=localStorage.getItem(KEY); checked = raw ? (JSON.parse(raw)||{}) : {...DEFAULT}; }catch(e){ checked={...DEFAULT}; }
+let filter="all";
+try{ filter=localStorage.getItem("cd-abyss-filter")||"all"; }catch(e){}
+const ALLIDS=new Set(); DATA.forEach(g=>g.items.forEach(a=>{ALLIDS.add(a.id);a.r.forEach(r=>ALLIDS.add(r.id));}));
+
+const app=document.getElementById("app");
+function esc(s){return s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));}
+app.innerHTML = DATA.map(g=>`
+  <section class="spire">
+    <div class="spire-h"><h2>${esc(g.spire)}</h2><span class="meta">${esc(g.meta)}</span><span class="cnt" data-cnt="${g.items.map(i=>i.id).join(",")}"></span></div>
+    <ul class="list">${g.items.map(a=>`
+      <li class="abyss" data-id="${a.id}">
+        <label class="main"><input type="checkbox" id="c-${a.id}" data-k="${a.id}">
+          <span><span class="name">${esc(a.n)}</span><span class="en">${esc(a.en)}</span>${a.tip?`<span class="tip">${esc(a.tip)}</span>`:""}</span></label>
+        ${a.r.length?`<div class="rewards">${a.r.map(r=>`<label class="rw ${r.k}"><input type="checkbox" id="c-${r.id}" data-k="${r.id}">${esc(r.t)}</label>`).join("")}</div>`:""}
+      </li>`).join("")}</ul>
+  </section>`).join("");
+
+function render(){
+  document.querySelectorAll("input[data-k]").forEach(el=>{
+    el.checked=!!checked[el.dataset.k];
+    const rw=el.closest(".rw"); if(rw) rw.classList.toggle("got",el.checked);
+  });
+  let rest=0,gearT=0,gearGot=0;
+  DATA.forEach(g=>g.items.forEach(a=>{
+    const li=app.querySelector(`li[data-id="${a.id}"]`);
+    const done=!!checked[a.id]; if(done) rest++;
+    li.classList.toggle("complete",done);
+    const loot=a.r.filter(r=>r.k==="gear"||r.k==="chest");
+    gearT+=loot.length; gearGot+=loot.filter(r=>checked[r.id]).length;
+    const lootLeft=a.r.some(r=>r.k!=="warn"&&!checked[r.id]);
+    li.classList.toggle("hide", filter==="left" ? done : filter==="loot" ? !lootLeft : false);
+  }));
+  app.querySelectorAll("[data-cnt]").forEach(el=>{const ids=el.dataset.cnt.split(",");el.textContent=ids.filter(i=>checked[i]).length+"/"+ids.length;});
+  document.getElementById("sRest").textContent=rest;
+  document.getElementById("sEl").textContent=ELEMENTS.filter(e=>checked[e[0]]).length;
+  document.getElementById("sGear").textContent=gearGot;
+  document.getElementById("sGearT").textContent=gearT;
+  document.getElementById("barFill").style.width=(rest/40*100)+"%";
+  document.getElementById("elements").innerHTML=ELEMENTS.map(e=>`<div class="el ${checked[e[0]]?"got":""}"><span class="n">${e[1]}</span><span class="s">${checked[e[0]]?"획득":"미획득"} · ${e[2]}</span></div>`).join("");
+  document.querySelectorAll(".chip").forEach(c=>c.setAttribute("aria-pressed",String(c.dataset.f===filter)));
+  document.getElementById("code").value=Object.keys(checked).filter(k=>checked[k]).join(",");
+}
+let cloudSave=null; // set by Firebase module when signed in
+function save(){ try{localStorage.setItem(KEY,JSON.stringify(checked));}catch(e){} if(cloudSave) cloudSave(checked); }
+window.CL={ get:()=>checked, set:(obj)=>{checked={...obj}; try{localStorage.setItem(KEY,JSON.stringify(checked));}catch(e){} render();}, setCloudSave:(fn)=>{cloudSave=fn;} };
+app.addEventListener("change",e=>{
+  const k=e.target.dataset&&e.target.dataset.k; if(!k) return;
+  if(e.target.checked) checked[k]=true; else delete checked[k];
+  save(); render();
+});
+document.querySelectorAll(".chip").forEach(c=>c.addEventListener("click",()=>{
+  filter=c.dataset.f; try{localStorage.setItem("cd-abyss-filter",filter);}catch(e){} render();
+}));
+const msg=document.getElementById("syncMsg"), code=document.getElementById("code");
+document.getElementById("copyBtn").addEventListener("click",()=>{
+  render();
+  const done=()=>msg.textContent="복사됨 — 다른 기기에 붙여넣으세요";
+  if(navigator.clipboard) navigator.clipboard.writeText(code.value).then(done,()=>{code.select();msg.textContent="코드를 선택했어요. 길게 눌러 복사하세요";});
+  else {code.select();msg.textContent="코드를 선택했어요. 길게 눌러 복사하세요";}
+});
+document.getElementById("loadBtn").addEventListener("click",()=>{
+  const ids=code.value.split(/[\s,]+/).map(s=>s.trim()).filter(s=>ALLIDS.has(s));
+  if(!ids.length){msg.textContent="알아볼 수 있는 코드가 없어요. 복사한 코드를 그대로 붙여넣으세요";return;}
+  checked={}; ids.forEach(i=>checked[i]=true); save(); render();
+  msg.textContent="불러왔어요 — "+ids.length+"개 체크";
+});
+const R=document.documentElement, setBtn=document.getElementById("setBtn"), panel=document.getElementById("setPanel");
+function lsGet(k){try{return localStorage.getItem(k)}catch(e){return null}}
+function lsPut(k,v){try{v==null?localStorage.removeItem(k):localStorage.setItem(k,v)}catch(e){}}
+function mark(seg,val){document.querySelectorAll("#"+seg+" button").forEach(b=>b.setAttribute("aria-pressed",String(b.dataset.v===val)));}
+function applyTheme(v){ if(v==="system"){R.removeAttribute("data-theme");lsPut("cd-theme",null);} else {R.setAttribute("data-theme",v);lsPut("cd-theme",v);} mark("segTheme",v); }
+function applyFs(v){ R.style.setProperty("--fs",v); lsPut("cd-fs",v==="1"?null:v); mark("segFs",v); }
+mark("segTheme",lsGet("cd-theme")||"system"); mark("segFs",lsGet("cd-fs")||"1");
+document.getElementById("segTheme").addEventListener("click",e=>{const v=e.target.dataset&&e.target.dataset.v; if(v)applyTheme(v);});
+document.getElementById("segFs").addEventListener("click",e=>{const v=e.target.dataset&&e.target.dataset.v; if(v)applyFs(v);});
+function togglePanel(open){panel.hidden=!open; setBtn.setAttribute("aria-expanded",String(open));}
+setBtn.addEventListener("click",e=>{e.stopPropagation(); togglePanel(panel.hidden);});
+document.addEventListener("click",e=>{ if(!panel.hidden && !panel.contains(e.target) && !setBtn.contains(e.target)) togglePanel(false); });
+document.addEventListener("keydown",e=>{ if(e.key==="Escape" && !panel.hidden){togglePanel(false); setBtn.focus();} });
+render();
+</script>
+<script type="module">
+const firebaseConfig = {
+  apiKey: "AIzaSyBMFO-kqcx3vgd1LvMP9ly_0kPmsAIvvZo",
+  authDomain: "reddesert-checklist.firebaseapp.com",
+  projectId: "reddesert-checklist",
+  storageBucket: "reddesert-checklist.firebasestorage.app",
+  messagingSenderId: "853446207690",
+  appId: "1:853446207690:web:8ac77b10c7fee19201ec33"
+};
+const $=id=>document.getElementById(id);
+const st=$("syncSt"), who=$("who"), inBtn=$("loginBtn"), outBtn=$("logoutBtn");
+function status(t,cls){ st.textContent=t; st.className="syncst"+(cls?" "+cls:""); }
+if(!firebaseConfig){ status("이 기기에 저장"); }
+else {
+  const V="10.12.2";
+  const { initializeApp } = await import(`https://www.gstatic.com/firebasejs/${V}/firebase-app.js`);
+  const A = await import(`https://www.gstatic.com/firebasejs/${V}/firebase-auth.js`);
+  const F = await import(`https://www.gstatic.com/firebasejs/${V}/firebase-firestore.js`);
+  const app=initializeApp(firebaseConfig);
+  const auth=A.getAuth(app); const db=F.getFirestore(app);
+  const provider=new A.GoogleAuthProvider();
+  inBtn.hidden=false;
+  let justSignedIn=false;
+  inBtn.addEventListener("click", async()=>{
+    justSignedIn=true; try{sessionStorage.setItem("cd-just-login","1");}catch(e){}
+    try{ await A.signInWithPopup(auth,provider); }
+    catch(e){
+      if(["auth/popup-blocked","auth/operation-not-supported-in-this-environment","auth/cancelled-popup-request"].includes(e.code)){ A.signInWithRedirect(auth,provider); }
+      else if(e.code!=="auth/popup-closed-by-user"){ status("로그인 실패: "+(e.code||e.message),"err"); }
+    }
+  });
+  A.getRedirectResult(auth).catch(()=>{});
+  outBtn.addEventListener("click",()=>A.signOut(auth));
+  let unsub=null, writing=Promise.resolve(), timer=null;
+  A.onAuthStateChanged(auth, async(user)=>{
+    if(unsub){unsub();unsub=null;} CL.setCloudSave(null);
+    if(!user){ inBtn.hidden=false; outBtn.hidden=true; who.textContent=""; status("이 기기에 저장"); return; }
+    inBtn.hidden=true; outBtn.hidden=false; who.textContent=user.displayName||user.email||"";
+    status("동기화 중…");
+    const ref=F.doc(db,"checklists",user.uid);
+    try{
+      const snap=await F.getDoc(ref);
+      const local=CL.get();
+      const cloud=snap.exists()?(snap.data().checked||{}):{};
+      let fresh=justSignedIn; try{ if(sessionStorage.getItem("cd-just-login")) fresh=true; sessionStorage.removeItem("cd-just-login"); }catch(e){}
+      justSignedIn=false;
+      // 처음 로그인할 때만 이 기기 체크를 합치고, 이미 로그인된 상태로 다시 열면 클라우드가 기준
+      const merged = (!snap.exists() || fresh) ? {...cloud,...local} : cloud;
+      CL.set(merged);
+      if(!snap.exists() || Object.keys(merged).length!==Object.keys(cloud).length){
+        await F.setDoc(ref,{checked:merged,updatedAt:F.serverTimestamp()},{mergeFields:["checked","updatedAt"]});
+      }
+    }catch(e){ status("동기화 실패: "+(e.code||e.message),"err"); return; }
+    CL.setCloudSave((obj)=>{
+      clearTimeout(timer); status("저장 중…");
+      timer=setTimeout(()=>{ const data={checked:{...obj},updatedAt:F.serverTimestamp()};
+        writing=writing.then(()=>F.setDoc(ref,data,{mergeFields:["checked","updatedAt"]})).then(()=>status("☁ 동기화됨","on")).catch(e=>status("저장 실패: "+(e.code||e.message),"err")); },400);
+    });
+    unsub=F.onSnapshot(ref,(snap)=>{
+      if(snap.metadata.hasPendingWrites) return;
+      if(snap.exists()) CL.set(snap.data().checked||{});
+      status("☁ 동기화됨","on");
+    },(e)=>status("동기화 끊김: "+(e.code||e.message),"err"));
+  });
+}
+</script>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('../sw.js',{scope:'../'}).catch(()=>{}));}</script>
+<div class="upd-toast" id="updToast" role="status" hidden><span>새 버전이 있어요</span><button type="button" id="updGo">업데이트</button><button type="button" class="x" id="updX" aria-label="닫기">✕</button></div>
+<script>
+// 새 버전 확인 — 설치한 앱에서도 당겨서 새로고침 없이 업데이트
+(function(){
+  var me=(document.querySelector('meta[name="cd-build"]')||{}).content||'';
+  var page=location.pathname.split('/').pop()||'index.html';
+  var info=document.getElementById('buildInfo');
+  if(info&&me){ var d=new Date(Date.UTC(+me.slice(0,4),+me.slice(4,6)-1,+me.slice(6,8),+me.slice(8,10),+me.slice(10,12))); var z=function(n){return (n<10?'0':'')+n}; info.textContent='버전 '+z(d.getMonth()+1)+'/'+z(d.getDate())+' '+z(d.getHours())+':'+z(d.getMinutes()); }
+  function go(){ try{ if(navigator.serviceWorker&&navigator.serviceWorker.controller){ caches.keys().then(function(ks){ return Promise.all(ks.map(function(k){return caches.delete(k)})); }).finally(function(){ location.reload(); }); return; } }catch(e){} location.reload(); }
+  var rb=document.getElementById('reloadBtn'); if(rb) rb.addEventListener('click',go);
+  var toast=document.getElementById('updToast'), dismissed=false;
+  document.getElementById('updGo').addEventListener('click',go);
+  document.getElementById('updX').addEventListener('click',function(){ toast.hidden=true; dismissed=true; });
+  var busy=false;
+  function check(){
+    if(busy||dismissed||!me||!navigator.onLine) return; busy=true;
+    fetch(page+'?v='+Date.now(),{cache:'no-store'}).then(function(r){return r.ok?r.text():''}).then(function(t){
+      var m=t.match(/<meta name="cd-build" content="(\d+)"/); if(m&&m[1]>me) toast.hidden=false;
+    }).catch(function(){}).finally(function(){ busy=false; });
+  }
+  setTimeout(check,2500);
+  document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible') check(); });
+  window.addEventListener('online',check);
+})();
+</script>
+</body>
+</html>

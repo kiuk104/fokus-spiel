@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>붉은사막 판매량 분석 인포그래픽</title>
+<link rel="manifest" href="../manifest.webmanifest">
+<meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16120e" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/svg+xml" href="../icons/favicon.svg">
+<link rel="icon" type="image/png" href="../icons/icon-192.png">
+<link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Fokus Spiel">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700;900&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:'Noto Sans KR',sans-serif; background:#0a0a0f; color:#fff; min-height:100vh; display:flex; flex-direction:column; align-items:center; justify-content:center; padding:56px 20px; }
+  .hero { text-align:center; margin-bottom:40px; }
+  .badge { display:inline-block; background:linear-gradient(90deg,#c0392b,#e74c3c); color:#fff; font-size:11px; font-weight:700; letter-spacing:3px; text-transform:uppercase; padding:5px 18px; border-radius:20px; margin-bottom:20px; }
+  h1 { font-size:clamp(24px,5vw,48px); font-weight:900; line-height:1.2; margin-bottom:12px; }
+  h1 em { color:#e74c3c; font-style:normal; }
+  .sub { font-size:14px; color:rgba(255,255,255,0.45); line-height:1.7; }
+  .stats { display:grid; grid-template-columns:repeat(4,1fr); gap:12px; max-width:860px; width:100%; margin-bottom:36px; }
+  @media(max-width:640px){ .stats{ grid-template-columns:repeat(2,1fr); } }
+  .stat { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.08); border-radius:14px; padding:18px 14px; text-align:center; }
+  .stat-v { font-size:clamp(18px,3vw,24px); font-weight:900; color:#e74c3c; line-height:1.1; margin-bottom:5px; }
+  .stat-l { font-size:11px; color:rgba(255,255,255,0.4); line-height:1.5; }
+  .cards { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; max-width:860px; width:100%; }
+  @media(max-width:640px){ .cards{ grid-template-columns:1fr; } }
+  .card { background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.09); border-radius:20px; padding:36px 32px; text-decoration:none; color:#fff; transition:transform .2s,border-color .2s,box-shadow .2s; position:relative; overflow:hidden; }
+  .card::before { content:''; position:absolute; top:0; left:0; right:0; height:4px; background:var(--accent); }
+  .card:hover { transform:translateY(-6px); border-color:rgba(231,76,60,.4); box-shadow:0 20px 40px rgba(0,0,0,.4); }
+  .card-icon { font-size:36px; margin-bottom:16px; }
+  .card-title { font-size:20px; font-weight:900; margin-bottom:10px; }
+  .card-desc { font-size:13px; color:rgba(255,255,255,0.5); line-height:1.7; margin-bottom:20px; }
+  .card-tags { display:flex; flex-wrap:wrap; gap:8px; }
+  .tag { background:rgba(255,255,255,0.07); border:1px solid rgba(255,255,255,0.1); font-size:11px; color:rgba(255,255,255,0.5); padding:3px 10px; border-radius:20px; }
+  .arrow { position:absolute; right:24px; bottom:24px; font-size:20px; opacity:0.4; }
+  .alert { max-width:860px; width:100%; margin-top:32px; background:rgba(243,156,18,.07); border:1px solid rgba(243,156,18,.22); border-radius:14px; padding:16px 20px; font-size:12px; color:rgba(255,255,255,.55); line-height:1.8; }
+  .alert b { color:#f39c12; }
+  .footer { margin-top:36px; font-size:12px; color:rgba(255,255,255,0.2); text-align:center; line-height:1.8; }
+</style>
+</head>
+<body>
+<a href="../" style="position:fixed;top:14px;left:16px;color:rgba(255,255,255,.55);font-size:13px;text-decoration:none">← Fokus Spiel</a>
+<div class="hero">
+  <div class="badge">📊 Infographic Series · Updated</div>
+  <h1>붉은사막 <em>(Crimson Desert)</em><br>판매량 분석 시리즈</h1>
+  <p class="sub">Pearl Abyss · 2026.03.20 출시 · <b style="color:rgba(255,255,255,.7)">데이터 기준일: 2026.09.05 (D+169)</b></p>
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-v">600만+</div><div class="stat-l">글로벌 누적 판매<br>(공식 · 추정 670~700만)</div></div>
+  <div class="stat"><div class="stat-v">4,026억</div><div class="stat-l">붉은사막 누적 매출<br>1Q+2Q 확정</div></div>
+  <div class="stat"><div class="stat-v">10.16</div><div class="stat-l">첫 DLC '미지의 여정'<br>27,800원 · 9.3 공개</div></div>
+  <div class="stat"><div class="stat-v">-22%</div><div class="stat-l">연간 가이던스 하향<br>2Q 어닝 미스 (8.11)</div></div>
+</div>
+
+<div class="cards">
+  <a class="card" href="infographic1.html" style="--accent:linear-gradient(90deg,#8b0000,#e74c3c)">
+    <div class="card-icon">📈</div>
+    <div class="card-title">판매량 추이 인포그래픽</div>
+    <div class="card-desc">출시 D+169까지의 판매 마일스톤, 2분기 확정 실적, 첫 할인·인핸스드 효과, 스팀 동접 반등, 글로벌 순위 변동, 핵심 분석을 담았습니다.</div>
+    <div class="card-tags"><span class="tag">📊 D+169 실적</span><span class="tag">🏷️ 첫 할인</span><span class="tag">🎮 동접 반등</span><span class="tag">💰 2Q 확정</span></div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="infographic2.html" style="--accent:linear-gradient(90deg,#7a5500,#f5a623)">
+    <div class="card-icon">🔭</div>
+    <div class="card-title">판매량 전망 심층 분석</div>
+    <div class="card-desc">2Q 어닝 미스와 가이던스 하향, 증권사 7곳 목표가 재편, DLC를 반영한 3대 시나리오, 드라이버·리스크, 2026~2028 장기 전망 분석입니다.</div>
+    <div class="card-tags"><span class="tag">🏦 증권사 7사</span><span class="tag">📦 DLC 변수</span><span class="tag">🎯 3대 시나리오</span><span class="tag">📉 가이던스 하향</span></div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="guide.html" style="--accent:linear-gradient(90deg,#2f6f96,#79b4d8)">
+    <div class="card-icon">🗺️</div>
+    <div class="card-title">붉은사막 생존 노트 (플레이 가이드)</div>
+    <div class="card-desc">기술 세팅부터 퀘스트 진행 기록 Q1–Q26까지 — 막혔던 퀘스트 공략, 퍼즐 해법, 스킬·돈·장비 팁을 검색 가능한 한 페이지로 정리했습니다.</div>
+    <div class="card-tags"><span class="tag">🧩 퀘스트 공략</span><span class="tag">⚔️ 스킬 추천</span><span class="tag">🔍 검색</span><span class="tag">📱 모바일</span></div>
+    <div class="arrow">→</div>
+  </a>
+  <a class="card" href="checklist.html" style="--accent:linear-gradient(90deg,#3e8fc4,#b42a2a)">
+    <div class="card-icon">✅</div>
+    <div class="card-title">어비스 수집 체크리스트</div>
+    <div class="card-desc">어비스 40곳 복구, 원소 능력 4종(벼락·빙결·화염·바람), 상자·어비스 기어를 탑별로 체크합니다. 체크는 브라우저에 자동 저장되고, 진행 코드로 PC·모바일 간에 옮길 수 있습니다.</div>
+    <div class="card-tags"><span class="tag">🌀 어비스 40</span><span class="tag">⚡ 원소 4종</span><span class="tag">💎 어비스 기어</span><span class="tag">☑️ 자동 저장</span></div>
+    <div class="arrow">→</div>
+  </a>
+</div>
+
+<div class="alert">
+  🔄 <b>2026.09.05 업데이트 주요 변경사항</b><br>
+  · <b>2분기 실적 어닝 미스</b> (8.11) — 매출 1,926억(컨센 대비 -30%) / 영업이익 676억(-52%) · 붉은사막 1,361억, 판매 211만 장<br>
+  · <b>연간 가이던스 -22% 하향</b> — 8,790~9,754억 → 7,098~7,438억. 증권가 목표가 하향 러시 (유진 50,000 · 미래에셋 30,000 매도 · 신한 중립)<br>
+  · <b>출시 후 첫 할인 20%</b> (8.25~9.9) + '인핸스드' 2.0 무료 업데이트 → 스팀 글로벌 판매 1위 복귀, 8월 동접 3.7만으로 첫 반등<br>
+  · <b>첫 유료 DLC '미지의 여정' 공개</b> (9.3 State of Play) — 10.16 출시, 27,800원. 발표 당일 주가 +11.5%<br>
+  · 스위치2 <b>2027년 상반기</b> 목표 첫 명시 · 중국 판호 "신청 계획 없음" · 게임스컴 어워드 2개 부문 후보(수상 불발)
+</div>
+
+<div class="footer">📌 공개된 기업 IR 자료, 언론 보도, 증권사 리포트 기반 | 기준일: 2026.09.05<br>최신 공식 판매량은 600만 장(2026.06.11)이며, 이후 수치는 추정치입니다. 2Q 인식 판매량 211만 장은 회사 공식 수치입니다.</div>
+<script>if('serviceWorker' in navigator){addEventListener('load',()=>navigator.serviceWorker.register('../sw.js',{scope:'../'}).catch(()=>{}));}</script>
+</body>
+</html>

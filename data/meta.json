@@ -1,0 +1,44 @@
+{
+ "crimson-desert": {
+  "hash": "41f9c574d95c7dbd05a7870f69f5ea40ee5b1895",
+  "updated": "2026-09-26",
+  "q": 28,
+  "sections": 66,
+  "qmax": 28
+ },
+ "dark-souls": {
+  "hash": "d44cc23b890b7ee470578f05532e71a9d11b664d",
+  "updated": "2026-09-26",
+  "q": 0,
+  "sections": 5,
+  "qmax": 0
+ },
+ "dont-starve-together": {
+  "hash": "c31d88affae2c2aac9247ae8e91f6ddb79ceab39",
+  "updated": "2026-09-26",
+  "q": 0,
+  "sections": 4,
+  "qmax": 0
+ },
+ "street-fighter-5": {
+  "hash": "2aa2158b42f1770574b9b59dafc641832416610d",
+  "updated": "2026-09-26",
+  "q": 0,
+  "sections": 4,
+  "qmax": 0
+ },
+ "total-war-three-kingdoms": {
+  "hash": "2dba3e31f00d1bf30181499e9925296c94224ab3",
+  "updated": "2026-09-26",
+  "q": 0,
+  "sections": 4,
+  "qmax": 0
+ },
+ "uncharted-waters-2": {
+  "hash": "5915dffd2a88b38c44d77d5665cdc1791acea008",
+  "updated": "2026-09-26",
+  "q": 0,
+  "sections": 4,
+  "qmax": 0
+ }
+}
