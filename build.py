@@ -130,6 +130,23 @@ def build_game(g):
     return index
 
 
+def index_tab_pages(g):
+    """탭으로 나뉜 부가 페이지(예: 대항해시대 II 매뉴얼)를 허브 검색 색인에 넣는다."""
+    out = []
+    for l in live_links(g):
+        if l.get('search') != 'tabs':
+            continue
+        s = open(P(g['id'], l['href']), encoding='utf-8').read()
+        s = re.sub(r'data:image[^"\')]+', '', s)
+        names = dict(re.findall(r"switchTab\('([\w-]+)',this\)\">(.*?)</button>", s))
+        parts = re.split(r'<div class="tab-content[^"]*" id="tab-([\w-]+)"', s)
+        for i in range(1, len(parts), 2):
+            tid, body = parts[i], re.sub(r'<script.*?</script>|<style.*?</style>', '', parts[i + 1], flags=re.S)
+            title = '%s — %s' % (l['hub'], plain_text(names.get(tid, tid)))
+            out.append({'g': g['id'], 'p': l['href'], 'h': 'tab-' + tid, 't': title, 'x': plain_text(body)[:3000]})
+    return out
+
+
 def build_hub():
     order = [g for g in games if g.get('playing')] + [g for g in games if not g.get('playing')]
     cards = []
@@ -169,7 +186,7 @@ if __name__ == '__main__':
     for g in games:
         if only and g['id'] not in only:
             continue
-        idx = build_game(g)
+        idx = build_game(g) + index_tab_pages(g)
         search = [s for s in search if s['g'] != g['id']] + idx
     known = {g['id'] for g in games}
     search = [s for s in search if s['g'] in known]

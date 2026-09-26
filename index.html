@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Fokus Spiel — 개인 게임 위키. 게임별 공략 노트와 진행 기록.">
 <title>Fokus Spiel</title>
-<meta name="cd-build" content="20260926071027">
+<meta name="cd-build" content="20260926071623">
 <script>try{var _t=localStorage.getItem('cd-theme');if(_t)document.documentElement.setAttribute('data-theme',_t);var _f=localStorage.getItem('cd-fs');if(_f)document.documentElement.style.setProperty('--fs',_f);}catch(e){}</script>
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#f6f1e7" media="(prefers-color-scheme: light)">
@@ -18,7 +18,7 @@
 <meta name="apple-mobile-web-app-title" content="Fokus Spiel">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="shared/fokus.css?v=20260926071027">
+<link rel="stylesheet" href="shared/fokus.css?v=20260926071623">
 <style>
 .hub{max-width:1040px;margin:0 auto;padding:0 28px 80px;zoom:var(--fs,1)}
 .hub-top{position:sticky;top:env(safe-area-inset-top,0px);z-index:3;background:color-mix(in srgb,var(--bg) 93%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
@@ -107,19 +107,19 @@
 <article class="card" data-game="dont-starve-together"><a class="card-main" href="dont-starve-together/guide.html"><span class="mono" aria-hidden="true">굶</span><span class="card-tx"><span class="card-en">Don&#x27;t Starve Together</span><span class="card-name">굶지마 투게더</span><span class="card-title">굶지마 투게더 생존 노트</span></span></a><div class="card-ft"><span class="card-stat">기록 시작 전 · 09.26 갱신</span></div></article>
 <article class="card" data-game="street-fighter-5"><a class="card-main" href="street-fighter-5/guide.html"><span class="mono" aria-hidden="true">스</span><span class="card-tx"><span class="card-en">Street Fighter V</span><span class="card-name">스트리트 파이터 V</span><span class="card-title">스파5 수련 노트</span></span></a><div class="card-ft"><span class="card-stat">기록 시작 전 · 09.26 갱신</span></div></article>
 <article class="card" data-game="total-war-three-kingdoms"><a class="card-main" href="total-war-three-kingdoms/guide.html"><span class="mono" aria-hidden="true">삼</span><span class="card-tx"><span class="card-en">Total War: Three Kingdoms</span><span class="card-name">토탈 워: 삼국</span><span class="card-title">토탈 워 삼국 전략 노트</span></span></a><div class="card-ft"><span class="card-stat">기록 시작 전 · 09.26 갱신</span></div></article>
-<article class="card" data-game="uncharted-waters-2"><a class="card-main" href="uncharted-waters-2/guide.html"><span class="mono" aria-hidden="true">항</span><span class="card-tx"><span class="card-en">Uncharted Waters II</span><span class="card-name">대항해시대 II</span><span class="card-title">대항해시대 2 항해 노트</span></span></a><div class="card-ft"><span class="card-stat">기록 시작 전 · 09.26 갱신</span></div></article>
+<article class="card" data-game="uncharted-waters-2"><a class="card-main" href="uncharted-waters-2/guide.html"><span class="mono" aria-hidden="true">항</span><span class="card-tx"><span class="card-en">Uncharted Waters II</span><span class="card-name">대항해시대 II</span><span class="card-title">대항해시대 2 항해 노트</span></span></a><div class="card-ft"><span class="card-stat">기록 시작 전 · 09.26 갱신</span><span class="card-links"><a href="uncharted-waters-2/manual.html">게임 매뉴얼</a></span></div></article>
     </div>
   </section>
   <p class="hub-foot">Fokus Spiel · 개인 게임 위키<br>각 노트는 마크다운 원본에서 만들어집니다. 원본이 갱신되면 이 사이트도 다시 발행됩니다.</p>
 </main>
 <script>window.FS_ROOT='';</script>
-<script src="shared/core.js?v=20260926071027"></script>
+<script src="shared/core.js?v=20260926071623"></script>
 <script>
 (function(){
   var NAMES={"crimson-desert": "붉은사막", "dark-souls": "다크 소울 리마스터", "dont-starve-together": "굶지마 투게더", "street-fighter-5": "스트리트 파이터 V", "total-war-three-kingdoms": "토탈 워: 삼국", "uncharted-waters-2": "대항해시대 II"}, q=document.getElementById('gq'), wrap=document.getElementById('resWrap'),
       list=document.getElementById('results'), meta=document.getElementById('rmeta'), games=document.getElementById('gameWrap'),
       data=null, loading=null;
-  function load(){ if(data) return Promise.resolve(data); if(!loading) loading=fetch('data/search.json?v=20260926071027').then(function(r){return r.json()}).then(function(d){ data=d.map(function(e){ e.l=(e.t+' '+e.x).toLowerCase(); return e; }); return data; }); return loading; }
+  function load(){ if(data) return Promise.resolve(data); if(!loading) loading=fetch('data/search.json?v=20260926071623').then(function(r){return r.json()}).then(function(d){ data=d.map(function(e){ e.l=(e.t+' '+e.x).toLowerCase(); return e; }); return data; }); return loading; }
   function esc(s){ return s.replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]}); }
   function snip(x,w){ var lx=x.toLowerCase(), i=lx.indexOf(w); if(i<0) return esc(x.slice(0,140))+(x.length>140?'…':'');
     var a=Math.max(0,i-50), b=Math.min(x.length,i+w.length+90);
@@ -133,7 +133,7 @@
       hit.sort(function(a,b){ return (b.t.toLowerCase().indexOf(ws[0])>-1)-(a.t.toLowerCase().indexOf(ws[0])>-1); });
       meta.textContent=hit.length?('검색 결과 '+hit.length+'개'+(hit.length>50?' · 위 50개만 표시':'')):'검색 결과가 없어요.';
       list.innerHTML=hit.slice(0,50).map(function(e){
-        return '<a class="res" data-game="'+e.g+'" href="'+e.g+'/guide.html#'+e.h+'"><span class="g">'+esc(NAMES[e.g]||e.g)+'</span><b>'+esc(e.t)+'</b><p>'+snip(e.x,ws[0])+'</p></a>';
+        return '<a class="res" data-game="'+e.g+'" href="'+e.g+'/'+(e.p||'guide.html')+'#'+e.h+'"><span class="g">'+esc(NAMES[e.g]||e.g)+'</span><b>'+esc(e.t)+'</b><p>'+snip(e.x,ws[0])+'</p></a>';
       }).join('');
       wrap.hidden=false; games.hidden=true;
     }).catch(function(){ meta.textContent='검색 색인을 불러오지 못했어요.'; wrap.hidden=false; });
@@ -144,6 +144,6 @@
   document.addEventListener('keydown',function(e){ if(e.key==='/'&&document.activeElement!==q){ e.preventDefault(); q.focus(); } });
 })();
 </script>
-<script type="module" src="shared/sync.js?v=20260926071027"></script>
+<script type="module" src="shared/sync.js?v=20260926071623"></script>
 </body>
 </html>

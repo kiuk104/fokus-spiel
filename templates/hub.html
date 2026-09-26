@@ -128,7 +128,7 @@
       hit.sort(function(a,b){ return (b.t.toLowerCase().indexOf(ws[0])>-1)-(a.t.toLowerCase().indexOf(ws[0])>-1); });
       meta.textContent=hit.length?('검색 결과 '+hit.length+'개'+(hit.length>50?' · 위 50개만 표시':'')):'검색 결과가 없어요.';
       list.innerHTML=hit.slice(0,50).map(function(e){
-        return '<a class="res" data-game="'+e.g+'" href="'+e.g+'/guide.html#'+e.h+'"><span class="g">'+esc(NAMES[e.g]||e.g)+'</span><b>'+esc(e.t)+'</b><p>'+snip(e.x,ws[0])+'</p></a>';
+        return '<a class="res" data-game="'+e.g+'" href="'+e.g+'/'+(e.p||'guide.html')+'#'+e.h+'"><span class="g">'+esc(NAMES[e.g]||e.g)+'</span><b>'+esc(e.t)+'</b><p>'+snip(e.x,ws[0])+'</p></a>';
       }).join('');
       wrap.hidden=false; games.hidden=true;
     }).catch(function(){ meta.textContent='검색 색인을 불러오지 못했어요.'; wrap.hidden=false; });
