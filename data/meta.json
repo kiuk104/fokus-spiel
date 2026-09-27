@@ -42,10 +42,10 @@
   "qmax": 0
  },
  "baldurs-gate-3": {
-  "hash": "1ede91bc47282ea00f7413c48d022e80903ab68a",
+  "hash": "c67ab26dc86f25b8fa939470fef8350b4a8e970f",
   "updated": "2026-09-27",
-  "q": 0,
-  "sections": 17,
-  "qmax": 0
+  "q": 1,
+  "sections": 18,
+  "qmax": 1
  }
 }
