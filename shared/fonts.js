@@ -10,8 +10,15 @@
     nanumm:['나눔명조','',"'Nanum Myeongjo','Noto Serif KR',serif",'Nanum+Myeongjo:wght@400;700',null],
     kpb:   ['KoPub 바탕','',"'KoPubWorld Batang','Noto Serif KR',serif",null,face('KoPubWorld Batang',KPW+'KoPubWorld-Batang-Medium.woff2','woff2')+face('KoPubWorld Batang',KPW+'KoPubWorld-Batang-Bold.woff2','woff2',700)],
     gowunb:['고운바탕','예전 기본',"'Gowun Batang','Noto Serif KR',serif",'Gowun+Batang:wght@400;700',null],
-    scb:   ['에스코어드림','고딕 · Bold',"'SCDreamBold','Noto Sans KR',sans-serif",null,face('SCDreamBold',NOON+'noonfonts_six@1.2/S-CoreDream-6Bold.woff','woff')],
-    sys:   ['기기 기본','',"system-ui,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif",null,null]
+    // 고딕 계열
+    notosans:['본고딕','고딕',"'Noto Sans KR',system-ui,sans-serif",'Noto+Sans+KR:wght@500;700',null],
+    nanumg:  ['나눔고딕','고딕',"'Nanum Gothic','Noto Sans KR',sans-serif",'Nanum+Gothic:wght@700;800',null],
+    nsqb:    ['나눔스퀘어','고딕 · Bold',"'NanumSquareB','NanumSquare','Noto Sans KR',sans-serif",null,face('NanumSquareB',NSQ+'NanumSquareB.woff','woff')+face('NanumSquareB',NSQ+'NanumSquareEB.woff','woff',700)],
+    kpd:     ['KoPub 돋움','고딕',"'KoPubWorld Dotum','Noto Sans KR',sans-serif",null,face('KoPubWorld Dotum',KPW+'KoPubWorld-Dotum-Medium.woff2','woff2')+face('KoPubWorld Dotum',KPW+'KoPubWorld-Dotum-Bold.woff2','woff2',700)],
+    scb:     ['에스코어드림','고딕 · Bold',"'SCDreamBold','Noto Sans KR',sans-serif",null,face('SCDreamBold',NOON+'noonfonts_six@1.2/S-CoreDream-6Bold.woff','woff')],
+    gowund:  ['고운돋움','고딕',"'Gowun Dodum','Noto Sans KR',sans-serif",'Gowun+Dodum',null],
+    plex:    ['IBM Plex Sans','고딕 · 본문과 통일',"'IBM Plex Sans KR',system-ui,sans-serif",'IBM+Plex+Sans+KR:wght@600;700',null],
+    sys:     ['기기 기본','',"system-ui,-apple-system,'Apple SD Gothic Neo','Malgun Gothic',sans-serif",null,null]
   };
   var BODY={
     plex:    ['IBM Plex Sans','기본',"'IBM Plex Sans KR',system-ui,-apple-system,'Segoe UI','Malgun Gothic',sans-serif",null,null],
