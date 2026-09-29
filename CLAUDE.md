@@ -15,6 +15,7 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
   `v`가 숫자+`max`면 막대, `unit:"%"`면 퍼센트 막대, 문자열이면 글자만. `hot:true`는 강조색. 허브 카드 막대는 첫 번째 막대 항목.
   (예전 `status.html`은 json이 없을 때만 쓰임)
 - `templates/` — guide.html · hub.html · sw.js 틀. `shared/` — 공통 CSS/JS (테마·검색·북마크·구글 로그인 동기화).
+- 가이드 목차 사이드바: 오른쪽 경계선을 드래그하면 너비(220~480px, 더블클릭=기본값), 클릭하면 접힘, `Ctrl+B` 토글 — 코딩Dojo(`coding-classroom`) 방식. 저장 키 `cd-sbw` `cd-sb`.
 - 테마·폰트는 `bible_viewer` 와 같은 팔레트(라이트 #f2f3ef/청록 #255e66, 다크 #121514/금색 #d39c3c)와 Noto Serif KR + IBM Plex Sans KR 를 쓴다.
   설정 패널에서 테마 6종(시스템/밝게/종이/세피아/진회색/검정 — `data-theme`)과 제목·본문 글꼴을 고를 수 있다. 글꼴 목록은 `shared/fonts.js`(bible_viewer 와 같은 출처), 저장 키 `cd-theme` `cd-fdisp` `cd-fbody`. 새 테마를 추가하면 fokus.css 의 `:root:not([data-theme=…])` 목록과 checklist.html 에도 같이 넣는다.
 - `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물. **git 에 없음**(Actions 가 만든다). 갱신일은 md 의 마지막 커밋 날짜.

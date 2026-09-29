@@ -6,7 +6,7 @@
 <meta name="description" content="{{DESC}}">
 <title>{{TITLE}} · Fokus Spiel</title>
 <meta name="cd-build" content="{{BUILD}}">
-<script>try{var _t=localStorage.getItem('cd-theme');if(_t)document.documentElement.setAttribute('data-theme',_t);var _f=localStorage.getItem('cd-fs');if(_f)document.documentElement.style.setProperty('--fs',_f);}catch(e){}</script>
+<script>try{var _t=localStorage.getItem('cd-theme');if(_t)document.documentElement.setAttribute('data-theme',_t);var _f=localStorage.getItem('cd-fs');if(_f)document.documentElement.style.setProperty('--fs',_f);var _w=+localStorage.getItem('cd-sbw');if(_w>=220&&_w<=480)document.documentElement.style.setProperty('--sb-w',_w+'px');if(localStorage.getItem('cd-sb')==='collapsed')document.documentElement.classList.add('sb-collapsed');}catch(e){}</script>
 <script src="../shared/fonts.js?v={{V}}"></script>
 <link rel="manifest" href="../manifest.webmanifest">
 <meta name="theme-color" content="#f2f3ef" media="(prefers-color-scheme: light)">
@@ -34,6 +34,8 @@
 {{NAV}}
   </nav>
 </aside>
+<div class="sb-handle" id="sbHandle" role="separator" aria-orientation="vertical" aria-label="목차 숨기기 · 드래그하여 너비 조절"></div>
+<div class="sb-tip" id="sbTip">목차 숨기기<kbd>Ctrl+B</kbd><small>드래그하여 너비 조절</small></div>
 <main class="main">
   <div class="topbar" id="topbar">
     <button class="btn" id="menuBtn" aria-label="목차 열기">☰ 목차</button>
