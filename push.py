@@ -16,17 +16,17 @@ if args[:1] == ['-m']:
         git('add', '-A'); git('commit', '-q', '-m', args[1]); print('커밋:', args[1])
 elif git('status', '--porcelain').stdout.strip():
     sys.exit('미커밋 변경이 있어요. 먼저 커밋하거나  python push.py -m "메시지"  로 실행하세요.\n' + git('status', '--short').stdout)
-git('fetch', 'origin')
-behind = git('rev-list', '--count', 'HEAD..origin/main').stdout.strip()
+git('fetch', 'origin', 'main')   # FETCH_HEAD 에 원격 main (remote-tracking 설정이 없어도 동작)
+behind = git('rev-list', '--count', 'HEAD..FETCH_HEAD').stdout.strip()
 if behind != '0':
     print('원격에 새 커밋 %s개 — rebase 합니다.' % behind)
-    r = git('rebase', 'origin/main', check=False)
+    r = git('rebase', 'FETCH_HEAD', check=False)
     if r.returncode:
         conflicted = git('diff', '--name-only', '--diff-filter=U').stdout.split()
         git('rebase', '--abort', check=False)
         sys.exit('원본 파일이 다른 세션과 겹쳤어요 — 손으로 합쳐야 합니다:\n  ' + '\n  '.join(conflicted)
                  + '\n(git pull --rebase 후 충돌을 정리하고 다시 push 하세요)')
-ahead = git('rev-list', '--count', 'origin/main..HEAD').stdout.strip()
+ahead = git('rev-list', '--count', 'FETCH_HEAD..HEAD').stdout.strip()
 if ahead == '0':
     print('올릴 커밋이 없어요. (원격과 같음)'); sys.exit()
 git('push', 'origin', 'main')
