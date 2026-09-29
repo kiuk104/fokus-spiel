@@ -10,12 +10,28 @@ def git(*a, check=True):
     if check and r.returncode:
         print(r.stdout + r.stderr); sys.exit('git %s 실패' % a[0])
     return r
+def sync_sources():
+    """games.json 의 source(저장소 밖 원본 md, 예: 붉은사막 E:\\GameDev)를 src/<id>/guide.md 로 복사한다.
+    Actions 는 이 사본으로 빌드하므로 push 전에 항상 최신으로 맞춘다."""
+    import json
+    for g in json.load(open(os.path.join(ROOT, 'games.json'), encoding='utf-8')):
+        src = g.get('source')
+        if not src or not os.path.exists(src):
+            continue
+        dst = os.path.join(ROOT, 'src', g['id'], 'guide.md')
+        new = open(src, encoding='utf-8').read()
+        old = open(dst, encoding='utf-8').read() if os.path.exists(dst) else None
+        if new != old:
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            open(dst, 'w', encoding='utf-8').write(new)
+            print('%s: 원본 → src/%s/guide.md 복사' % (g['id'], g['id']))
+sync_sources()
 args = sys.argv[1:]
 if args[:1] == ['-m']:
     if git('status', '--porcelain').stdout.strip():
         git('add', '-A'); git('commit', '-q', '-m', args[1]); print('커밋:', args[1])
 elif git('status', '--porcelain').stdout.strip():
-    sys.exit('미커밋 변경이 있어요. 먼저 커밋하거나  python push.py -m "메시지"  로 실행하세요.\n' + git('status', '--short').stdout)
+    sys.exit('미커밋 변경이 있어요 (원본 복사로 생긴 것일 수도). 먼저 커밋하거나  python push.py -m "메시지"  로 실행하세요.\n' + git('status', '--short').stdout)
 git('fetch', 'origin', 'main')   # FETCH_HEAD 에 원격 main (remote-tracking 설정이 없어도 동작)
 behind = git('rev-list', '--count', 'HEAD..FETCH_HEAD').stdout.strip()
 if behind != '0':

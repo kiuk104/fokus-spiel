@@ -28,6 +28,7 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 ## 외부 원본 (games.json `source`)
 `games.json`에 `source` 경로가 있으면 `build.py`가 빌드 전에 그 파일을 `src/<id>/guide.md`로 **자동 복사**한다(내용이 다를 때만).
 현재 붉은사막만 해당: `E:\GameDev\Crimson-Desert\붉은사막살아남기\붉은사막_가이드.md`. 손으로 복사할 필요 없음.
+`push.py` 도 push 전에 같은 복사를 하므로, 빌드 없이 push 해도 사본은 항상 최신이다. 원본은 옮기지 않아도 된다(Actions 는 커밋된 사본으로 빌드).
 
 ## 게임별 Claude 프로젝트와의 역할 분담
 - 게임 프로젝트(다크소울, 굶지마 등)는 자기 게임의 `src/<id>/guide.md`(진행 기록)와 `src/<id>/status.json`만 고치고 `python build.py <id>` → push 한다.
