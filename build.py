@@ -150,7 +150,7 @@ def build_game(g):
             head = '<%s class="%s" id="%s">%s</%s>' % (tag, cls, bid, th, tag)
             tplain = plain_text(th)
             navtxt = html.escape(tplain.replace('🖥️ ', '').replace('🎮 ', ''))
-            nav.append('<a class="%s" href="#%s">%s</a>' % (navc, bid, navtxt))
+            nav.append('<a class="%s" href="#%s" title="%s"><span class="nt">%s</span></a>' % (navc, bid, navtxt, navtxt))
         ptxt = plain_text(head + bh)
         s_attr = html.escape(' ' + ptxt.lower() + ' ', quote=True)
         secs.append('<section class="blk" id="blk-%s" data-s="%s">%s%s</section>' % (bid, s_attr, head, bh))
