@@ -105,6 +105,18 @@ def render_status(g):
             % (html.escape(st.get('title', '현재 진행 현황')), hd, '\n'.join(cells)))
 
 
+def git_date(path):
+    """파일이 마지막으로 커밋된 날짜(YYYY-MM-DD). 미커밋 변경이 있거나 git 이 없으면 None → 오늘."""
+    import subprocess
+    try:
+        if subprocess.run(['git', 'status', '--porcelain', '--', path], cwd=ROOT, capture_output=True, text=True).stdout.strip():
+            return None
+        d = subprocess.run(['git', 'log', '-1', '--format=%cs', '--', path], cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        return d or None
+    except Exception:
+        return None
+
+
 def build_game(g):
     sync_source(g)
     md = open(P('src', g['id'], 'guide.md'), encoding='utf-8').read()
@@ -179,7 +191,7 @@ def build_game(g):
     h = hashlib.sha1(md.encode('utf-8')).hexdigest()
     m = meta.get(g['id'], {})
     if m.get('hash') != h:
-        m = {'hash': h, 'updated': TODAY}
+        m = {'hash': h, 'updated': git_date(P('src', g['id'], 'guide.md')) or TODAY}
     m.update({'q': len(qs), 'sections': sum(1 for b in blocks if b[0] in (2, 3)), 'qmax': max(qs) if qs else 0})
     meta[g['id']] = m
     print('%-26s blocks %3d  Q %3d' % (g['id'], len(secs), len(qs)))

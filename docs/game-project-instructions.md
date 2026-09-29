@@ -3,7 +3,7 @@
 각 게임의 Claude 프로젝트 **지시문(Project instructions)** 에 해당 블록을 그대로 붙여 넣으면 됩니다.
 세션은 PC에 연결하고 `E:\Coding` 폴더를 열어 두세요(붉은사막은 `E:\GameDev`도).
 
-공통 전제: 위키 저장소 `E:\Coding\fokus-spiel`, 배포 https://kiuk104.github.io/fokus-spiel/ , 빌드 `python build.py <id>`, 구조 규칙은 저장소의 `CLAUDE.md`.
+공통 전제: 위키 저장소 `E:\Coding\fokus-spiel`, 배포 https://kiuk104.github.io/fokus-spiel/ , 배포는 push 만 하면 GitHub Actions 가 빌드한다(로컬 빌드 `python build.py <id>` 는 미리보기용, 선택). 구조 규칙은 저장소의 `CLAUDE.md`.
 
 
 ---
@@ -19,7 +19,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\GameDev\Crimson-Desert\붉은사막살아남기\붉은사막_가이드.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 퀘스트 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -41,9 +41,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py crimson-desert
-  git add -A && git commit -m "crimson-desert: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "crimson-desert: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -64,7 +63,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\dark-souls\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -85,9 +84,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py dark-souls
-  git add -A && git commit -m "dark-souls: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "dark-souls: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -108,7 +106,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\dont-starve-together\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -129,9 +127,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py dont-starve-together
-  git add -A && git commit -m "dont-starve-together: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "dont-starve-together: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -152,7 +149,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\street-fighter-5\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -173,9 +170,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py street-fighter-5
-  git add -A && git commit -m "street-fighter-5: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "street-fighter-5: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -196,7 +192,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\total-war-three-kingdoms\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -217,9 +213,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py total-war-three-kingdoms
-  git add -A && git commit -m "total-war-three-kingdoms: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "total-war-three-kingdoms: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -240,7 +235,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\uncharted-waters-2\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -261,9 +256,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py uncharted-waters-2
-  git add -A && git commit -m "uncharted-waters-2: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "uncharted-waters-2: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙
@@ -284,7 +278,7 @@
 
 ## 1. 공략·질문 기록 → guide.md
 - 원본: E:\Coding\fokus-spiel\src\baldurs-gate-3\guide.md
-  (HTML은 직접 고치지 않는다. md를 고친 뒤 빌드한다.)
+  (HTML은 직접 고치지 않는다. md만 고친다. guide.html 은 git 에 없고 Actions 가 만든다.)
 - 퀘스트·보스·질문이 정리되면 "## 진행 기록" 아래에
   "### Q번호. 제목 (YYYY-MM-DD)" 로 이어 붙인다. 번호는 마지막 Q 다음 번호.
 - 출처(위키·영상·커뮤니티 글)는 "## 참고 자료" 에 추가한다.
@@ -305,9 +299,8 @@
 ## 3. 빌드 · 배포 (기록을 고칠 때마다 항상)
   cd E:\Coding\fokus-spiel
   git status            # 다른 세션의 미커밋 변경이 있으면 알려주고, 내 파일과 겹치면 멈추고 묻는다
-  python build.py baldurs-gate-3
-  git add -A && git commit -m "baldurs-gate-3: <무엇을 기록했는지>" && git push
-- Pages 반영은 약 1분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
+  python push.py -m "baldurs-gate-3: <무엇을 기록했는지>"   # 커밋 → 원격에 새 커밋 있으면 rebase → push. 빌드는 Actions 가 한다.
+- Pages 반영은 Actions 빌드 포함 2~3분. 사용자에게 어떤 Q를 추가했고 status가 어떻게 바뀌었는지 한 줄로 보고한다.
 - build.py, templates/, shared/, games.json 은 이 프로젝트에서 고치지 않는다. 구조 변경이 필요하면 "fokus-spiel 프로젝트에서 해야 한다"고 말한다.
 
 ## 4. 대화 규칙

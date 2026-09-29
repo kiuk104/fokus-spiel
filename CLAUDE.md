@@ -17,7 +17,7 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 - `templates/` — guide.html · hub.html · sw.js 틀. `shared/` — 공통 CSS/JS (테마·검색·북마크·구글 로그인 동기화).
 - 테마·폰트는 `bible_viewer` 와 같은 팔레트(라이트 #f2f3ef/청록 #255e66, 다크 #121514/금색 #d39c3c)와 Noto Serif KR + IBM Plex Sans KR 를 쓴다.
   설정 패널에서 테마 6종(시스템/밝게/종이/세피아/진회색/검정 — `data-theme`)과 제목·본문 글꼴을 고를 수 있다. 글꼴 목록은 `shared/fonts.js`(bible_viewer 와 같은 출처), 저장 키 `cd-theme` `cd-fdisp` `cd-fbody`. 새 테마를 추가하면 fokus.css 의 `:root:not([data-theme=…])` 목록과 checklist.html 에도 같이 넣는다.
-- `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물.
+- `<id>/guide.html`, `index.html`, `sw.js`, `data/` — `build.py`가 만드는 결과물. **git 에 없음**(Actions 가 만든다). 갱신일은 md 의 마지막 커밋 날짜.
 - `crimson-desert/checklist.html`, `infographic*.html` — 손으로 관리하는 붉은사막 전용 페이지.
 
 ## 노트 작성 규칙
@@ -35,13 +35,17 @@ GitHub Pages: https://kiuk104.github.io/fokus-spiel/ (main 브랜치 루트가 �
 - 두 세션이 같은 시각에 push 할 수 있으니, 커밋 전 `git status`로 남의 미커밋 변경이 섞였는지 확인.
 
 ## 빌드 · 배포
+빌드 결과물(`<id>/guide.html`, `index.html`, `sw.js`, `data/`)은 **git 에 넣지 않는다**(.gitignore). push 하면 GitHub Actions(`.github/workflows/pages.yml`)가 `build.py` 를 돌려 Pages 에 올린다(2~3분). 그래서 세션들이 원본 파일만 커밋하면 서로 충돌할 일이 없다.
 ```
 pip install markdown
-python build.py                # 전체
+python build.py                # 로컬 미리보기용 (선택) — 전체
 python build.py dark-souls     # 한 게임만
-git add -A && git commit -m "..." && git push
+git add -A && git commit -m "..."
+python push.py                 # fetch → 필요하면 rebase → push  (push_github.bat 과 같음)
+python push.py -m "메시지"      # 커밋까지 한 번에
 ```
-Pages 반영은 약 1분. 페이지를 열어 둔 기기에는 "새 버전이 있어요" 알림이 뜬다.
+`push.py` 는 원격에 다른 세션 커밋이 있으면 알아서 rebase 한다. 원본 파일이 정말 겹치면 멈추고 파일 목록을 알려준다.
+페이지를 열어 둔 기기에는 배포 뒤 "새 버전이 있어요" 알림이 뜬다.
 
 ## 새 게임 추가
 1. `games.json` 에 항목 추가 (id는 영문 소문자-하이픈)
