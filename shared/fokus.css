@@ -74,6 +74,9 @@
 [data-game="uncharted-waters-2"]{--acc:#1f5a85; --acc-soft:#dbe7f1; --acc2:#94620c; --acc2-soft:#f1e6cc;}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="uncharted-waters-2"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}}
 :root:is([data-theme="dark"],[data-theme="dim"]) [data-game="uncharted-waters-2"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="uncharted-waters-2"]{--acc:#6fa8d6; --acc-soft:#132636; --acc2:#dcaa4c; --acc2-soft:#3a2f1c;}
+[data-game="sekiro"]{--acc:#9e2a2b; --acc-soft:#f1dcdb; --acc2:#3d4a57; --acc2-soft:#dfe3e8;}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"]) [data-game="sekiro"],:root:not([data-theme="light"]):not([data-theme="paper"]):not([data-theme="sepia"]):not([data-theme="dim"])[data-game="sekiro"]{--acc:#e0676a; --acc-soft:#3a1a1b; --acc2:#9fb0c2; --acc2-soft:#1f262d;}}
+:root:is([data-theme="dark"],[data-theme="dim"]) [data-game="sekiro"],:root:is([data-theme="dark"],[data-theme="dim"])[data-game="sekiro"]{--acc:#e0676a; --acc-soft:#3a1a1b; --acc2:#9fb0c2; --acc2-soft:#1f262d;}
 
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-weight:400;

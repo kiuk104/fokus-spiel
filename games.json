@@ -103,5 +103,17 @@
   "search_hint": "검색 — 클래스, 동료, 퀘스트, 주사위…",
   "playing": true,
   "links": []
+ },
+ {
+  "id": "sekiro",
+  "name": "세키로",
+  "en": "Sekiro: Shadows Die Twice",
+  "title": "세키로 수련 노트",
+  "mono": "隻",
+  "brand_sub": "섀도우 다이 트와이스",
+  "desc": "세키로: 섀도우 다이 트와이스 개인 공략 노트 — 보스 공략과 진행 기록",
+  "search_hint": "검색 — 보스, 튕겨내기, 의수 인술…",
+  "playing": true,
+  "links": []
  }
 ]
