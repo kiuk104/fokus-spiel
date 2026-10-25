@@ -416,6 +416,19 @@
 - Wyll은 팔라딘: **니어 편을 들거나 니어가 노예를 죽이게 두면 맹세 위반**.
 - 니어 방 주변에 **독가스 분출구**.
 
+### Q18. 기스양키 정찰대 — 꼭 싸워야 하나? (2026-10-25)
+
+**안 싸워도 됨.** 조건이 맞으면 대화로 통과.
+1. **라에젤을 파티에 넣고** 오름길 정찰대(키스락 보스)에게 가기.
+2. 대화에서 **"맞장구치기(Play Along)"** 계열 선택 → **설득 DC 10** (Wyll).
+3. 이어서 **라에젤이 기만 DC 10**.
+4. 둘 다 성공하면 정찰대가 그냥 떠남. 아스타리온(사기꾼 출신)이 파티에 있으면 영감 보너스.
+- 단, **섀도하트의 유물을 기스양키가 알아채면** 이 방법이 안 통함.
+- 대화 전 **F5 저장** 필수.
+
+**실패하면**: 5레벨 전사 3 + 6레벨 지휘관 → 1막 최고 난도급. 지금 레벨로는 매우 위험. 싸워야 하면 성문 위 높은 곳에서 원거리로.
+- 정찰대를 쓰러뜨려도 이후 기스양키 양성소 진행엔 지장 없음. 이기면 기스양키 무기 + 석판(라에젤이 해독 → 양성소 위치).
+
 ### ⚔️ 장비 업그레이드 목표
 
 - **그림포지 아다만틴 대장간**: 미스랄 광석 + 틀 → **아다만틴 판금(Wyll)** 또는 **아다만틴 비늘 갑옷(섀도하트)**. 1막 최고 방어구.
@@ -426,6 +439,7 @@
 - [Dread Hollow - bg3.wiki](https://bg3.wiki/wiki/Dread_Hollow)
 - [Baelen Bonecloak - bg3.wiki](https://bg3.wiki/wiki/Baelen_Bonecloak)
 - [Noblestalk - bg3.wiki](https://bg3.wiki/wiki/Noblestalk)
+- [Risen Road - EIP Gaming](https://eip.gg/bg3/guides/risen-road/)
 - [Grymforge - bg3.wiki](https://bg3.wiki/wiki/Grymforge)
 - [Grymforge - Fextralife](https://baldursgate3.wiki.fextralife.com/Grymforge)
 - [Sussur Bloom - bg3.wiki](https://bg3.wiki/wiki/Sussur_Bloom)
