@@ -370,6 +370,20 @@
 
 **응용**: 적 주문시전자 근처에 던져 두면 적의 주문도 봉인 가능.
 
+### Q15. 샤 신전 들어가는 법 (2026-10-25)
+
+1막의 샤 관련 장소는 **그림포지의 고대 신전**(샤 숭배자들의 옛 신전). 2막의 "샤의 시련"과는 다른 곳.
+
+**가는 법**
+- 그림포지 남쪽 **발굴지**에 **훼손된 샤 석상**(X: -614, Y: 314)이 있음.
+- 방법 1: 움직이는 갑옷이 있는 **용암 지대** 근처로 **한 명만 조심해서 내려가** 틈새를 점프 → 신전 진입.
+- 방법 2: **니어를 처치한 뒤**, 발굴지 독가스 뒤쪽의 **커다란 잠긴 문**이 열림 → 신전으로 바로.
+
+**안에 있는 것**
+- 검은 갑옷 해골들(샤 숭배자 — 역사 판정 DC 10).
+- **거대한 미스릴 광맥** → 부수면 **미스릴 광석** = 아다만틴 대장간 재료. 아다만틴 갑옷의 핵심 재료라 꼭 챙기기.
+- 그 외엔 막다른 곳.
+
 ### ⚔️ 장비 업그레이드 목표
 
 - **그림포지 아다만틴 대장간**: 미스랄 광석 + 틀 → **아다만틴 판금(Wyll)** 또는 **아다만틴 비늘 갑옷(섀도하트)**. 1막 최고 방어구.
@@ -380,6 +394,7 @@
 - [Dread Hollow - bg3.wiki](https://bg3.wiki/wiki/Dread_Hollow)
 - [Baelen Bonecloak - bg3.wiki](https://bg3.wiki/wiki/Baelen_Bonecloak)
 - [Noblestalk - bg3.wiki](https://bg3.wiki/wiki/Noblestalk)
+- [Grymforge - Fextralife](https://baldursgate3.wiki.fextralife.com/Grymforge)
 - [Sussur Bloom - bg3.wiki](https://bg3.wiki/wiki/Sussur_Bloom)
 - [Decrepit Village - bg3.wiki](https://bg3.wiki/wiki/Decrepit_Village)
 - [Arcane Tower guide - PC Gamer](https://www.pcgamer.com/baldurs-gate-3-arcane-tower-omeelum-underdark/)
