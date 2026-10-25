@@ -357,6 +357,19 @@
 **4. 그래도 힘들면**
 - 설정 → 난이도를 **탐험가**로 잠깐 내렸다가 이 전투 후 되돌려도 됨.
 
+### Q14. 파티 전원 "수서꽃 항마법장" — 주문 봉인 (2026-10-25)
+
+**원인**: 누군가 가방에 **수서꽃**(수서나무 꽃)을 들고 있음. 들고 있는 사람과 **주변 아군까지** 주문을 못 씀.
+→ Q13 매복 전투에서 계속 진 진짜 이유일 가능성이 큼. 게일 · 섀도하트가 주문을 하나도 못 쓰는 상태였음.
+
+**해결**
+1. 인벤토리 검색창에 **"수서"** 입력 → 누가 들고 있는지 찾기.
+2. 우클릭 → **야영지로 보내기**. 야영지 **여행용 궤짝**에 두면 시들지 않고 보관됨.
+3. 상태 아이콘이 사라졌는지 확인 후 전투.
+- 비전의 탑 엔진에 넣을 때만 다시 꺼내 오기. 꽃은 언더다크 밖에선 시듦(야영지 궤짝은 예외).
+
+**응용**: 적 주문시전자 근처에 던져 두면 적의 주문도 봉인 가능.
+
 ### ⚔️ 장비 업그레이드 목표
 
 - **그림포지 아다만틴 대장간**: 미스랄 광석 + 틀 → **아다만틴 판금(Wyll)** 또는 **아다만틴 비늘 갑옷(섀도하트)**. 1막 최고 방어구.
@@ -367,6 +380,7 @@
 - [Dread Hollow - bg3.wiki](https://bg3.wiki/wiki/Dread_Hollow)
 - [Baelen Bonecloak - bg3.wiki](https://bg3.wiki/wiki/Baelen_Bonecloak)
 - [Noblestalk - bg3.wiki](https://bg3.wiki/wiki/Noblestalk)
+- [Sussur Bloom - bg3.wiki](https://bg3.wiki/wiki/Sussur_Bloom)
 - [Decrepit Village - bg3.wiki](https://bg3.wiki/wiki/Decrepit_Village)
 - [Arcane Tower guide - PC Gamer](https://www.pcgamer.com/baldurs-gate-3-arcane-tower-omeelum-underdark/)
 
