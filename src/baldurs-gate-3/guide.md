@@ -396,6 +396,20 @@
 - 지상: 사라진 화물(생존자), 기스양키 양성소(라에젤), 동료 대화 · 야영 이벤트
 - 레벨 **5 이상** (경고 문구 = 지금 레벨로는 2막이 어렵다는 뜻)
 
+### Q17. 니어 위치 (절망의 용광로 = 그림포지) (2026-10-25)
+
+- 한글판 지명: **절망의 용광로** = 그림포지.
+- 니어는 드웨가 발굴지 끝, **무너진 돌무더기 뒤**에 갇혀 있음. 퀘스트 일지 → "드웨가 침입자 쓰러뜨리기" → **지도에서 보기**로 표시.
+- 돌무더기 앞에서 **드웨가 하사관 스린**이 노움 노예들에게 땅을 파게 하고 있음. 다가가면 니어가 올챙이로 말을 걸어옴.
+
+**돌무더기 뚫기**
+- 아래층 "명상의 방"에 숨은 노움 **필로민**(잠긴 문 따고 진입)과 거래 → **룬화약 병** → 노움들에게 주면 폭파.
+- 또는 드웨가 **브리스바**를 설득해 반란: 진영의 **감시의 눈**을 먼저 없애 달라고 함 → 이후 니어를 같이 처치하고 돈을 나눔.
+
+**주의**
+- Wyll은 팔라딘: **니어 편을 들거나 니어가 노예를 죽이게 두면 맹세 위반**.
+- 니어 방 주변에 **독가스 분출구**.
+
 ### ⚔️ 장비 업그레이드 목표
 
 - **그림포지 아다만틴 대장간**: 미스랄 광석 + 틀 → **아다만틴 판금(Wyll)** 또는 **아다만틴 비늘 갑옷(섀도하트)**. 1막 최고 방어구.
@@ -406,6 +420,7 @@
 - [Dread Hollow - bg3.wiki](https://bg3.wiki/wiki/Dread_Hollow)
 - [Baelen Bonecloak - bg3.wiki](https://bg3.wiki/wiki/Baelen_Bonecloak)
 - [Noblestalk - bg3.wiki](https://bg3.wiki/wiki/Noblestalk)
+- [Grymforge - bg3.wiki](https://bg3.wiki/wiki/Grymforge)
 - [Grymforge - Fextralife](https://baldursgate3.wiki.fextralife.com/Grymforge)
 - [Sussur Bloom - bg3.wiki](https://bg3.wiki/wiki/Sussur_Bloom)
 - [Decrepit Village - bg3.wiki](https://bg3.wiki/wiki/Decrepit_Village)
