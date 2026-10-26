@@ -17,6 +17,14 @@
 
 아직 기록이 없어요.
 
+## 모드 구성 (BG3 Mod Manager · Vortex)
+
+- 모드는 **BG3 Mod Manager**로 순서를 정하고 **Save → Export** 해야 게임에 반영돼요. 노란 번개 아이콘 = Script Extender 필요.
+- **빨간 줄** = 필요한 모드(의존성) 문제. 예: Gale's beard Fix는 **NF_GaleModsCore보다 아래**에 있어야 함.
+- **가방 모드는 하나만.** BagsBagsBags · BagsBagsBagsReforged · Autosort Containers 를 같이 켜면 같은 물건을 서로 끌어가요. → Autosort Containers 제거(2026-10-26).
+- ⚠️ **아이템을 추가하는 모드는 플레이 도중에 빼면 그 아이템과 안의 내용물이 사라져요.** 이번 세이브는 BagsBagsBags(원조)를 끄면 Reforged 가방에 옮긴 물건까지 사라져서 **원조 + Reforged 둘 다 유지**. 넣고 빼는 건 새 게임 시작할 때만.
+- 모드 파일 위치: `%LocalAppData%\Larian Studios\Baldur's Gate 3\Mods` (Vortex 바로가기 → 원본은 `E:\SteamLibrary\steamapps\common\Baldurs Gate 3\<모드 폴더>`)
+
 ---
 
 # 🎮 PART 2 — 게임플레이 가이드
@@ -108,6 +116,85 @@
 - **긴 휴식은 자주 해도 됨.** 야영 대화(드래곤에이지 캠프 대화 같은 것)가 진행됨.
 - **밀치기**로 절벽·물가의 적을 떨어뜨리면 한 방. 언더다크는 낭떠러지가 많아요.
 - 야영지에서 **"!" 뜬 동료**는 꼭 말 걸기. 이 게임의 진짜 재미는 동료 서사와 로맨스.
+
+## 🎒 인벤토리 · 가방 정리
+
+### 이름이 섞여 보이는 이유
+
+가방 모드가 두 개라서 **같은 용도의 가방이 2개씩** 생겨요.
+- **영어 이름 가방** = 원조 **BagsBagsBags** (한글화 없음)
+- **한글 이름 가방** = **BagsBagsBagsReforged** (+ 한글화 모드)
+
+자동 분류는 **파티원 인벤토리에 있는 가방만** 작동해요. 같은 용도 가방은 하나만 몸에 들고, 짝꿍은 **여행용 궤짝**에 빈 채로 넣어두면 서로 물건을 뺏지 않아요.
+
+### 📖 가방 한영 대조표
+
+같은 줄 = 같은 용도. ⚙️ = 자동 분류(주우면 알아서 들어감), ✋ = 직접 넣기. 한글·영문은 설치된 모드 파일에서 그대로 뽑은 이름이에요.
+
+| 용도 | Reforged 한글 이름 | Reforged 영문 이름 | 원조 BagsBagsBags (영문) |
+|---|---|---|---|
+| **물약** | 차가운 물약 상자 ⚙️ | Chilled Potion Crate | Potion Pouch ⚙️ |
+| **두루마리** | 실룬의 두루마리 통 ⚙️ | Syluné's Scroll Case | Scroll Case ⚙️ |
+| **화살 · 탄환(볼트)** | 자론다르의 화살통 ⚙️ | Zarondar's Quiver | Arrows ⚙️ |
+| **수류탄 · 폭발물** | 자카라 연금술사의 가방 ⚙️ | Zakharan Alchemist's Satchel | Grenade Satchel ⚙️ |
+| **독 · 무기 도포제** | 암살자의 허리띠 ⚙️ | Assassin's Belt | Weapon Coatings ⚙️ |
+| **책 · 메모 · 편지** | 무한 책장 ⚙️ | The Infinite Bookcase | Books ⚙️ |
+| **염료** | 흑목 염료 상자 ⚙️ | Darkwood Dye Chest | Dye sack ✋ |
+| **야영지 복장 · 속옷** | 의류 진열장 ⚙️ | Clothing Display Case | Clothes Bundle ✋ |
+| **금화 · 귀금속** | '아바토르의 베인' 금고 ⚙️ | 'Abbathor's Bane' Strongbox | Valuables ✋ |
+| **장비 (무기·방패·투구·갑옷·장갑·망토·장화)** | 모덴카이넨의 에테르 무기고 ✋ (종류별로 같은 이름 여러 개) | Mordenkainen's Aetherial Armory | Weapon bag · Shield bag · Helm bag · Armor bag · Gloves bag · Cloak bag · Boots bag ✋ |
+| **보석 (반지·목걸이)** | 딥윈터의 보석함 ✋ | Deepwinter's Jewelcase | Jewellery Case ✋ |
+| **퀘스트 물품** | 세 가지 운명의 가방 ✋ | The Bag of Threefold Fates | Quest Items ✋ |
+| **여분 장비 섞어 담기** | 영웅의 장비 가방 | Hero's Gear Bag | Gear ✋ |
+| **기념품** | 기쁨의 주머니 | Pouch of Joy | Keepsakes box ✋ |
+| **잡동사니** | 철트 비늘가방 | Chultan Scalebag | Bits and bobs ✋ |
+| **가방 보관용 가방** | 소유의 가방 꾸러미 ✋ | Bag of Holding Bags | Bags Bag |
+
+**Reforged에만 있는 가방**
+
+| 용도 | 한글 | 영문 |
+|---|---|---|
+| 연금술 재료 | 아멜리오의 연금술 보관함 ⚙️ | Amelior's Alchemy Case |
+| 음식 · 음료 | 하플링의 도시락 ⚙️ | The Halfling's Lunchbox |
+| 포도주 · 에일 · 증류주 | 드워프 술장 ⚙️ | Dwarven Liquor Cabinet |
+| 열쇠 | 더마토인의 열쇠고리 ⚙️ | Dumathoin's Keyring |
+| 모험 도구 | 모험가의 배낭 ⚙️ | Adventurer's Backpack |
+| 팔 물건 | 화물 상자 | Wares Crate |
+| 악기 | 와이번스퍼의 악기 보관함 | Wyvernspur's Instrument Case |
+| 가방 꾸러미 소환 반지 | 정리정돈의 네더릴 반지 | Netherese Ring of Organizing |
+| 동료 전용 가방 소환 주문 | 숙명의 가방 소환 | Summon Fatebound Bag |
+
+**동료 전용 가방** (그 동료의 여분 장비·개인 물품)
+
+| 동료 | 한글 | 영문 |
+|---|---|---|
+| 윌 | 레이븐가드 상자 | Ravengard Chest |
+| 섀도하트 | 샤의 밤가방 | Sharran Nightbag |
+| 레이젤 | 기스양키 가죽 자루 | Githyanki Leather Sack |
+| 게일 | 비전 상자 | Arcane Chest |
+| 아스타리온 | 상류층의 손가방 | Nobleman's Handbag |
+| 카를라크 | 아베르누스 영혼 상자 | Avernus Soulchest |
+| 할신 | 버크 가죽 배낭 | Buckskin Pack |
+| 자헤이라 | 낡은 여행용 짐가방 | Worn Travel Trunk |
+| 민스크 | 오래된 털가방 | Old Woolen Pack |
+| 민타라 | 베인레 거미 비단 가방 | Baenre Spidersilk Bag |
+
+### 화면 용어
+
+| 한글 | 영문 |
+|---|---|
+| 여행용 궤짝 | Traveller's Chest |
+| 전부 습득 | Take All |
+| 모두 표시 | Show All (인벤토리 필터) |
+| 무기 도포제 | Weapon Oils / Coatings |
+| 탄환 | Bolts (석궁 볼트) |
+
+### 몸에 들고 다닐 가방 5개 (추천)
+
+**차가운 물약 상자 · 실룬의 두루마리 통 · 자론다르의 화살통 · 자카라 연금술사의 가방 · 암살자의 허리띠**
+- 나머지 가방은 여행용 궤짝에. 익숙해지면 연금술 재료·염료 가방을 하나씩 추가.
+- 분류 안 된 물건은 **다른 동료 초상화에 끌어다 놓았다가 돌려받으면** 자동 분류가 다시 돌아요.
+- 음식은 캠프로 보내면 야영 물자로 정리, 안 쓰는 장비·잡템은 팔기.
 
 ## 진행 기록
 
@@ -437,6 +524,12 @@
 **실패하면**: 5레벨 전사 3 + 6레벨 지휘관 → 1막 최고 난도급. 지금 레벨로는 매우 위험. 싸워야 하면 성문 위 높은 곳에서 원거리로.
 - 정찰대를 쓰러뜨려도 이후 기스양키 양성소 진행엔 지장 없음. 이기면 기스양키 무기 + 석판(라에젤이 해독 → 양성소 위치).
 
+### Q19. 인벤토리 정리 — 가방 모드 충돌과 아이템 증발 (2026-10-26)
+
+- 가방 모드 3개(BagsBagsBags · Reforged · Autosort Containers)가 동시에 켜져 있어 같은 물건을 서로 끌어감 → **Autosort Containers 제거**.
+- 원조 BagsBagsBags를 끄면 가방에서 꺼내 옮긴 물건까지 사라짐(이전 세이브로 복구) → **원조 + Reforged 둘 다 유지**하기로.
+- 같은 가방이 2개씩 생기는 건 정상. 한 세트만 몸에 들고 짝꿍은 여행용 궤짝에. 이름은 위 **가방 한영 대조표** 참고.
+
 ### ⚔️ 장비 업그레이드 목표
 
 - **그림포지 아다만틴 대장간**: 미스랄 광석 + 틀 → **아다만틴 판금(Wyll)** 또는 **아다만틴 비늘 갑옷(섀도하트)**. 1막 최고 방어구.
@@ -444,6 +537,9 @@
 
 ## 참고 자료
 
+- [Bags Bags Bags - Nexus Mods](https://www.nexusmods.com/baldursgate3/mods/880)
+- [Bags Bags Bags - REFORGED - Nexus Mods](https://www.nexusmods.com/baldursgate3/mods/5422)
+- 가방 한글·영문 이름: 설치된 BagsBagsBagsReforged.pak · BagsBagsBagsReforged-KR.pak 번역 파일에서 직접 추출 (2026-10-26)
 - [Dread Hollow - bg3.wiki](https://bg3.wiki/wiki/Dread_Hollow)
 - [Baelen Bonecloak - bg3.wiki](https://bg3.wiki/wiki/Baelen_Bonecloak)
 - [Noblestalk - bg3.wiki](https://bg3.wiki/wiki/Noblestalk)
