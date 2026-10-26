@@ -129,55 +129,55 @@
 
 ### 📖 가방 한영 대조표
 
-같은 줄 = 같은 용도. ⚙️ = 자동 분류(주우면 알아서 들어감), ✋ = 직접 넣기. 한글·영문은 설치된 모드 파일에서 그대로 뽑은 이름이에요.
+같은 줄 = 같은 용도. ⚙️ = 자동 분류(주우면 알아서 들어감), ✋ = 직접 넣기. 한글·영문 이름과 아이콘은 설치된 모드 파일에서 그대로 뽑았어요. 원조 BagsBagsBags 아이콘은 아직 없어요.
 
 | 용도 | Reforged 한글 이름 | Reforged 영문 이름 | 원조 BagsBagsBags (영문) |
 |---|---|---|---|
-| **물약** | 차가운 물약 상자 ⚙️ | Chilled Potion Crate | Potion Pouch ⚙️ |
-| **두루마리** | 실룬의 두루마리 통 ⚙️ | Syluné's Scroll Case | Scroll Case ⚙️ |
-| **화살 · 탄환(볼트)** | 자론다르의 화살통 ⚙️ | Zarondar's Quiver | Arrows ⚙️ |
-| **수류탄 · 폭발물** | 자카라 연금술사의 가방 ⚙️ | Zakharan Alchemist's Satchel | Grenade Satchel ⚙️ |
-| **독 · 무기 도포제** | 암살자의 허리띠 ⚙️ | Assassin's Belt | Weapon Coatings ⚙️ |
-| **책 · 메모 · 편지** | 무한 책장 ⚙️ | The Infinite Bookcase | Books ⚙️ |
-| **염료** | 흑목 염료 상자 ⚙️ | Darkwood Dye Chest | Dye sack ✋ |
-| **야영지 복장 · 속옷** | 의류 진열장 ⚙️ | Clothing Display Case | Clothes Bundle ✋ |
-| **금화 · 귀금속** | '아바토르의 베인' 금고 ⚙️ | 'Abbathor's Bane' Strongbox | Valuables ✋ |
-| **장비 (무기·방패·투구·갑옷·장갑·망토·장화)** | 모덴카이넨의 에테르 무기고 ✋ (종류별로 같은 이름 여러 개) | Mordenkainen's Aetherial Armory | Weapon bag · Shield bag · Helm bag · Armor bag · Gloves bag · Cloak bag · Boots bag ✋ |
-| **보석 (반지·목걸이)** | 딥윈터의 보석함 ✋ | Deepwinter's Jewelcase | Jewellery Case ✋ |
-| **퀘스트 물품** | 세 가지 운명의 가방 ✋ | The Bag of Threefold Fates | Quest Items ✋ |
-| **여분 장비 섞어 담기** | 영웅의 장비 가방 | Hero's Gear Bag | Gear ✋ |
-| **기념품** | 기쁨의 주머니 | Pouch of Joy | Keepsakes box ✋ |
-| **잡동사니** | 철트 비늘가방 | Chultan Scalebag | Bits and bobs ✋ |
-| **가방 보관용 가방** | 소유의 가방 꾸러미 ✋ | Bag of Holding Bags | Bags Bag |
+| **물약** | <img src="icons/PotionBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">차가운 물약 상자 ⚙️ | Chilled Potion Crate | Potion Pouch ⚙️ |
+| **두루마리** | <img src="icons/ScrollBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">실룬의 두루마리 통 ⚙️ | Syluné's Scroll Case | Scroll Case ⚙️ |
+| **화살 · 탄환(볼트)** | <img src="icons/ArrowBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">자론다르의 화살통 ⚙️ | Zarondar's Quiver | Arrows ⚙️ |
+| **수류탄 · 폭발물** | <img src="icons/GrenadeBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">자카라 연금술사의 가방 ⚙️ | Zakharan Alchemist's Satchel | Grenade Satchel ⚙️ |
+| **독 · 무기 도포제** | <img src="icons/CoatingBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">암살자의 허리띠 ⚙️ | Assassin's Belt | Weapon Coatings ⚙️ |
+| **책 · 메모 · 편지** | <img src="icons/BookBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">무한 책장 ⚙️ | The Infinite Bookcase | Books ⚙️ |
+| **염료** | <img src="icons/DyeBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">흑목 염료 상자 ⚙️ | Darkwood Dye Chest | Dye sack ✋ |
+| **야영지 복장 · 속옷** | <img src="icons/ClothingBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">의류 진열장 ⚙️ | Clothing Display Case | Clothes Bundle ✋ |
+| **금화 · 귀금속** | <img src="icons/ValuableBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">'아바토르의 베인' 금고 ⚙️ | 'Abbathor's Bane' Strongbox | Valuables ✋ |
+| **장비 (무기·방패·투구·갑옷·장갑·망토·장화)** | <img src="icons/MeleeBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/ShieldBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/RangedBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/HelmBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/ArmorBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/GloveBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/CloakBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><img src="icons/BootBag.png" width="24" height="24" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px"><br>모덴카이넨의 에테르 무기고 ✋ (근거리·방패·원거리·투구·갑옷·장갑·망토·장화 — 이름은 같고 아이콘 테두리 색이 달라요) | Mordenkainen's Aetherial Armory | Weapon bag · Shield bag · Helm bag · Armor bag · Gloves bag · Cloak bag · Boots bag ✋ |
+| **보석 (반지·목걸이)** | <img src="icons/JewelryBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">딥윈터의 보석함 ✋ | Deepwinter's Jewelcase | Jewellery Case ✋ |
+| **퀘스트 물품** | <img src="icons/QuestBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">세 가지 운명의 가방 ✋ | The Bag of Threefold Fates | Quest Items ✋ |
+| **여분 장비 섞어 담기** | <img src="icons/GearBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">영웅의 장비 가방 | Hero's Gear Bag | Gear ✋ |
+| **기념품** | <img src="icons/KeepsakeBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">기쁨의 주머니 | Pouch of Joy | Keepsakes box ✋ |
+| **잡동사니** | <img src="icons/MiscBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">철트 비늘가방 | Chultan Scalebag | Bits and bobs ✋ |
+| **가방 보관용 가방** | <img src="icons/BagBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">소유의 가방 꾸러미 ✋ | Bag of Holding Bags | Bags Bag |
 
 **Reforged에만 있는 가방**
 
 | 용도 | 한글 | 영문 |
 |---|---|---|
-| 연금술 재료 | 아멜리오의 연금술 보관함 ⚙️ | Amelior's Alchemy Case |
-| 음식 · 음료 | 하플링의 도시락 ⚙️ | The Halfling's Lunchbox |
-| 포도주 · 에일 · 증류주 | 드워프 술장 ⚙️ | Dwarven Liquor Cabinet |
-| 열쇠 | 더마토인의 열쇠고리 ⚙️ | Dumathoin's Keyring |
-| 모험 도구 | 모험가의 배낭 ⚙️ | Adventurer's Backpack |
-| 팔 물건 | 화물 상자 | Wares Crate |
-| 악기 | 와이번스퍼의 악기 보관함 | Wyvernspur's Instrument Case |
-| 가방 꾸러미 소환 반지 | 정리정돈의 네더릴 반지 | Netherese Ring of Organizing |
+| 연금술 재료 | <img src="icons/AlchemyBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">아멜리오의 연금술 보관함 ⚙️ | Amelior's Alchemy Case |
+| 음식 · 음료 | <img src="icons/FoodBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">하플링의 도시락 ⚙️ | The Halfling's Lunchbox |
+| 포도주 · 에일 · 증류주 | <img src="icons/AlcoholBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">드워프 술장 ⚙️ | Dwarven Liquor Cabinet |
+| 열쇠 | <img src="icons/KeyBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">더마토인의 열쇠고리 ⚙️ | Dumathoin's Keyring |
+| 모험 도구 | <img src="icons/AdventurerBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">모험가의 배낭 ⚙️ | Adventurer's Backpack |
+| 팔 물건 | <img src="icons/JunkBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">화물 상자 | Wares Crate |
+| 악기 | <img src="icons/InstrumentBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">와이번스퍼의 악기 보관함 | Wyvernspur's Instrument Case |
+| 가방 꾸러미 소환 반지 | <img src="icons/OrganizingRing.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">정리정돈의 네더릴 반지 | Netherese Ring of Organizing |
 | 동료 전용 가방 소환 주문 | 숙명의 가방 소환 | Summon Fatebound Bag |
 
 **동료 전용 가방** (그 동료의 여분 장비·개인 물품)
 
 | 동료 | 한글 | 영문 |
 |---|---|---|
-| 윌 | 레이븐가드 상자 | Ravengard Chest |
-| 섀도하트 | 샤의 밤가방 | Sharran Nightbag |
-| 레이젤 | 기스양키 가죽 자루 | Githyanki Leather Sack |
-| 게일 | 비전 상자 | Arcane Chest |
-| 아스타리온 | 상류층의 손가방 | Nobleman's Handbag |
-| 카를라크 | 아베르누스 영혼 상자 | Avernus Soulchest |
-| 할신 | 버크 가죽 배낭 | Buckskin Pack |
-| 자헤이라 | 낡은 여행용 짐가방 | Worn Travel Trunk |
-| 민스크 | 오래된 털가방 | Old Woolen Pack |
-| 민타라 | 베인레 거미 비단 가방 | Baenre Spidersilk Bag |
+| 윌 | <img src="icons/WyllBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">레이븐가드 상자 | Ravengard Chest |
+| 섀도하트 | <img src="icons/ShadowheartBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">샤의 밤가방 | Sharran Nightbag |
+| 레이젤 | <img src="icons/LaezelBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">기스양키 가죽 자루 | Githyanki Leather Sack |
+| 게일 | <img src="icons/GaleBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">비전 상자 | Arcane Chest |
+| 아스타리온 | <img src="icons/AstarionBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">상류층의 손가방 | Nobleman's Handbag |
+| 카를라크 | <img src="icons/KarlachBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">아베르누스 영혼 상자 | Avernus Soulchest |
+| 할신 | <img src="icons/HalsinBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">버크 가죽 배낭 | Buckskin Pack |
+| 자헤이라 | <img src="icons/JaheiraBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">낡은 여행용 짐가방 | Worn Travel Trunk |
+| 민스크 | <img src="icons/MinscBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">오래된 털가방 | Old Woolen Pack |
+| 민타라 | <img src="icons/MintharaBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">베인레 거미 비단 가방 | Baenre Spidersilk Bag |
 
 ### 화면 용어
 
@@ -191,7 +191,7 @@
 
 ### 몸에 들고 다닐 가방 5개 (추천)
 
-**차가운 물약 상자 · 실룬의 두루마리 통 · 자론다르의 화살통 · 자카라 연금술사의 가방 · 암살자의 허리띠**
+<img src="icons/PotionBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">**차가운 물약 상자** · <img src="icons/ScrollBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">**실룬의 두루마리 통** · <img src="icons/ArrowBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">**자론다르의 화살통** · <img src="icons/GrenadeBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">**자카라 연금술사의 가방** · <img src="icons/CoatingBag.png" width="32" height="32" alt="" loading="lazy" style="vertical-align:middle;margin-right:6px">**암살자의 허리띠**
 - 나머지 가방은 여행용 궤짝에. 익숙해지면 연금술 재료·염료 가방을 하나씩 추가.
 - 분류 안 된 물건은 **다른 동료 초상화에 끌어다 놓았다가 돌려받으면** 자동 분류가 다시 돌아요.
 - 음식은 캠프로 보내면 야영 물자로 정리, 안 쓰는 장비·잡템은 팔기.
