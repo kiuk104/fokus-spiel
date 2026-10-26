@@ -37,6 +37,36 @@
     document.addEventListener('keydown',function(e){ if(e.key==='Escape' && !panel.hidden){ togglePanel(false); setBtn.focus(); } });
   }
 
+  // install as app — 허브 상단 버튼 + 설정 창 "앱" 줄. 이미 앱으로 열려 있으면 숨김
+  (function(){
+    var standalone=(window.matchMedia&&matchMedia('(display-mode: standalone)').matches)||navigator.standalone===true;
+    if(standalone) return;
+    var ua=navigator.userAgent, ios=/iPhone|iPad|iPod/.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1);
+    var deferred=null, btns=[], help=null;
+    function mk(cls,label){ var b=document.createElement('button'); b.type='button'; b.className=cls; b.innerHTML=label; b.hidden=true; b.addEventListener('click',install); btns.push(b); return b; }
+    function show(on){ btns.forEach(function(b){ b.hidden=!on; }); }
+    function say(t){ if(!help) return; help.textContent=t; help.hidden=false; }
+    function install(e){ if(e) e.stopPropagation();
+      if(deferred){ deferred.prompt(); deferred.userChoice.then(function(r){ if(r&&r.outcome==='accepted') show(false); deferred=null; }); return; }
+      if(ios) say('Safari 아래쪽 공유 버튼(□↑) → "홈 화면에 추가"를 누르세요.');
+      else say('브라우저 메뉴(⋮)에서 "앱 설치" 또는 "홈 화면에 추가"를 누르세요. 주소창 오른쪽의 설치 아이콘(⊕)으로도 할 수 있어요.');
+      if(setBtn&&panel&&panel.hidden) setBtn.click();
+    }
+    var dl='<svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-2px;margin-right:5px"><path d="M12 4v11"/><path d="M7 10l5 5 5-5"/><path d="M5 20h14"/></svg>';
+    // 설정 창 "앱" 줄 (모든 페이지)
+    var app=document.querySelector('#setPanel .sp-app');
+    if(app){ var row=app.parentNode, b=mk('',dl+'앱으로 설치'); b.id='installBtn2'; app.insertBefore(b,app.firstChild);
+      help=document.createElement('p'); help.className='sp-note'; help.hidden=true; row.appendChild(help); }
+    // 허브 상단 바
+    var top=document.querySelector('.hub-top .in');
+    if(top&&setBtn){ var t=mk('btn',dl+'앱 설치'); t.id='installBtn'; t.style.cssText='height:34px;display:inline-flex;align-items:center;white-space:nowrap'; top.insertBefore(t,setBtn); }
+    addEventListener('beforeinstallprompt',function(e){ e.preventDefault(); deferred=e; show(true); });
+    addEventListener('appinstalled',function(){ deferred=null; show(false); if(help) help.hidden=true; });
+    // 설치 이벤트가 없는 브라우저(iOS Safari 등)는 설정 창에만 안내 버튼을 둔다
+    if(ios){ show(true); }
+    else setTimeout(function(){ if(!deferred){ btns.forEach(function(b){ if(b.id==='installBtn2') b.hidden=false; }); } },3000);
+  })();
+
   // offline
   if('serviceWorker' in navigator){ addEventListener('load',function(){ navigator.serviceWorker.register(ROOT+'sw.js',{scope:ROOT||'./'}).catch(function(){}); }); }
 
