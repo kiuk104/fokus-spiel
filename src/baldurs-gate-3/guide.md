@@ -530,7 +530,7 @@
 - 원조 BagsBagsBags를 끄면 가방에서 꺼내 옮긴 물건까지 사라짐(이전 세이브로 복구) → **원조 + Reforged 둘 다 유지**하기로.
 - 같은 가방이 2개씩 생기는 건 정상. 한 세트만 몸에 들고 짝꿍은 여행용 궤짝에. 이름은 위 **가방 한영 대조표** 참고.
 
-### Q19. 가방이 무거울 때 정리법 (2026-10-26)
+### Q20. 가방이 무거울 때 정리법 (2026-10-26)
 
 **팔 곳 (언더다크)**: 순간 이동진 **마이코니드 군락** → 데리스 · 블러그. 그림포지(절망의 용광로)에도 상인 여럿.
 **바로 줄이는 법**
@@ -539,6 +539,28 @@
 - 거래는 **Wyll**(매력 최고)로, 무거운 짐은 **Wyll·라에젤**(근력 18) 쪽으로.
 **팔아도 되는 것**: 회색(일반) 무기 · 갑옷, 접시 · 술병 · 촛대 같은 잡동사니, 읽은 책.
 **팔지 말 것**: **주황 테두리(이야기 아이템)**, 공작송이, 지옥철, 미스릴 광석, 두루마리 · 물약.
+
+### Q21. 장밋빛 아침 수도원 — 잠긴 돌벽과 스테인드글라스 퍼즐 (2026-10-27)
+
+**상황**: 수도원 2층 스테인드글라스 방(X:75 Y:75 부근)의 **잠긴 돌벽**. 점프·순간이동 시 "공간이 부족합니다 / 경로가 가로막혔습니다" → 환영이 아니라 진짜 벽.
+**해결**: 방의 제단 4개에 의식용 무기를 올리면 장검과 망치 사이 벽이 열림. ✅ **2026-10-27 완료** (무기 4개 모두 배치).
+
+| 제단 (새벽주인) | 무기 | 구하는 곳 |
+|---|---|---|
+| 처음부터 놓여 있음 | 의식용 장검 | 파란 불빛 두 개 제단 |
+| **시드** (북동쪽) | 의식용 전투망치 | 수도원 **지붕 독수리 둥지** |
+| **바세이드** | 의식용 전투도끼 | 2층 옛 숙소(X:105 Y:45), 수호자 처치 |
+| **스톡홀드** (남동쪽) | 녹슨 메이스 (대체 가능) | 1층 X:85~87 Y:32 바닥, 또는 남동쪽 스톡홀드 무덤을 **삽**으로 파기 |
+
+- **지붕 가는 길**: 그렘리슈카 방 → 판자로 막힌 출입구 부수기 → 밖의 **뒤엉킨 뿌리** 타고 오르기.
+- **독수리**: 동물 조련 DC 18(또는 동물과 대화 + 설득)로 중립 유지, 은신으로 몰래 줍기, 또는 전투. 큰 독수리가 **지붕 밖으로 밀어내니** 가장자리 피하기.
+- 진짜 의식용 메이스는 1층 **술 취한 코볼트**가 갖고 있음. 퍼즐엔 녹슨 메이스로 충분.
+- 잘못 올려도 무기는 안 사라짐 — 제단 클릭하면 보관함처럼 열려서 다시 꺼낼 수 있음. 인벤토리 검색창에 `의식` 입력하면 의식용 무기만 보임.
+- 자물쇠 따기로도 열 수 있지만 난이도가 매우 높음.
+- 퍼즐이 끝나면 무기는 다시 가져가도 됨(성능 평범 → 팔거나 놔두기).
+
+**다음**: 벽 속 주머니에서 **새벽주인의 문장** 챙기기 → 계단 아래 **태양 문양 문** → 비밀 방의 방어막 해제 → 서쪽 단상의 **라센더의 피**(전설 메이스).
+⚠️ 문장 없이 라센더의 피를 집으면 수도원 붕괴 장치 작동 → **4턴 안에 탈출**.
 
 ### ⚔️ 장비 업그레이드 목표
 
@@ -560,5 +582,12 @@
 - [Sussur Bloom - bg3.wiki](https://bg3.wiki/wiki/Sussur_Bloom)
 - [Decrepit Village - bg3.wiki](https://bg3.wiki/wiki/Decrepit_Village)
 - [Arcane Tower guide - PC Gamer](https://www.pcgamer.com/baldurs-gate-3-arcane-tower-omeelum-underdark/)
+
+- [Rosymorn Monastery - bg3.wiki](https://bg3.wiki/wiki/Monastery)
+- [Rosymorn Monastery puzzle - PC Gamer](https://pcgamer.com/baldurs-gate-3-rosymorn-monastery-puzzle)
+- [Dawnmaster's Crest - Prima Games](https://primagames.com/tips/baldurs-gate-3-how-to-get-the-dawnmasters-crest-in-bg3)
+- [Ceremonial Weapon Locations - Dot Esports](https://dotesports.com/?p=997034)
+- [Find the True Blood of Lathander - Nightly Gaming Binge](https://nightlygamingbinge.com/find-the-true-blood-of-lathander-baldurs-gate-iii/)
+- [Rosymorn Monastery - Fextralife](https://baldursgate3.wiki.fextralife.com/ROSYMORN+MONASTERY)
 
 - 2026-09-27 스크린샷 기반 파티 분석 (캐릭터 시트 · 퀘스트 일지 · 언더다크 지도)
