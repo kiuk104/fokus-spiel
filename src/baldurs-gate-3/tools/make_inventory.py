@@ -33,6 +33,65 @@ def cat(st):
         if st.startswith(prefs): return name
     return '기타'
 ORDER = {c: i for i, (c, _) in enumerate(CATS)}; ORDER['기타'] = 99
+
+KEEP, SELL, MAYBE = '🟢 보관', '🔴 팔기', '🟡 비교'
+# 아이템별 판단 (stats ID 기준) — 파티: Wyll(팔라딘) · 게일(위저드) · 아스타리온(로그) · 라에젤(전사) · 섀도하트(클레릭)
+OVR = {
+ 'MAG_Monk_Magic_Gloves': (SELL, '몽크 전용 — 파티에 몽크 없음'),
+ 'MAG_Monk_Fire_Gloves': (SELL, '몽크 전용 — 파티에 몽크 없음'),
+ 'MAG_BarbMonk_Defensive_Cloth': (MAYBE, '바바리안·몽크용 — 카를라크를 쓸 거면 보관, 아니면 비싸게 팔림'),
+ 'MAG_Thunder_ThunderClap_Quarterstaff': (SELL, '근접 지팡이 — 게일은 주문 위주라 쓸 일 적음'),
+ 'MAG_Bard_TempHP_Armor': (SELL, '바드용 — 파티에 바드 없음'),
+ 'UND_DuergarRaft_PestKillerAxe': (SELL, '평범한 대형 도끼'),
+ 'MAG_Mobility_MomentumOnCombatStart_Helmet': (KEEP, '전투 시작 시 이동력 — 누구나 좋음, 장착 추천'),
+ 'MAG_Healer_TempHPOnHeal_Boots': (KEEP, '치유하면 임시 생명력 — 섀도하트'),
+ 'UNI_ARM_OfArchery_Gloves': (KEEP, '원거리 명중 +2 — 아스타리온'),
+ 'GOB_Priest_Amulet': (KEEP, '지원 주문 — Wyll (목걸이 배분표)'),
+ 'GOB_Priest_Shield': (KEEP, '방패 — Wyll이 한손 무기 쓸 때 / 섀도하트'),
+ 'UND_MushroomHunger_RingOfExploration': (KEEP, '장착 추천'),
+ 'UNI_UND_RingOfMindShielding': (KEEP, '장착 추천'),
+ 'UND_Tower_AmuletDetectThoughts': (KEEP, '생각 탐지 — 대화에 유용'),
+ 'UND_Minotaur_BeltAmulet': (KEEP, '게일에게 먹이기 (개인 퀘스트)'),
+ 'MAG_Healer_HPRestoration_Amulet': (KEEP, '치유의 단어 — 게일'),
+ 'FOR_OgresForHire_HeadbandOfIntellect': (MAYBE, '오우거 퀘스트 물건 — 쓸 일 없으면 270골드에 팔기'),
+ 'FOR_SchoolOgres_Horn': (KEEP, '고용한 오우거 부르기'),
+ 'MAG_Violence_LowHP_Violence_Clothes': (MAYBE, '아스타리온 갑옷과 비교'),
+ 'PLA_WPN_SwordOfJustice': (MAYBE, '라에젤 지금 무기와 비교'),
+ 'UNI_DoomHammer': (MAYBE, 'Wyll 예전 주무기 — 지금 무기가 더 좋으면 팔기'),
+ 'UND_Wand_Fireballs_Crooked': (KEEP, '화염구 마법봉'),
+ 'UNI_MagicStaff_Part_Crystal': (KEEP, '지팡이 부품'),
+ 'GLO_SoulCoin': (KEEP, '나중에 쓰임'),
+ 'COL_BrainJar_Memory': (KEEP, '이야기 관련일 수 있음'),
+ 'OBJ_Myconid_Flesh': (KEEP, ''),
+ 'OBJ_Tool_Shovel': (KEEP, '무덤 파기'),
+ 'OBJ_Kit_TrapDisarm': (KEEP, '함정 해제'),
+ 'OBJ_GenericLootItem': (SELL, ''),
+ 'OBJ_Barrel_Filled_Oil': (SELL, '무거움'),
+ 'ARM_Instrument_Lute_B': (SELL, '악기'),
+ 'OBJ_Bedroll': (SELL, ''), 'OBJ_Rope': (SELL, ''),
+ 'ARM_KeepsakeLocket_A': (KEEP, '팔지 말 것 (목걸이 배분표)'),
+ 'ARM_Amulet': (KEEP, '로켓 · 목걸이 — 이야기 관련일 수 있음'),
+ 'CONS_DRINK_Water_Bottle': (KEEP, '야영 물자'),
+ 'WPN_LightCrossbow': (MAYBE, '섀도하트 원거리 무기가 없으면 주기'),
+}
+for k in ('ARM_HalfPlate', 'ARM_ChainMail', 'ARM_Splint', 'ARM_Plate', 'GTY_', 'ARM_Githyanki'):
+    pass
+HEAVY = ('HalfPlate', 'ChainMail', 'Splint', 'Plate_Body', 'Githyanki')
+def verdict(x):
+    st = x.get('stats') or ''; c = cat(st)
+    if st in OVR: return OVR[st]
+    if st.startswith('ARM_') and any(h in st for h in HEAVY) and 'ChainShirt' not in st: return (MAYBE, '중갑 — Wyll·라에젤 지금 갑옷과 비교')
+    if x.get('story'): return (KEEP, '이야기 아이템')
+    if 'Rotten' in st: return (SELL, '썩은 음식')
+    if c in ('가방', '물약', '두루마리', '화살', '투척물', '독·도포제', '연금술 재료', '열쇠', '염료', '음식·술', '야영지 옷'): return (KEEP, '')
+    if c in ('잡동사니', '보석·귀중품'): return (SELL, '돈으로 바꾸기')
+    if c == '책·쪽지': return (SELL, '읽은 뒤 팔기')
+    if c in ('무기', '방어구', '반지', '목걸이', '마법 장비'):
+        if (x.get('rarity') or 0) >= 1: return (MAYBE, '지금 장비와 비교')
+        return (SELL, '평범한 장비')
+    if c == '도구': return (KEEP, '')
+    return (MAYBE, '')
+SELL_LIST = []
 RAR = {1: '#3f9d4a', 2: '#3a7bd5', 3: '#9b4dd6', 4: '#d39c3c'}
 def names(x):
     k = x.get('name') or ''
@@ -47,7 +106,7 @@ def img(x):
     if ic in have_icon:
         return '<img src="icons/items/%s.png" alt="" loading="lazy" width="32" height="32" style="%s">' % (html.escape(ic), st)
     return ''
-def rows(items):
+def rows(items, where=''):
     g = collections.OrderedDict()
     for x in items or []:
         if 'err' in x: continue
@@ -60,11 +119,14 @@ def rows(items):
     for x, n in lst:
         k, e = names(x)
         badge = ' <span title="이야기 아이템" style="color:#c96a12">◆</span>' if x.get('story') else ''
-        out.append('<tr><td>%s</td><td>%s%s</td><td>%s</td><td style="text-align:right">%s</td><td>%s</td></tr>' % (
-            img(x), html.escape(k) if k else '<span style="opacity:.6">(한글 없음)</span>', badge, html.escape(e or ''), n, cat(x.get('stats'))))
+        v, why = verdict(x)
+        if v == SELL and x.get('stats') != 'OBJ_GoldPile': SELL_LIST.append((x, n, where))
+        if x.get('stats') == 'OBJ_GoldPile': v, why = '', ''
+        out.append('<tr><td>%s</td><td>%s%s</td><td>%s</td><td style="text-align:right">%s</td><td>%s</td><td style="white-space:nowrap">%s</td><td style="opacity:.75">%s</td></tr>' % (
+            img(x), html.escape(k) if k else '<span style="opacity:.6">(한글 없음)</span>', badge, html.escape(e or ''), n, cat(x.get('stats')), v, html.escape(why)))
     return out
 def table(r):
-    return ('<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>종류</th></tr></thead><tbody>%s</tbody></table>' % ''.join(r))
+    return ('<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>종류</th><th>판정</th><th>이유</th></tr></thead><tbody>%s</tbody></table>' % ''.join(r))
 def count(items):
     c = 0
     for x in items or []:
@@ -84,17 +146,27 @@ for c in inv['chars']:
     who = c.get('name') or '?'
     total = count(c.get('items'))
     body = []
-    top = rows(c.get('items'))
+    top = rows(c.get('items'), who + ' · 가방 밖')
     if top: body.append('<p><b>가방 밖</b></p>' + table(top))
     for x in sorted([x for x in c.get('items') or [] if x.get('items')], key=lambda x: names(x)[0] or names(x)[1]):
         k, e = names(x)
         label = (k + ' · ' + e) if k else e
-        sub = rows(x.get('items'))
+        sub = rows(x.get('items'), who + ' · ' + label)
         nested = [y for y in x.get('items') if y.get('items')]
         for y in nested:
-            sub += ['<tr><td colspan="5"><i>└ %s 안</i></td></tr>' % html.escape(names(y)[0] or names(y)[1])] + rows(y.get('items'))
+            sub += ['<tr><td colspan="7"><i>└ %s 안</i></td></tr>' % html.escape(names(y)[0] or names(y)[1])] + rows(y.get('items'), who + ' · ' + label)
         body.append('<p>%s <b>%s</b> <span style="opacity:.6">(%d)</span></p>' % (img(x), html.escape(label), count(x.get('items'))) + table(sub))
     gold = sum((x.get('amount') or 0) for x in walk(c.get('items')) if x.get('stats') == 'OBJ_GoldPile')
     parts.append('<details><summary><b>%s</b> — 아이템 %d개%s</summary>\n\n%s\n\n</details>\n' % (html.escape(who), total, (' · 금화 %d' % gold) if gold else '', '\n'.join(body)))
+tot = sum((x.get('value') or 0) * n for x, n, w in SELL_LIST)
+sell_rows = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td></tr>' % (
+    img(x), html.escape(names(x)[0] or names(x)[1]), html.escape(names(x)[1] or ''), n, (x.get('value') or 0) * n, html.escape(w))
+    for x, n, w in sorted(SELL_LIST, key=lambda t: -((t[0].get('value') or 0) * t[1])))
+summary = ('#### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골드\n\n'
+  '상인 거래창에서 우클릭 → **판매 목록에 넣기**(Mark as Wares)로 모아 한 번에 파세요. 실제 판매가는 매력·상인 호감도에 따라 기본가보다 낮아요. 🟡 비교 항목은 지금 장착한 장비와 비교해 보고 결정하세요.\n\n'
+  '<details><summary><b>팔 것 목록 펼치기</b> (비싼 순)</summary>\n\n<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>어디에</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n') % (len(SELL_LIST), tot, sell_rows)
+parts.insert(3, summary)
+parts.insert(4, '#### 👜 인벤토리별 전체 목록\n')
 open(out, 'w', encoding='utf-8').write('\n'.join(parts))
+print('sell', len(SELL_LIST), tot)
 print('ok', sum(count(c.get('items')) for c in inv['chars']))
