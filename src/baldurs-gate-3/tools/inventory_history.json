@@ -804,7 +804,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "75c1e0a6-5c03-d07f-670a-48c217b0e4a2": {
 "ko": "평범한 로브",
@@ -1534,7 +1536,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "65c15c7d-5773-4f2f-abdb-19751e92eb26": {
 "ko": "빛바랜 로켓",
@@ -1599,7 +1603,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "dbfd4598-a941-4169-927c-9e823aad81c5": {
 "ko": "황동 로켓",
@@ -1622,7 +1628,7 @@
 "amount": 1,
 "rarity": 1,
 "owner": "Wyll",
-"verdict": "🟡 비교",
+"verdict": "🛡️ 착용 중",
 "last": "2026-10-28",
 "first": "2026-10-27",
 "status": "have"
@@ -2644,7 +2650,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "bba89177-0f54-3a53-0bac-c1119473bbe3": {
 "ko": "오래되고 헐렁한 모자",
@@ -2706,7 +2714,7 @@
 "amount": 1,
 "rarity": 0,
 "owner": "게일",
-"verdict": "🛡️ 착용 중",
+"verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
 "status": "have"
@@ -2732,7 +2740,7 @@
 "amount": 1,
 "rarity": 0,
 "owner": "게일",
-"verdict": "🛡️ 착용 중",
+"verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
 "status": "have"
@@ -3096,7 +3104,7 @@
 "amount": 1,
 "rarity": 0,
 "owner": "아스타리온",
-"verdict": "🛡️ 착용 중",
+"verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
 "status": "have"
@@ -3778,7 +3786,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "d9814a40-202f-c097-be89-e846ed7c4f89": {
 "ko": "고블린 언월도",
@@ -3791,7 +3801,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "ebdf6176-7608-cccd-c6ea-c48c28f55c74": {
 "ko": "곤봉",
@@ -3804,7 +3816,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "f5560add-7c0c-925c-37d0-3c75ea1bb28b": {
 "ko": "단검",
@@ -3817,7 +3831,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "69fed096-0409-00c9-2d98-96ce3ac659e5": {
 "ko": "단궁",
@@ -3830,7 +3846,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "aec150df-ed9b-4a8c-d32e-e9ca20faacdf": {
 "ko": "대형 망치",
@@ -3843,7 +3861,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "ba89ecd3-6960-7b24-b315-989af9331645": {
 "ko": "레이피어",
@@ -3856,7 +3876,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "f1a5e76f-093a-5fdd-af27-6a666d2da955": {
 "ko": "레이피어",
@@ -3869,7 +3891,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "d78d0a49-0cfe-f641-ce12-5f65bf41975d": {
 "ko": "모닝스타",
@@ -3897,7 +3921,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "f657efe9-cc94-e649-52c3-c984001ac68b": {
 "ko": "손 쇠뇌",
@@ -3925,7 +3951,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "9c779775-3357-95a3-ef6d-91d113025694": {
 "ko": "횃불",
@@ -4003,7 +4031,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "f2c024b5-ef8f-4f26-b39f-7860eca61584": {
 "ko": "셀루네의 목걸이",
@@ -4263,7 +4293,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "9d58ff83-e894-3b6b-d053-9b2692a5ea51": {
 "ko": "잔",
@@ -4751,7 +4783,7 @@
 "en": "The Unclaimed",
 "icon": "Item_BOOK_Wizards_Tome_Generic_G",
 "value": 14,
-"amount": 4,
+"amount": 2,
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
@@ -4835,7 +4867,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "f8eecb59-e88a-f2cf-46be-d478be20fd80": {
 "ko": "",
@@ -5147,7 +5181,9 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-28",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-28",
+"trader": "블러그"
 },
 "d078bb12-366e-0aa5-aa27-b71eedd0f13a": {
 "ko": "",
@@ -5472,6 +5508,71 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟡 비교",
+"last": "2026-10-28",
+"first": "2026-10-28",
+"status": "have"
+},
+"d79fdc25-012c-3670-abed-103d5b54986e": {
+"ko": "민첩의 장갑",
+"en": "Gloves of Dexterity",
+"icon": "Item_ARM_Gloves_Leather_2",
+"value": 300,
+"amount": 1,
+"rarity": 3,
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-28",
+"first": "2026-10-28",
+"status": "have"
+},
+"3fa9a3e2-acd2-7013-9845-7789a1070b58": {
+"ko": "",
+"en": "Weapon Bag",
+"icon": "Item_CONT_GEN_LIA_WeaponBag",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-28",
+"first": "2026-10-28",
+"status": "have"
+},
+"90b6a413-489f-f1e1-1c7a-f292bce1ff0d": {
+"ko": "생명의 도관 장화",
+"en": "Vital Conduit Boots",
+"icon": "Item_ARM_Boots_Metal_Githyanki_Magic",
+"value": 240,
+"amount": 1,
+"rarity": 2,
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-28",
+"first": "2026-10-28",
+"status": "have"
+},
+"c7ceff6b-89bd-bfbd-e2dd-2ee01868b093": {
+"ko": "징 방패",
+"en": "Studded Shield",
+"icon": "Item_WPN_HUM_Shield_A_0",
+"value": 15,
+"amount": 1,
+"rarity": 0,
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-28",
+"first": "2026-10-28",
+"status": "have"
+},
+"71ad5665-8981-7715-1799-b26a8dfc35b4": {
+"ko": "장궁+1",
+"en": "Longbow +1",
+"icon": "Item_WPN_HUM_Longbow_A_1",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "아스타리온",
+"verdict": "🛡️ 착용 중",
 "last": "2026-10-28",
 "first": "2026-10-28",
 "status": "have"

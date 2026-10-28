@@ -14,7 +14,7 @@ local function tsText(ts, h)
   local ok, s = pcall(function() return ts:Get() end)
   if ok then return s end
 end
-out = { version = 2, chars = {}, errors = {} }
+out = { version = 6, chars = {}, errors = {} }
 DEBUG_DONE = nil
 local contents
 local function rec(e, depth)
@@ -39,9 +39,22 @@ local function rec(e, depth)
   end
   pcall(function() r.tpl = e.ServerItem.Template.Id; r.tplName = e.ServerItem.Template.Name end)
   pcall(function() r.icon = e.Icon.Icon end)
+  pcall(function()
+    for _, a in pairs(e.Use.UseActions) do
+      local ok, b = pcall(function() return a.BookId end)
+      if ok and b and b ~= "" then r.book = b end
+    end
+  end)
+  if r.book == nil then pcall(function()
+    for _, a in pairs(e.ServerItem.Template.OnUsePeaceActions) do
+      local ok, b = pcall(function() return a.BookId end)
+      if ok and b and b ~= "" then r.book = b end
+    end
+  end) end
   pcall(function() r.rarity = e.Value.Rarity; r.value = e.Value.Value end)
   pcall(function() r.story = (e.IsStoryItem ~= nil) end)
   pcall(function() r.slot = e.InventoryMember.EquipmentSlot end)
+  pcall(function() if e.Wielded then r.wielded = true end end)
   if depth < 4 and e.InventoryOwner then
     local ok, c = pcall(contents, e, depth + 1)
     r.items = ok and c or { { err = tostring(c) } }
@@ -75,6 +88,30 @@ local function addChar(id, kind)
   if seen[u] then return end
   seen[u] = true
   local r = rec(e, 0); r.kind = kind
+  local cs = {}
+  pcall(function() cs.level = e.EocLevel.Level end)
+  pcall(function() cs.hp = e.Health.Hp; cs.maxhp = e.Health.MaxHp end)
+  pcall(function() cs.ac = e.Resistances.AC end)
+  pcall(function() local a = {}; for i, v in pairs(e.Stats.Abilities) do a[#a + 1] = v end; cs.abilities = a end)
+  pcall(function()
+    local cl = {}
+    for _, c in pairs(e.Classes.Classes) do
+      local x = { level = c.Level, class = c.ClassUUID, sub = c.SubClassUUID }
+      pcall(function() local d = Ext.StaticData.Get(c.ClassUUID, "ClassDescription"); x.className = d.Name; x.classH = tsHandle(d.DisplayName) end)
+      pcall(function() local d = Ext.StaticData.Get(c.SubClassUUID, "ClassDescription"); x.subName = d.Name; x.subH = tsHandle(d.DisplayName) end)
+      cl[#cl + 1] = x
+    end
+    cs.classes = cl
+  end)
+  local eq = {}
+  for _, slot in ipairs({ "Helmet", "Breast", "Cloak", "Melee Main Weapon", "Melee Offhand Weapon", "Ranged Main Weapon", "Ranged Offhand Weapon", "Ring", "Ring2", "Boots", "Gloves", "Amulet", "MusicalInstrument", "MeleeMainHand", "MeleeOffHand", "RangedMainHand", "RangedOffHand" }) do
+    pcall(function()
+      local it = Osi.GetEquippedItem(id, slot)
+      if it then local ie = Ext.Entity.Get(it); if ie then local x = rec(ie, 9); x.eqslot = slot; eq[#eq + 1] = x end end
+    end)
+  end
+  cs.equipped = eq
+  r.charStats = cs
   out.chars[#out.chars + 1] = r
 end
 local ok, err = pcall(function()
@@ -88,11 +125,26 @@ ok, err = pcall(function()
 end)
 if not ok then out.errors[#out.errors + 1] = "members: " .. tostring(err) end
 ok, err = pcall(function()
+  for _, row in pairs(Osi.DB_PartOfTheTeam:Get(nil)) do addChar(row[1], "camp") end
+end)
+if not ok then out.errors[#out.errors + 1] = "team: " .. tostring(err) end
+ok, err = pcall(function()
   for _, e in pairs(Ext.Entity.GetAllEntitiesWithComponent("CampChest")) do
     local u = e.Uuid.EntityUuid; addChar(u, "campchest")
   end
 end)
 if not ok then out.errors[#out.errors + 1] = "camp: " .. tostring(err) end
+out.buyback = {}
+ok, err = pcall(function()
+  for _, e in pairs(Ext.Entity.GetAllEntitiesWithComponent("TradeBuybackData")) do
+    local ok2, r = pcall(rec, e, 9)
+    if ok2 then
+      pcall(function() local b = e.TradeBuybackData; r.amount = b.Amount; r.trader = rec(b.Trader, 9).name; r.buyer = rec(b.Buyer, 9).name end)
+      out.buyback[#out.buyback + 1] = r
+    end
+  end
+end)
+if not ok then out.errors[#out.errors + 1] = "buyback: " .. tostring(err) end
 local n = 0
 local function count(l) for _, x in pairs(l or {}) do n = n + 1; count(x.items) end end
 for _, c in pairs(out.chars) do count(c.items) end
