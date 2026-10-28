@@ -302,3 +302,57 @@ html.sb-collapsed #menuBtn{display:block}
 @media (max-width:600px){ .home-t{display:none} }
 /* 사이드 목차는 본문 aside(팁 상자) 스타일을 받지 않게 */
 aside.side{margin:0;padding:0 0 32px;border-radius:0;border-left:0;font-size:inherit;background:var(--surf)}
+
+/* ---- 모바일 레이아웃 다듬기 (2026-10-28) ---- */
+/* 한글은 단어 단위로 줄바꿈 — "게/임플레이" 처럼 낱자에서 끊기지 않게. 표 칸도 낱자로 찌그러지지 않는다 */
+body{word-break:keep-all;overflow-wrap:break-word}
+td,th{word-break:keep-all}
+/* 닫힌 목차 서랍의 그림자가 화면 왼쪽에 비치지 않게 */
+@media (max-width:860px){ .side{box-shadow:none} .side.open{box-shadow:0 0 40px rgba(0,0,0,.3)} }
+@media (max-width:600px){
+  body{line-height:1.7}
+  .wrap{padding-left:14px;padding-right:14px}
+  .topbar{padding-left:10px;padding-right:10px;gap:5px}
+  .topbar .btn.icon{width:34px;height:34px}
+  #menuBtn{padding:7px 10px}
+  /* 제목 크기·여백 줄이기 */
+  h2.part{font-size:21px;margin:40px 0 6px;padding-bottom:7px}
+  h3.sec{font-size:18px;margin:30px 0 8px}
+  h4.sub{font-size:16px;margin:26px 0 6px;padding-left:10px}
+  h5.ssub{margin:18px 0 4px}
+  ul,ol{padding-left:19px}
+  aside{padding:9px 12px;font-size:13.5px}
+  /* 진행 현황: 3칸 격자, 글자형 항목은 한 줄 전체 */
+  .status{margin:14px 0 6px}
+  .status .hd{padding:9px 12px 8px;gap:2px 10px}
+  .status .hd b{font-size:14.5px}
+  .status .hd span{font-size:10.5px}
+  .stats{grid-template-columns:repeat(3,minmax(0,1fr));margin-bottom:-1px}
+  .stat{padding:8px 10px 9px;border:0;border-right:1px solid var(--line);border-bottom:1px solid var(--line);min-width:0}
+  .stat:nth-child(3n of .stat:has(.bar)),.stat:not(:has(.bar)){border-right:0}
+  .stat:not(:has(.bar)){grid-column:1/-1}
+  .stat .k{font-size:10px;letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .stat .v{font-size:14px;letter-spacing:-.04em;margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .stat:not(:has(.bar)) .v{white-space:normal}
+  .stat:not(:has(.bar)) .v{font-family:var(--f-body);font-size:14px;font-weight:500}
+  .bar{margin-top:5px}
+  /* 표: 화면보다 넓으면 상자 안에서 가로로 밀어 보기 + 양옆 그림자로 더 있다는 표시 */
+  .tw{margin:10px 0;
+   background:linear-gradient(to right,var(--surf) 30%,transparent) left center/28px 100% no-repeat local,
+              linear-gradient(to left,var(--surf) 30%,transparent) right center/28px 100% no-repeat local,
+              radial-gradient(farthest-side at 0 50%,rgba(0,0,0,.18),transparent) left center/10px 100% no-repeat scroll,
+              radial-gradient(farthest-side at 100% 50%,rgba(0,0,0,.18),transparent) right center/10px 100% no-repeat scroll,
+              var(--surf)}
+  table{font-size:13px;width:max-content;min-width:100%}
+  td{max-width:15em}
+  th{padding:8px 10px;font-size:10.5px}
+  td{padding:8px 10px;line-height:1.55}
+  td:first-child{min-width:4.5em}
+  kbd{white-space:normal}
+  .foot{margin-top:40px}
+}
+@media (max-width:359px){
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .stat:nth-child(3n of .stat:has(.bar)){border-right:1px solid var(--line)}
+  .stat:nth-child(2n of .stat:has(.bar)){border-right:0}
+}

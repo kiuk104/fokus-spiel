@@ -66,7 +66,12 @@
 .res mark{background:var(--amber-soft);color:var(--ink);border-radius:2px;padding:0 1px}
 .rmeta{font-family:var(--f-mono);font-size:12px;color:var(--muted);margin-top:6px}
 .hub-foot{margin-top:60px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:12px;font-family:var(--f-mono);line-height:1.8}
-@media (max-width:640px){ .hub,.hub-top .in{padding-left:16px;padding-right:16px} .hero{padding-top:36px} .cards{grid-template-columns:1fr} }
+@media (max-width:640px){ .hub,.hub-top .in{padding-left:16px;padding-right:16px} .cards{grid-template-columns:1fr}
+  /* 모바일: 첫 화면에 게임 카드가 보이도록 머리말을 줄인다 */
+  .hero{padding:22px 0 6px} .hero h1{font-size:36px;margin:6px 0 6px} .hero p{font-size:13.5px}
+  .gsearch{margin:16px 0 4px;padding:8px 8px 8px 12px} .gsearch input{font-size:15px}
+  .sec-h{margin:22px 0 10px} .sec-h h2{font-size:17px}
+  .cards{gap:10px} .card-main{padding:14px 14px 12px;gap:12px} .card-ft{padding:8px 14px 10px} .card:hover{transform:none} }
 </style>
 </head>
 <body>
