@@ -1,8 +1,12 @@
 """fokus_inventory.json (Script Extender 내보내기) → 위키용 인벤토리 목록 HTML 조각"""
-import json, pickle, sys, html, collections, os
+import json, pickle, sys, html, collections, os, re
 S = os.path.dirname(os.path.abspath(__file__))
 inv = json.load(open(sys.argv[1], encoding='utf-8'))
 date = sys.argv[2]; icon_dir = sys.argv[3]; out = sys.argv[4]
+hist_path = sys.argv[5] if len(sys.argv) > 5 else None
+party_out = sys.argv[6] if len(sys.argv) > 6 else None
+books_out = sys.argv[7] if len(sys.argv) > 7 else None
+BOOKS = pickle.load(open(os.path.join(S, 'books.pkl'), 'rb')) if os.path.exists(os.path.join(S, 'books.pkl')) else {}
 en, kr = pickle.load(open(os.path.join(S, 'loca.pkl'), 'rb'))
 mod = json.load(open(os.path.join(S, 'loca.json'), encoding='utf-8'))
 en.update(mod['en']); kr.update(mod['kr'])
@@ -32,6 +36,16 @@ def cat(st):
     for name, prefs in CATS:
         if st.startswith(prefs): return name
     return '기타'
+def is_member(c):
+    if c.get('kind') in ('party', 'campchest', 'member'): return True
+    return any(x.get('classH') for x in (c.get('charStats') or {}).get('classes', []))
+inv['chars'] = [c for c in inv['chars'] if is_member(c)]
+SLOT = {'Helmet': '투구', 'Breast': '갑옷', 'Cloak': '망토', 'Melee Main Weapon': '근접 주무기', 'Melee Offhand Weapon': '근접 보조', 'Ranged Main Weapon': '원거리 무기', 'Ranged Offhand Weapon': '원거리 보조', 'Ring': '반지', 'Ring2': '반지', 'Boots': '장화', 'Gloves': '장갑', 'Amulet': '목걸이', 'MusicalInstrument': '악기'}
+EQ = {}
+for c in inv['chars']:
+    for e in (c.get('charStats') or {}).get('equipped', []):
+        if e.get('uuid'): EQ[e['uuid']] = SLOT.get(e.get('eqslot'), e.get('eqslot'))
+BOOKLIST = []
 ORDER = {c: i for i, (c, _) in enumerate(CATS)}; ORDER['기타'] = 99
 
 KEEP, SELL, MAYBE = '🟢 보관', '🔴 팔기', '🟡 비교'
@@ -79,6 +93,7 @@ for k in ('ARM_HalfPlate', 'ARM_ChainMail', 'ARM_Splint', 'ARM_Plate', 'GTY_', '
 HEAVY = ('HalfPlate', 'ChainMail', 'Splint', 'Plate_Body', 'Githyanki')
 def verdict(x):
     st = x.get('stats') or ''; c = cat(st)
+    if x.get('uuid') in EQ: return ('🛡️ 착용 중', EQ[x['uuid']])
     if st in OVR: return OVR[st]
     if st.startswith('ARM_') and any(h in st for h in HEAVY) and 'ChainShirt' not in st: return (MAYBE, '중갑 — Wyll·라에젤 지금 갑옷과 비교')
     if x.get('story'): return (KEEP, '이야기 아이템')
@@ -111,7 +126,7 @@ def rows(items, where=''):
     for x in items or []:
         if 'err' in x: continue
         if x.get('items'): continue   # 가방은 따로 섹션으로
-        key = (x.get('h'), x.get('stats'), x.get('name'))
+        key = (x.get('h'), x.get('stats'), x.get('name'), x.get('uuid') in EQ)
         if key not in g: g[key] = [x, 0]
         g[key][1] += x.get('amount') or 1
     lst = sorted(g.values(), key=lambda v: (ORDER[cat(v[0].get('stats'))], names(v[0])[0] or names(v[0])[1]))
@@ -120,6 +135,8 @@ def rows(items, where=''):
         k, e = names(x)
         badge = ' <span title="이야기 아이템" style="color:#c96a12">◆</span>' if x.get('story') else ''
         v, why = verdict(x)
+        if x.get('book') and x['book'] in BOOKS:
+            BOOKLIST.append((x, where)); badge += ' <a href="#book-%s" title="원문 · 번역 보기">📖</a>' % re.sub(r'[^A-Za-z0-9_-]', '', x['book'])
         if v == SELL and x.get('stats') != 'OBJ_GoldPile': SELL_LIST.append((x, n, where))
         if x.get('stats') == 'OBJ_GoldPile': v, why = '', ''
         out.append('<tr><td>%s</td><td>%s%s</td><td>%s</td><td style="text-align:right">%s</td><td>%s</td><td style="white-space:nowrap">%s</td><td style="opacity:.75">%s</td></tr>' % (
@@ -166,7 +183,88 @@ summary = ('#### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골�
   '상인 거래창에서 우클릭 → **판매 목록에 넣기**(Mark as Wares)로 모아 한 번에 파세요. 실제 판매가는 매력·상인 호감도에 따라 기본가보다 낮아요. 🟡 비교 항목은 지금 장착한 장비와 비교해 보고 결정하세요.\n\n'
   '<details><summary><b>팔 것 목록 펼치기</b> (비싼 순)</summary>\n\n<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>어디에</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n') % (len(SELL_LIST), tot, sell_rows)
 parts.insert(3, summary)
-parts.insert(4, '#### 👜 인벤토리별 전체 목록\n')
+# ---- 판매·없어진 아이템 (이전 목록과 비교)
+if hist_path:
+    hist = json.load(open(hist_path, encoding='utf-8')) if os.path.exists(hist_path) else {'items': {}}
+    H = hist['items']
+    bb = {b.get('uuid'): b for b in inv.get('buyback') or [] if b.get('uuid')}
+    cur = {}
+    for c in inv['chars']:
+        who = c.get('name') or '?'
+        for x in walk(c.get('items')):
+            if x.get('uuid') and not x.get('items') and x.get('stats') != 'OBJ_GoldPile': cur[x['uuid']] = (x, who)
+    for u, (x, who) in cur.items():
+        k, e = names(x)
+        H[u] = {'ko': k, 'en': e, 'icon': x.get('icon'), 'value': x.get('value') or 0, 'amount': x.get('amount') or 1,
+                'rarity': x.get('rarity') or 0, 'owner': who, 'verdict': verdict(x)[0], 'last': date,
+                'first': H.get(u, {}).get('first', date), 'status': 'have'}
+    for u, r in H.items():
+        if r.get('status') == 'have' and u not in cur:
+            if u in bb: r.update(status='sold', gone=date, trader=bb[u].get('trader'))
+            elif r.get('verdict') == SELL: r.update(status='sold', gone=date)
+            else: r.update(status='gone', gone=date)
+    json.dump(hist, open(hist_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+    gone = sorted([r for r in H.values() if r.get('status') in ('sold', 'gone')], key=lambda r: (r.get('gone', ''), -(r['value'] * r['amount'])), reverse=True)
+    if gone:
+        sold_total = sum(r['value'] * r['amount'] for r in gone if r['status'] == 'sold')
+        grow = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td><td>%s</td></tr>' % (
+            r.get('gone', ''), img({'icon': r.get('icon'), 'rarity': r.get('rarity')}), html.escape(r['ko'] or ''), html.escape(r['en'] or ''), r['amount'], r['value'] * r['amount'],
+            '💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '') if r['status'] == 'sold' else '➖ 없어짐', html.escape(r.get('owner', ''))) for r in gone)
+        parts.insert(4, ('#### 💰 판매한 아이템 · 없어진 아이템 — 판매 %d종 · 기본가 %d골드\n\n'
+            '이전 목록에 있다가 사라진 아이템이에요. **💰 판매됨** = 🔴 팔 것이었거나 상인 되사기 목록에 있는 것, **➖ 없어짐** = 그 밖에 사용 · 버림 · 건네준 것.\n\n'
+            '<details><summary><b>목록 펼치기</b> (최근 순)</summary>\n\n<table><thead><tr><th>날짜</th><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>상태</th><th>원래 누구</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n')
+            % (sum(1 for r in gone if r['status'] == 'sold'), sold_total, grow))
+# ---- 책 원문 · 번역
+def clean(t):
+    t = re.sub(r'<LSTag[^>]*>(.*?)</LSTag>', r'\1', t or '', flags=re.S)
+    t = re.sub(r'<br\s*/?>', '\n', t)
+    t = re.sub(r'<(?!/?(i|b)>)[^>]+>', '', t)
+    return html.escape(t).replace('&lt;i&gt;', '<i>').replace('&lt;/i&gt;', '</i>').replace('&lt;b&gt;', '<b>').replace('&lt;/b&gt;', '</b>').replace('\n', '<br>')
+if books_out:
+    seen = collections.OrderedDict()
+    for x, where in BOOKLIST:
+        seen.setdefault(x['book'], [x, []])[1].append(where)
+    bparts = ['### 📚 책 · 쪽지 — 영문 원문과 한글 번역 (%s)\n' % date,
+              '지금 들고 있는 책 · 쪽지 %d종이에요. 게임 파일에서 공식 영문 원문과 한글 번역을 그대로 가져왔어요. 인벤토리 목록의 📖 를 누르면 여기로 와요.\n' % len(seen)]
+    for bid, (x, wheres) in sorted(seen.items(), key=lambda t: names(t[1][0])[0] or ''):
+        h = BOOKS[bid]; k, e = names(x)
+        anchor = 'book-' + re.sub(r'[^A-Za-z0-9_-]', '', bid)
+        story = ' ◆' if x.get('story') else ''
+        bparts.append('<details id="%s"><summary>%s <b>%s</b>%s <span style="opacity:.65">· %s · %s</span></summary>\n\n'
+            '<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:10px 0 18px">'
+            '<div><div style="font-size:12px;opacity:.6;margin-bottom:4px">한글</div><div style="line-height:1.75">%s</div></div>'
+            '<div><div style="font-size:12px;opacity:.6;margin-bottom:4px">English</div><div style="line-height:1.65">%s</div></div></div>\n\n</details>\n' % (
+            anchor, img(x), html.escape(k), story, html.escape(e or ''), html.escape(' / '.join(sorted(set(wheres)))), clean(kr.get(h)), clean(en.get(h))))
+    open(books_out, 'w', encoding='utf-8').write('\n'.join(bparts))
+# ---- 파티 현황판
+if party_out:
+    AB = ['근력', '민첩', '건강', '지능', '지혜', '매력']
+    ROLE = {'Paladin': '탱커 겸 근접 딜러', 'Wizard': '원거리 광역 딜러', 'Rogue': '딜러 · 자물쇠/함정', 'Fighter': '근접 딜러', 'Cleric': '힐러 · 버프', 'Warlock': '원거리 딜러', 'Barbarian': '근접 탱커 · 딜러'}
+    MAIN = {'Paladin': 0, 'Wizard': 3, 'Rogue': 1, 'Fighter': 0, 'Cleric': 4, 'Warlock': 5, 'Barbarian': 0}
+    rowsP = []
+    for c in inv['chars']:
+        cs = c.get('charStats') or {}
+        if not cs.get('classes'): continue
+        cl = cs['classes'][0]; cname = cl.get('className')
+        ko_cls = '%s · %s' % (kr.get(cl.get('classH'), cname), kr.get(cl.get('subH'), ''))
+        a = (cs.get('abilities') or [])[1:7]
+        mi = MAIN.get(cname)
+        abil = ' · '.join(('<b>%s %d</b>' if i == mi else '%s %d') % (AB[i], v) for i, v in enumerate(a))
+        eq = {e['eqslot']: e for e in cs.get('equipped', [])}
+        wpn = ' / '.join(html.escape(eq[k]['name']) for k in ('Melee Main Weapon', 'Melee Offhand Weapon', 'Ranged Main Weapon') if k in eq) or '—'
+        notes = []
+        if mi is not None and len(a) > mi and a[mi] % 2 == 1 and (cs.get('level') or 0) >= 4: notes.append('⚠️ 주 능력치 %d(홀수) → 리스펙 추천' % a[mi])
+        if 'Melee Main Weapon' not in eq and cname in ('Paladin', 'Fighter', 'Barbarian'): notes.append('🚨 근접 무기 없음')
+        if 'Ranged Main Weapon' not in eq: notes.append('원거리 무기 없음')
+        if (cs.get('ac') or 0) <= 12: notes.append('🚨 방어도 낮음')
+        if not notes: notes.append('✅')
+        where = '파티' if c.get('kind') in ('party', 'member') else '야영지'
+        rowsP.append('| **%s** (%s) | %s | %s | %s | %s/%s | %s | %s | %s | %s |' % (
+            c['name'], where, ko_cls, ROLE.get(cname, ''), cs.get('level'), cs.get('hp'), cs.get('maxhp'), cs.get('ac'), abil, wpn, ' · '.join(notes)))
+    open(party_out, 'w', encoding='utf-8').write(
+        '### 📊 파티 현황판 (%s · 게임에서 자동 추출)\n\n| 캐릭터 | 클래스 · 하위 | 역할 | 레벨 | HP | 방어도 | 능력치 (굵게 = 주 능력치) | 무기 | 상태 |\n|---|---|---|---|---|---|---|---|---|\n%s\n\n' % (date, '\n'.join(rowsP)))
+parts.append('')
+parts.insert(len(parts) - len(inv['chars']) - 1, '#### 👜 인벤토리별 전체 목록\n')
 open(out, 'w', encoding='utf-8').write('\n'.join(parts))
 print('sell', len(SELL_LIST), tot)
 print('ok', sum(count(c.get('items')) for c in inv['chars']))
