@@ -185,15 +185,24 @@ summary = ('#### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골�
 parts.insert(3, summary)
 # ---- 카테고리별 요약
 CAT_EMOJI = {'가방': '🎒', '물약': '🧪', '두루마리': '📜', '화살': '🏹', '투척물': '💣', '독·도포제': '☠️', '무기': '⚔️', '반지': '💍', '목걸이': '📿', '야영지 옷': '👕', '방어구': '🛡️', '마법 장비': '✨', '책·쪽지': '📚', '열쇠': '🔑', '염료': '🎨', '음식·술': '🍖', '연금술 재료': '🌿', '보석·귀중품': '💎', '잡동사니': '🧺', '도구': '🔧', '기타': '❔'}
-agg = collections.OrderedDict((c, {'n': 0, 'kinds': set(), 'keep': 0, 'sell': 0, 'maybe': 0, 'eq': 0, 'who': collections.Counter(), 'top': []}) for c in list(ORDER))
+agg = collections.OrderedDict((c, {'n': 0, 'kinds': set(), 'keep': 0, 'sell': 0, 'maybe': 0, 'eq': 0, 'who': collections.Counter(), 'top': [], 'in': collections.Counter()}) for c in list(ORDER))
+BAG_FOR = {'가방': 'Bag full of bags', '물약': 'Potion Box', '두루마리': 'Scroll Case', '화살': 'Arrows', '투척물': 'Grenade Satchel', '독·도포제': 'Weapon Coatings',
+    '무기': 'Weapon Bag · Shield Bag', '반지': 'Jewellery Case', '목걸이': 'Jewellery Case', '야영지 옷': 'Clothes Bundle', '방어구': 'Armor Bag · Helm Bag · Glove Bag · Boots Bag · Cloak Bag',
+    '마법 장비': '부위별 Armor/Helm/Glove/Boots Bag · Jewellery Case', '책·쪽지': 'Books (이야기 책은 Quest Items)', '열쇠': '열쇠 사슬 · Keychain', '염료': 'Dye Sack',
+    '음식·술': '야영 물자 자루 · Camp Supply Sack', '연금술 재료': '연금술 주머니 · Alchemy Pouch', '보석·귀중품': 'Valuables', '잡동사니': 'Bits and Bobs', '도구': 'Gear', '기타': 'Bits and Bobs'}
+def walkp(items, parent):
+    for x in items or []:
+        yield x, parent
+        if x.get('items'): yield from walkp(x.get('items'), names(x)[0] or names(x)[1])
 for c in inv['chars']:
     who = c.get('name') or '?'
-    for x in walk(c.get('items')):
+    for x, parent in walkp(c.get('items'), '가방 밖'):
         if 'err' in x or x.get('stats') == 'OBJ_GoldPile': continue
         if x.get('items') is not None and x.get('items'):
             pass
         k = cat(x.get('stats')); a = agg[k]; n = x.get('amount') or 1
         a['n'] += n; a['kinds'].add((x.get('h'), x.get('stats'))); a['who'][who] += n
+        if x.get('uuid') not in EQ: a['in'][parent] += n
         v = verdict(x)[0]
         if v == KEEP: a['keep'] += n
         elif v == SELL: a['sell'] += n
@@ -212,9 +221,10 @@ for k, a in agg.items():
         if len(seen_n) == 3: break
     split = ' · '.join(t for t in [('🛡️ %d' % a['eq']) if a['eq'] else '', ('🟢 %d' % a['keep']) if a['keep'] else '', ('🟡 %d' % a['maybe']) if a['maybe'] else '', ('🔴 %d' % a['sell']) if a['sell'] else ''] if t)
     whos = ', '.join('%s %d' % (w, n) for w, n in a['who'].most_common(3))
-    crow.append('<tr><td>%s <b>%s</b></td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td style="white-space:nowrap">%s</td><td>%s<br><span style="opacity:.7">%s</span></td><td style="opacity:.8">%s</td></tr>' % (
-        CAT_EMOJI.get(k, ''), k, a['n'], len(a['kinds']), split, icons, html.escape(' · '.join(seen_n)), html.escape(whos)))
-parts.insert(3, '#### 🗂️ 카테고리별 요약\n\n파티 + 여행용 궤짝 전체를 종류별로 묶었어요. 판정 숫자: 🛡️ 착용 중 · 🟢 보관 · 🟡 비교 · 🔴 팔기. 대표 아이템 = 그 종류에서 가장 비싼 3종.\n\n<table><thead><tr><th>종류</th><th>개수</th><th>종</th><th>판정</th><th>대표 아이템</th><th>많이 든 사람</th></tr></thead><tbody>%s</tbody></table>\n' % ''.join(crow))
+    ins = ', '.join('%s %d' % (w, n) for w, n in a['in'].most_common(3))
+    crow.append('<tr><td>%s <b>%s</b></td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td style="white-space:nowrap">%s</td><td><b>%s</b></td><td style="opacity:.85">%s</td><td>%s<br><span style="opacity:.7">%s</span></td><td style="opacity:.8">%s</td></tr>' % (
+        CAT_EMOJI.get(k, ''), k, a['n'], len(a['kinds']), split, html.escape(BAG_FOR.get(k, '')), html.escape(ins), icons, html.escape(' · '.join(seen_n)), html.escape(whos)))
+parts.insert(3, '#### 🗂️ 카테고리별 요약\n\n파티 + 여행용 궤짝 전체를 종류별로 묶었어요. 판정 숫자: 🛡️ 착용 중 · 🟢 보관 · 🟡 비교 · 🔴 팔기. 대표 아이템 = 그 종류에서 가장 비싼 3종. **넣을 가방**은 Wyll이 쓰는 원조 BagsBagsBags 가방 이름(게임에 영문으로 표시)과 기본 가방(연금술 주머니 등)이에요. **지금 들어 있는 곳**이 넣을 가방과 다르면 옮기면 돼요(착용 중 제외).\n\n<table><thead><tr><th>종류</th><th>개수</th><th>종</th><th>판정</th><th>넣을 가방 (게임 표기)</th><th>지금 들어 있는 곳</th><th>대표 아이템</th><th>많이 든 사람</th></tr></thead><tbody>%s</tbody></table>\n' % ''.join(crow))
 # ---- 판매·없어진 아이템 (이전 목록과 비교)
 if hist_path:
     hist = json.load(open(hist_path, encoding='utf-8')) if os.path.exists(hist_path) else {'items': {}}
