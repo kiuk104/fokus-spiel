@@ -22,6 +22,22 @@ def inline(t):
     return re.sub(r'^<p>|</p>$', '', markdown.markdown(t))
 
 
+def wrap_tables(h):
+    # 마크다운 표(<table>)만 가로 스크롤 상자로 감싼다. 직접 쓴 HTML 표(<table style=…>)는
+    # 그대로 두고, 그 닫는 태그에 </div> 가 붙지 않게 짝을 맞춘다 — 짝이 어긋나면 본문이
+    # 레이아웃 밖으로 빠져나가 사이드바가 사라진다.
+    out, stack, pos = [], [], 0
+    for m in re.finditer(r'<table\b[^>]*>|</table>', h):
+        out.append(h[pos:m.start()]); t = m.group(0)
+        if t == '</table>':
+            out.append('</table></div>' if (stack and stack.pop()) else t)
+        else:
+            bare = t == '<table>'; stack.append(bare)
+            out.append('<div class="tw"><table>' if bare else t)
+        pos = m.end()
+    out.append(h[pos:])
+    return ''.join(out)
+
 def render_body(body):
     text = '\n'.join(l for l in body if l.strip() != '---')
     text = re.sub(r'~~(.+?)~~', r'<del>\1</del>', text)
@@ -29,7 +45,7 @@ def render_body(body):
     h = h.replace('<h4>', '<h5 class="ssub">').replace('</h4>', '</h5>')
     h = h.replace('<h5>', '<h6>')
     h = re.sub(r'<code>(.*?)</code>', r'<kbd>\1</kbd>', h, flags=re.S)
-    h = h.replace('<table>', '<div class="tw"><table>').replace('</table>', '</table></div>')
+    h = wrap_tables(h)
     h = re.sub(r'<a href="(http[^"]+)">', r'<a href="\1" target="_blank" rel="noopener">', h)
 
     def bq(m):
