@@ -4,15 +4,15 @@ STYLE = '''<style>
 @media (max-width:760px){
  table.cards{width:100%!important;min-width:0!important;font-size:13px!important}
  table.cards thead{display:none}
- table.cards tr{display:block;padding:7px 10px;border-bottom:1px solid var(--line);line-height:1.4}
+ table.cards tr{display:block;padding:7px 10px;border-bottom:1px solid var(--line);line-height:1.4;text-align:right}
  table.cards tr:last-child{border-bottom:0}
- table.cards td{display:inline-block;max-width:none!important;padding:0!important;border:0!important;white-space:normal!important;text-align:left!important;margin:0 10px 0 0;vertical-align:baseline}
+ table.cards td{display:inline-block;max-width:none!important;padding:0!important;border:0!important;white-space:normal!important;text-align:left!important;margin:0 0 0 10px;vertical-align:baseline}
  table.cards td[data-label]:not([data-label=""])::before{content:attr(data-label);margin-right:4px;opacity:.5;font-size:11px}
- table.cards td.ic{float:left;margin:1px 9px 0 0}
+ table.cards td.ic{float:left;margin:1px 9px 0 0!important}
  table.cards td.ic img{width:30px!important;height:30px!important}
  table.cards td.ic:empty{display:none}
- table.cards td.nm{display:block;font-weight:600;font-size:14px}
- table.cards td.en{display:block;opacity:.7;font-size:12px}
+ table.cards td.nm{display:block;font-weight:600;font-size:14px;text-align:left!important;margin:0!important}
+ table.cards td.en{display:block;opacity:.7;font-size:12px;text-align:left!important;margin:0!important}
  table.cards td.nm::before,table.cards td.en::before{display:none!important}
  table.cards td:empty{display:none}
  table.cards tr::after{content:"";display:block;clear:both}
