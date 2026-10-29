@@ -14,7 +14,7 @@ local function tsText(ts, h)
   local ok, s = pcall(function() return ts:Get() end)
   if ok then return s end
 end
-out = { version = 6, chars = {}, errors = {} }
+out = { version = 7, chars = {}, errors = {} }
 DEBUG_DONE = nil
 local contents
 local function rec(e, depth)
@@ -134,6 +134,14 @@ ok, err = pcall(function()
   end
 end)
 if not ok then out.errors[#out.errors + 1] = "camp: " .. tostring(err) end
+out.traders = {}
+ok, err = pcall(function()
+  for _, e in pairs(Ext.Entity.GetAllEntitiesWithComponent("Trader")) do
+    local ok2, r = pcall(rec, e, 0)
+    if ok2 and r.items and #r.items > 0 then out.traders[#out.traders + 1] = r end
+  end
+end)
+if not ok then out.errors[#out.errors + 1] = "traders: " .. tostring(err) end
 out.buyback = {}
 ok, err = pcall(function()
   for _, e in pairs(Ext.Entity.GetAllEntitiesWithComponent("TradeBuybackData")) do

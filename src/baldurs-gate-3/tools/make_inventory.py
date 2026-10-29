@@ -183,6 +183,38 @@ summary = ('#### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골�
   '상인 거래창에서 우클릭 → **판매 목록에 넣기**(Mark as Wares)로 모아 한 번에 파세요. 실제 판매가는 매력·상인 호감도에 따라 기본가보다 낮아요. 🟡 비교 항목은 지금 장착한 장비와 비교해 보고 결정하세요.\n\n'
   '<details><summary><b>팔 것 목록 펼치기</b> (비싼 순)</summary>\n\n<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>어디에</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n') % (len(SELL_LIST), tot, sell_rows)
 parts.insert(3, summary)
+# ---- 카테고리별 요약
+CAT_EMOJI = {'가방': '🎒', '물약': '🧪', '두루마리': '📜', '화살': '🏹', '투척물': '💣', '독·도포제': '☠️', '무기': '⚔️', '반지': '💍', '목걸이': '📿', '야영지 옷': '👕', '방어구': '🛡️', '마법 장비': '✨', '책·쪽지': '📚', '열쇠': '🔑', '염료': '🎨', '음식·술': '🍖', '연금술 재료': '🌿', '보석·귀중품': '💎', '잡동사니': '🧺', '도구': '🔧', '기타': '❔'}
+agg = collections.OrderedDict((c, {'n': 0, 'kinds': set(), 'keep': 0, 'sell': 0, 'maybe': 0, 'eq': 0, 'who': collections.Counter(), 'top': []}) for c in list(ORDER))
+for c in inv['chars']:
+    who = c.get('name') or '?'
+    for x in walk(c.get('items')):
+        if 'err' in x or x.get('stats') == 'OBJ_GoldPile': continue
+        if x.get('items') is not None and x.get('items'):
+            pass
+        k = cat(x.get('stats')); a = agg[k]; n = x.get('amount') or 1
+        a['n'] += n; a['kinds'].add((x.get('h'), x.get('stats'))); a['who'][who] += n
+        v = verdict(x)[0]
+        if v == KEEP: a['keep'] += n
+        elif v == SELL: a['sell'] += n
+        elif v == MAYBE: a['maybe'] += n
+        else: a['eq'] += n
+        a['top'].append(((x.get('value') or 0), x))
+crow = []
+for k, a in agg.items():
+    if not a['n']: continue
+    top = sorted(a['top'], key=lambda t: -t[0])
+    seen_n = []; icons = ''
+    for _, x in top:
+        nm = names(x)[0] or names(x)[1]
+        if nm in seen_n: continue
+        seen_n.append(nm); icons += img(x)
+        if len(seen_n) == 3: break
+    split = ' · '.join(t for t in [('🛡️ %d' % a['eq']) if a['eq'] else '', ('🟢 %d' % a['keep']) if a['keep'] else '', ('🟡 %d' % a['maybe']) if a['maybe'] else '', ('🔴 %d' % a['sell']) if a['sell'] else ''] if t)
+    whos = ', '.join('%s %d' % (w, n) for w, n in a['who'].most_common(3))
+    crow.append('<tr><td>%s <b>%s</b></td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td style="white-space:nowrap">%s</td><td>%s<br><span style="opacity:.7">%s</span></td><td style="opacity:.8">%s</td></tr>' % (
+        CAT_EMOJI.get(k, ''), k, a['n'], len(a['kinds']), split, icons, html.escape(' · '.join(seen_n)), html.escape(whos)))
+parts.insert(3, '#### 🗂️ 카테고리별 요약\n\n파티 + 여행용 궤짝 전체를 종류별로 묶었어요. 판정 숫자: 🛡️ 착용 중 · 🟢 보관 · 🟡 비교 · 🔴 팔기. 대표 아이템 = 그 종류에서 가장 비싼 3종.\n\n<table><thead><tr><th>종류</th><th>개수</th><th>종</th><th>판정</th><th>대표 아이템</th><th>많이 든 사람</th></tr></thead><tbody>%s</tbody></table>\n' % ''.join(crow))
 # ---- 판매·없어진 아이템 (이전 목록과 비교)
 if hist_path:
     hist = json.load(open(hist_path, encoding='utf-8')) if os.path.exists(hist_path) else {'items': {}}
