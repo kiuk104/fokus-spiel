@@ -11,7 +11,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-29",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "7dc60932-f0cd-0079-a607-4f2348c35bde": {
 "ko": "수제일 감주",
@@ -24,7 +25,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-29",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "e9af6bad-f85c-5f16-617f-b63fc0e24a6d": {
 "ko": "실파샨의 한 잔",
@@ -37,7 +39,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-29",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "056712fe-4e5a-7dc1-9427-8f7384ac134a": {
 "ko": "야영 물자 자루",
@@ -48,7 +51,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -57,11 +60,11 @@
 "en": "Dragon Egg Mushroom",
 "icon": "Item_LOOT_Mushroom_Dragonegg_B",
 "value": 2,
-"amount": 2,
+"amount": 3,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -74,7 +77,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -87,7 +90,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -100,7 +103,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -113,7 +116,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -126,7 +129,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -139,7 +142,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -152,7 +155,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -165,7 +168,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -178,7 +181,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -191,7 +194,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -204,7 +207,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -217,7 +220,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -230,7 +233,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -243,7 +246,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -256,7 +259,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -269,7 +272,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -282,7 +285,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -295,7 +298,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -308,7 +311,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -321,7 +324,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -334,7 +337,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -347,7 +350,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -360,7 +363,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -373,7 +376,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -386,7 +389,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -399,7 +402,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -412,7 +415,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -425,7 +428,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -438,7 +441,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -451,7 +454,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -464,7 +467,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -477,7 +480,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -490,7 +493,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -503,7 +506,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -516,7 +519,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -529,7 +532,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -542,7 +545,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -555,7 +558,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -568,7 +571,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -581,7 +584,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -594,7 +597,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -607,7 +610,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -620,7 +623,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -633,7 +636,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -646,7 +649,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -659,7 +662,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -672,7 +675,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -685,7 +688,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -698,7 +701,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -711,20 +714,20 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "06332bc8-19b5-4f9c-9013-6d433abd78a0": {
 "ko": "지성의 학회의 의뢰",
-"en": "An Opportunity from the Society of Brilliance",
+"en": "",
 "icon": "Item_BOOK_GEN_Envelope_A",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -737,7 +740,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -750,7 +753,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -763,7 +766,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -776,7 +779,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -789,7 +792,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -817,7 +820,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -830,7 +833,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -843,7 +846,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -856,7 +859,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -869,7 +872,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -882,7 +885,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -895,7 +898,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -908,7 +911,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -921,7 +924,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -934,7 +937,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -947,7 +950,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -960,7 +963,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -973,7 +976,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -986,7 +989,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -999,7 +1002,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1037,11 +1040,11 @@
 "en": "Grease Bottle",
 "icon": "Item_GRN_GreaseBottle_A",
 "value": 7,
-"amount": 1,
+"amount": 2,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1054,7 +1057,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1067,7 +1070,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1080,7 +1083,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1093,7 +1096,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1106,7 +1109,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1119,7 +1122,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1132,7 +1135,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1145,7 +1148,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1158,7 +1161,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1171,7 +1174,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1180,11 +1183,11 @@
 "en": "Potion of Healing",
 "icon": "Item_CONS_Potion_Healing_A",
 "value": 10,
-"amount": 5,
+"amount": 3,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1197,7 +1200,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1210,7 +1213,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1223,7 +1226,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1236,46 +1239,46 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "03ddecea-d7db-4fda-803b-5c81a0f3493b": {
 "ko": "밤의 노래를 찾아서",
-"en": "In Search of the Nightsong",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "6557e2a7-ee82-4c5a-a26b-9056e4eb03df": {
 "ko": "해독제에 대하여",
-"en": "On Antidotes",
+"en": "",
 "icon": "Item_BOOK_Wizards_Tome_Antidote_Recipe_A",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "a10cb81b-ba44-446b-b736-f26d55475150": {
 "ko": "냄새나는 쪽지",
-"en": "Rancid Note",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1288,7 +1291,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1301,7 +1304,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1310,11 +1313,11 @@
 "en": "Scroll of Mirror Image",
 "icon": "Item_LOOT_SCROLL_MirrorImage",
 "value": 65,
-"amount": 2,
+"amount": 1,
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1327,7 +1330,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1340,7 +1343,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1353,7 +1356,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1366,7 +1369,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1379,7 +1382,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1392,7 +1395,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1401,11 +1404,11 @@
 "en": "Scroll of Hold Person",
 "icon": "Item_LOOT_SCROLL_HoldPerson",
 "value": 65,
-"amount": 1,
+"amount": 2,
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1418,7 +1421,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1431,7 +1434,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1444,7 +1447,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1457,7 +1460,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1470,7 +1473,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1483,7 +1486,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1496,7 +1499,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1523,7 +1526,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1551,7 +1554,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1564,7 +1567,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1591,7 +1594,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1619,7 +1622,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1632,7 +1635,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1645,7 +1648,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1658,7 +1661,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1671,7 +1674,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1684,7 +1687,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1697,7 +1700,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1710,7 +1713,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1723,7 +1726,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1736,7 +1739,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1749,7 +1752,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1762,7 +1765,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1775,7 +1778,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1788,7 +1791,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1801,7 +1804,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1814,7 +1817,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1827,7 +1830,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1840,7 +1843,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1853,7 +1856,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1866,7 +1869,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1879,7 +1882,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1888,11 +1891,11 @@
 "en": "Trap Disarm Toolkit",
 "icon": "Item_TOOL_GEN_Disam_Toolkit_A",
 "value": 25,
-"amount": 4,
+"amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1934,7 +1937,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1947,7 +1950,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1960,7 +1963,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1973,7 +1976,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1986,7 +1989,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2013,7 +2016,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2026,7 +2029,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2039,7 +2042,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2052,7 +2055,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2065,7 +2068,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2078,7 +2081,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2091,7 +2094,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2104,7 +2107,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2117,7 +2120,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2130,7 +2133,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2143,7 +2146,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2171,7 +2174,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2184,7 +2187,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2197,7 +2200,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2210,7 +2213,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2223,7 +2226,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2236,7 +2239,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2278,7 +2281,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2321,7 +2324,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2334,7 +2337,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2362,7 +2365,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2405,7 +2408,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2433,7 +2436,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2445,8 +2448,8 @@
 "amount": 1,
 "rarity": 1,
 "owner": "Wyll",
-"verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2457,9 +2460,9 @@
 "value": 65,
 "amount": 1,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2472,7 +2475,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2485,7 +2488,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2497,8 +2500,8 @@
 "amount": 1,
 "rarity": 0,
 "owner": "Wyll",
-"verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2511,7 +2514,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2524,7 +2527,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2537,7 +2540,7 @@
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2550,7 +2553,7 @@
 "rarity": 2,
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2563,7 +2566,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2576,7 +2579,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2589,7 +2592,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2602,7 +2605,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2615,7 +2618,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2626,9 +2629,9 @@
 "value": 65,
 "amount": 1,
 "rarity": 1,
-"owner": "게일",
-"verdict": "🟢 보관",
-"last": "2026-10-29",
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2641,7 +2644,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2669,7 +2672,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2682,7 +2685,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2695,7 +2698,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2708,7 +2711,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2735,7 +2738,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2747,8 +2750,8 @@
 "amount": 1,
 "rarity": 0,
 "owner": "게일",
-"verdict": "🔴 팔기",
-"last": "2026-10-29",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2761,7 +2764,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2774,7 +2777,7 @@
 "rarity": 1,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2787,7 +2790,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2800,7 +2803,7 @@
 "rarity": 2,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2813,7 +2816,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2826,7 +2829,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2839,7 +2842,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2852,7 +2855,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2865,7 +2868,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2878,7 +2881,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2891,7 +2894,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2904,7 +2907,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2917,7 +2920,7 @@
 "rarity": 1,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2930,7 +2933,7 @@
 "rarity": 1,
 "owner": "아스타리온",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2943,7 +2946,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2956,7 +2959,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2983,7 +2986,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2996,7 +2999,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3009,7 +3012,7 @@
 "rarity": 1,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3022,7 +3025,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3035,7 +3038,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3048,7 +3051,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3061,7 +3064,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3073,8 +3076,8 @@
 "amount": 1,
 "rarity": 0,
 "owner": "아스타리온",
-"verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3087,7 +3090,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3100,7 +3103,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3113,7 +3116,7 @@
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3126,7 +3129,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3153,7 +3156,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3166,7 +3169,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3179,7 +3182,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3192,7 +3195,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3205,7 +3208,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3218,7 +3221,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3231,7 +3234,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3244,7 +3247,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3271,7 +3274,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3284,7 +3287,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3297,7 +3300,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3310,7 +3313,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3323,7 +3326,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3336,7 +3339,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3349,7 +3352,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3360,9 +3363,9 @@
 "value": 130,
 "amount": 1,
 "rarity": 1,
-"owner": "Lae'zel",
-"verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3374,8 +3377,8 @@
 "amount": 1,
 "rarity": 0,
 "owner": "Lae'zel",
-"verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3388,7 +3391,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3401,7 +3404,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3414,7 +3417,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3427,7 +3430,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3440,7 +3443,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3453,7 +3456,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3466,7 +3469,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3479,7 +3482,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3492,7 +3495,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3505,7 +3508,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3518,7 +3521,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3531,7 +3534,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3544,7 +3547,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3557,7 +3560,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3570,7 +3573,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3583,7 +3586,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3596,7 +3599,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3609,7 +3612,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3622,7 +3625,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3635,7 +3638,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3648,7 +3651,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3661,7 +3664,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3674,7 +3677,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3687,7 +3690,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3700,7 +3703,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3713,7 +3716,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3726,20 +3729,20 @@
 "rarity": 2,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "b1e9ceed-9e93-9418-bd52-6804c4850182": {
 "ko": "나무 상자",
-"en": "Wooden Trunk",
+"en": "Wooden Crate",
 "icon": "Item_CONT_GEN_Crate_Wood_C",
 "value": 1,
 "amount": 1,
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3752,7 +3755,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3780,7 +3783,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3973,7 +3976,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3986,7 +3989,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3999,7 +4002,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4012,7 +4015,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4025,7 +4028,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4067,7 +4070,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4080,7 +4083,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4093,7 +4096,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4106,7 +4109,7 @@
 "rarity": 3,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4119,7 +4122,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4132,7 +4135,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4145,7 +4148,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4158,7 +4161,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4171,7 +4174,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4184,7 +4187,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4197,7 +4200,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4210,7 +4213,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4223,7 +4226,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4235,8 +4238,8 @@
 "amount": 1,
 "rarity": 0,
 "owner": "여행용 궤짝",
-"verdict": "🔴 팔기",
-"last": "2026-10-29",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4249,7 +4252,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4262,7 +4265,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4275,7 +4278,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4288,7 +4291,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4316,7 +4319,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4329,7 +4332,7 @@
 "rarity": 0,
 "owner": "여행용 궤짝",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4340,9 +4343,9 @@
 "value": 1,
 "amount": 1,
 "rarity": 0,
-"owner": "섀도하트",
+"owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4355,7 +4358,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4368,7 +4371,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4381,7 +4384,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4394,7 +4397,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4407,7 +4410,7 @@
 "rarity": 2,
 "owner": "섀도하트",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4420,7 +4423,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4433,7 +4436,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4446,7 +4449,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4459,7 +4462,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4472,7 +4475,7 @@
 "rarity": 1,
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4485,7 +4488,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4498,7 +4501,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4511,7 +4514,7 @@
 "rarity": 2,
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4524,7 +4527,7 @@
 "rarity": 0,
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4537,7 +4540,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4550,7 +4553,7 @@
 "rarity": 2,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4563,7 +4566,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4576,7 +4579,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4589,7 +4592,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4602,7 +4605,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4615,7 +4618,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4628,7 +4631,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4641,33 +4644,33 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "833be3b9-9492-4c28-aee4-21c64af4e675": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "Scribbled Notes",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "bcb0f46f-6e2d-4d87-ad48-2ed276771928": {
 "ko": "너덜너덜한 두루마리",
-"en": "Tattered Scroll",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Poster_C",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4680,7 +4683,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4693,7 +4696,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4706,7 +4709,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4719,7 +4722,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4732,33 +4735,33 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "b437af92-c9f1-4657-961b-32ad0dbf39d9": {
 "ko": "절망의 용광로의 거대한 도가니",
-"en": "The Great Furnace of Grymforge",
+"en": "",
 "icon": "Item_BOOK_Wizards_Tome_Ornate_C",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
 "eebf1976-11d3-41a7-832f-bda88966ed0c": {
 "ko": "고블린 그림",
-"en": "Goblin's Drawing",
+"en": "",
 "icon": "Item_UNI_GOB_Scroll_GoblinDrawingBook",
 "value": 14,
 "amount": 1,
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4771,7 +4774,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4798,7 +4801,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4811,7 +4814,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4824,7 +4827,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4837,7 +4840,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4850,7 +4853,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4863,7 +4866,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4891,7 +4894,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4904,7 +4907,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4917,7 +4920,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4930,7 +4933,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4943,7 +4946,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4956,7 +4959,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4969,7 +4972,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4982,7 +4985,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4995,7 +4998,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5008,7 +5011,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5021,7 +5024,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5034,7 +5037,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5047,7 +5050,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5060,7 +5063,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5073,7 +5076,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5086,7 +5089,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5099,7 +5102,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5112,7 +5115,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5125,7 +5128,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5138,7 +5141,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5151,7 +5154,7 @@
 "rarity": 1,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5164,7 +5167,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5177,7 +5180,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5205,7 +5208,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5218,7 +5221,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5231,7 +5234,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5244,7 +5247,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5257,7 +5260,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5270,7 +5273,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5283,7 +5286,7 @@
 "rarity": 0,
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5296,7 +5299,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5309,7 +5312,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5322,7 +5325,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5335,7 +5338,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5348,7 +5351,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5361,7 +5364,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5374,7 +5377,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5387,7 +5390,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5400,7 +5403,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5413,7 +5416,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5426,7 +5429,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5439,7 +5442,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5452,7 +5455,7 @@
 "rarity": 0,
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5465,7 +5468,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5493,7 +5496,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5508,7 +5511,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-29",
 "first": "2026-10-28",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "d2be2514-749e-54eb-6e69-e3f33578a519": {
 "ko": "청동 술잔",
@@ -5519,7 +5523,7 @@
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟡 비교",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5532,7 +5536,7 @@
 "rarity": 3,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5545,7 +5549,7 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5556,9 +5560,9 @@
 "value": 240,
 "amount": 1,
 "rarity": 2,
-"owner": "게일",
+"owner": "Wyll",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5571,7 +5575,7 @@
 "rarity": 0,
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5584,7 +5588,7 @@
 "rarity": 1,
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5597,8 +5601,502 @@
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-29",
+"last": "2026-10-31",
 "first": "2026-10-29",
+"status": "have"
+},
+"62fc56e5-73dd-7b4c-472b-59f2571eea60": {
+"ko": "니오기 발톱",
+"en": "",
+"icon": "Item_CONS_GEN_Food_Neogi_Claws_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"13ba7a36-5f07-982b-af44-bf3ea90bcb0d": {
+"ko": "꿀 바른 햄",
+"en": "",
+"icon": "Item_CONS_Food_Roasted_Pig_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"d7a74ec6-b608-ebcb-48a1-743883d1cb91": {
+"ko": "니오기 롤",
+"en": "",
+"icon": "Item_CONS_GEN_Food_Dinner_A",
+"value": 10,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"61666869-f148-3782-3726-d848a16d9374": {
+"ko": "삶은 비홀더 눈자루",
+"en": "",
+"icon": "Item_CONS_GEN_Food_Plate_Beholder_Eyes_A",
+"value": 12,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"c83ba95c-4f1c-47a0-a9af-ddd29a15317f": {
+"ko": "먹다 남긴 사과",
+"en": "",
+"icon": "Item_CONS_FOOD_Fruit_Apple_Eaten_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"53f65946-3dfd-d82b-67f8-a40672039816": {
+"ko": "워터딥 치즈 조각",
+"en": "",
+"icon": "Item_CONS_GEN_Food_Cheese_Piece_A",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"af534de7-17a7-ede9-2b14-05a5e5e24c6c": {
+"ko": "이스뱅크",
+"en": "",
+"icon": "Item_CONS_Drink_Wine_Bottle_A",
+"value": 3,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"7052e6ec-2ffd-cd30-7888-be1b8736737d": {
+"ko": "삼겹살 석쇠 구이",
+"en": "",
+"icon": "Item_CONS_Food_Meat_Grilled_B",
+"value": 8,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"b78a398b-f3c2-caf9-192d-3b488f609f32": {
+"ko": "워터딥 치즈",
+"en": "",
+"icon": "Item_CONS_GEN_Food_Cheese_A",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"01b3099c-0e3b-b641-ffde-f61d39aad0f7": {
+"ko": "돼지고기 구이",
+"en": "",
+"icon": "Item_CONS_Food_Roasted_Pig_A",
+"value": 15,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"06495faa-ec5b-4eca-85ee-e3f193a659bc": {
+"ko": "위브이끼",
+"en": "",
+"icon": "Item_CONS_Herbs_Weavemoss_Bundle_A",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"88b9e680-3812-477b-8967-46d8bce18769": {
+"ko": "문자가 새겨진 기스양키 원판",
+"en": "",
+"icon": "Item_BOOK_GTY_Book_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"4c5bbc63-61f4-43f1-b2a1-de29071fd87c": {
+"ko": "다음 여명장에게 남기는 쪽지",
+"en": "",
+"icon": "Item_BOOK_GEN_Paper_Letter_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"19f6443d-f447-43a8-b6d7-86c162fc5d60": {
+"ko": "천사의 잠 물약",
+"en": "Potion of Angelic Slumber",
+"icon": "Item_CONS_Potion_Rare_A_Bronze",
+"value": 200,
+"amount": 1,
+"rarity": 3,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"8f789af4-e081-3585-2315-6d2e66513f95": {
+"ko": "기체 형태 두루마리",
+"en": "Scroll of Gaseous Form",
+"icon": "Item_LOOT_SCROLL_GaseousForm",
+"value": 100,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"5d55d87b-048b-5140-52f3-96a4a3ee165f": {
+"ko": "생각 탐지 두루마리",
+"en": "",
+"icon": "Item_LOOT_SCROLL_DetectThoughts",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"e83e72aa-7f3f-4eb4-2e9a-5866d2dabe08": {
+"ko": "결계 문양 두루마리",
+"en": "",
+"icon": "Item_LOOT_SCROLL_GlyphOfWarding",
+"value": 100,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"37b97c80-88c4-6db7-7171-84d43ff1c1e7": {
+"ko": "기스양키 경판금 갑옷",
+"en": "Githyanki Half Plate",
+"icon": "Item_ARM_HalfPlate_Githyanki",
+"value": 180,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"8c296d05-3dc6-7c97-d0bb-5d1b0cd3b4d4": {
+"ko": "기스양키 쇠뇌",
+"en": "",
+"icon": "Item_WPN_GTY_HeavyCrossbow_A_GLOW",
+"value": 85,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"14523b28-c16c-64a8-14bc-a807759fcd64": {
+"ko": "징 박힌 가죽 갑옷",
+"en": "Studded Leather Armour",
+"icon": "Item_ARM_StuddedLeather",
+"value": 130,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"74fceaae-8fea-91b4-7b03-61cea2a44b04": {
+"ko": "평범한 로브",
+"en": "Simple Robe",
+"icon": "Item_ARM_Robe",
+"value": 11,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"bc1db8c7-f102-da3b-a3b6-3a2a138c1bfa": {
+"ko": "비전 시너지의 왕관",
+"en": "Circlet of Arcane Synergy",
+"icon": "Generated_MAG_Gish_ArcaneSynergy_Circlet_Magic",
+"value": 240,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"dfe5a90b-15c5-a939-a900-48f4a3007b0e": {
+"ko": "기스양키 소검",
+"en": "Githyanki Shortsword",
+"icon": "Item_WPN_GTY_Shortsword_A_GLOW",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"55a8798e-f96d-f05c-edf6-c3e86b53a868": {
+"ko": "평범한 로브",
+"en": "Simple Robe",
+"icon": "Item_ARM_Robe",
+"value": 11,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"0f91dcd6-a364-460b-2fe3-64459cda5503": {
+"ko": "기스양키 소검",
+"en": "Githyanki Shortsword",
+"icon": "Item_WPN_GTY_Shortsword_A_GLOW",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"a3984741-e310-9a4b-1048-ef805cd1cc6f": {
+"ko": "기스양키 경판금 갑옷",
+"en": "Githyanki Half Plate",
+"icon": "Item_ARM_HalfPlate_Githyanki",
+"value": 180,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"b570dc01-44fb-1d6d-f1f5-05cf0c43f100": {
+"ko": "평범한 로브",
+"en": "Simple Robe",
+"icon": "Item_ARM_Robe",
+"value": 11,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"1fd3c39a-6b7e-54a1-0ada-66e79dc77bba": {
+"ko": "기스양키 소검",
+"en": "Githyanki Shortsword",
+"icon": "Item_WPN_GTY_Shortsword_A_GLOW",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"e26f0c19-6185-43a7-b7f7-7155b936c59c": {
+"ko": "라샌더의 피",
+"en": "Blood of Lathander",
+"icon": "Item_WPN_HUM_Sun_Mace_A",
+"value": 640,
+"amount": 1,
+"rarity": 4,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"cf29af19-68d8-aea1-88f7-36757f697187": {
+"ko": "기스양키 경판금 갑옷",
+"en": "Githyanki Half Plate",
+"icon": "Item_ARM_HalfPlate_Githyanki",
+"value": 180,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"fa3f3787-e9c0-cd28-d1b9-fba2b3da8762": {
+"ko": "기스양키 쇠뇌",
+"en": "",
+"icon": "Item_WPN_GTY_HeavyCrossbow_A_GLOW",
+"value": 85,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"94421bfa-9f68-35fb-622c-3ae99936c9df": {
+"ko": "치유 물약",
+"en": "Potion of Healing",
+"icon": "Item_CONS_Potion_Healing_A",
+"value": 10,
+"amount": 2,
+"rarity": 0,
+"owner": "게일",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"3611dd7e-82ed-6cd9-293c-699cc91f5613": {
+"ko": "함정 해제 도구",
+"en": "Trap Disarm Toolkit",
+"icon": "Item_TOOL_GEN_Disam_Toolkit_A",
+"value": 25,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"5aff783c-9f41-e298-bbab-f1cde65c2d1a": {
+"ko": "징 박힌 가죽 갑옷",
+"en": "Studded Leather Armour",
+"icon": "Item_ARM_StuddedLeather",
+"value": 130,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"9de48bae-0b56-0066-1314-bb0cab986eef": {
+"ko": "기스양키 대검",
+"en": "Githyanki Greatsword",
+"icon": "Item_WPN_GTY_Greatsword_A_GLOW",
+"value": 85,
+"amount": 1,
+"rarity": 1,
+"owner": "Lae'zel",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"a876cc64-5dc2-0acc-315f-276b9b01e161": {
+"ko": "기스양키 대검",
+"en": "Githyanki Greatsword",
+"icon": "Item_WPN_GTY_Greatsword_A_GLOW",
+"value": 85,
+"amount": 1,
+"rarity": 1,
+"owner": "Lae'zel",
+"verdict": "🟡 비교",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"9497f559-7525-a4e5-ca7a-b9b6759dcb31": {
+"ko": "초능력 복수의 서클릿",
+"en": "Circlet of Psionic Revenge",
+"icon": "Item_ARM_Headwear_Circlet_Githyanki_A",
+"value": 240,
+"amount": 1,
+"rarity": 2,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"d7b8772c-179f-ae9b-891f-a293b16160a6": {
+"ko": "영혼 파괴자 대검",
+"en": "Soulbreaker Greatsword",
+"icon": "Item_WPN_GTY_Greatsword_A_LowHP_IncreasedDamagePsychic",
+"value": 380,
+"amount": 1,
+"rarity": 2,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
+"first": "2026-10-31",
 "status": "have"
 }
 }
