@@ -720,7 +720,7 @@
 },
 "06332bc8-19b5-4f9c-9013-6d433abd78a0": {
 "ko": "지성의 학회의 의뢰",
-"en": "",
+"en": "An Opportunity from the Society of Brilliance",
 "icon": "Item_BOOK_GEN_Envelope_A",
 "value": 14,
 "amount": 1,
@@ -1245,7 +1245,7 @@
 },
 "03ddecea-d7db-4fda-803b-5c81a0f3493b": {
 "ko": "밤의 노래를 찾아서",
-"en": "",
+"en": "In Search of the Nightsong",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -1258,7 +1258,7 @@
 },
 "6557e2a7-ee82-4c5a-a26b-9056e4eb03df": {
 "ko": "해독제에 대하여",
-"en": "",
+"en": "On Antidotes",
 "icon": "Item_BOOK_Wizards_Tome_Antidote_Recipe_A",
 "value": 14,
 "amount": 1,
@@ -1271,7 +1271,7 @@
 },
 "a10cb81b-ba44-446b-b736-f26d55475150": {
 "ko": "냄새나는 쪽지",
-"en": "",
+"en": "Rancid Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -1498,7 +1498,7 @@
 "amount": 1,
 "rarity": 1,
 "owner": "Wyll",
-"verdict": "🟢 보관",
+"verdict": "🛡️ 착용 중",
 "last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
@@ -1634,7 +1634,7 @@
 "amount": 1,
 "rarity": 1,
 "owner": "Wyll",
-"verdict": "🛡️ 착용 중",
+"verdict": "🟡 비교",
 "last": "2026-10-31",
 "first": "2026-10-27",
 "status": "have"
@@ -2464,7 +2464,8 @@
 "verdict": "🛡️ 착용 중",
 "last": "2026-10-31",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "1df110ea-b491-a521-a92b-56de1d518f61": {
 "ko": "할신의 숲 옷",
@@ -2503,7 +2504,8 @@
 "verdict": "🟡 비교",
 "last": "2026-10-31",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "d953fd60-0d33-8ea6-58fa-d5cf90623ca2": {
 "ko": "궁술 장갑",
@@ -2961,7 +2963,8 @@
 "verdict": "🟡 비교",
 "last": "2026-10-31",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "466ef2fa-b686-5856-df30-eba33185c713": {
 "ko": "경량 망치",
@@ -3118,7 +3121,8 @@
 "verdict": "🔴 팔기",
 "last": "2026-10-31",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-10-31"
 },
 "41bfc5e5-2522-79c2-34e6-eb56c451922c": {
 "ko": "야영 물자 자루",
@@ -4650,7 +4654,7 @@
 },
 "833be3b9-9492-4c28-aee4-21c64af4e675": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "",
+"en": "Scribbled Notes",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -4663,7 +4667,7 @@
 },
 "bcb0f46f-6e2d-4d87-ad48-2ed276771928": {
 "ko": "너덜너덜한 두루마리",
-"en": "",
+"en": "Tattered Scroll",
 "icon": "Item_BOOK_GEN_Paper_Poster_C",
 "value": 14,
 "amount": 1,
@@ -4741,7 +4745,7 @@
 },
 "b437af92-c9f1-4657-961b-32ad0dbf39d9": {
 "ko": "절망의 용광로의 거대한 도가니",
-"en": "",
+"en": "The Great Furnace of Grymforge",
 "icon": "Item_BOOK_Wizards_Tome_Ornate_C",
 "value": 14,
 "amount": 1,
@@ -4754,7 +4758,7 @@
 },
 "eebf1976-11d3-41a7-832f-bda88966ed0c": {
 "ko": "고블린 그림",
-"en": "",
+"en": "Goblin's Drawing",
 "icon": "Item_UNI_GOB_Scroll_GoblinDrawingBook",
 "value": 14,
 "amount": 1,
@@ -5642,7 +5646,8 @@
 "verdict": "🟡 비교",
 "last": "2026-10-31",
 "first": "2026-10-31",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "61666869-f148-3782-3726-d848a16d9374": {
 "ko": "삶은 비홀더 눈자루",
@@ -5655,7 +5660,8 @@
 "verdict": "🟡 비교",
 "last": "2026-10-31",
 "first": "2026-10-31",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "c83ba95c-4f1c-47a0-a9af-ddd29a15317f": {
 "ko": "먹다 남긴 사과",
@@ -5733,7 +5739,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-31",
 "first": "2026-10-31",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "06495faa-ec5b-4eca-85ee-e3f193a659bc": {
 "ko": "위브이끼",
@@ -5837,7 +5844,8 @@
 "verdict": "🟢 보관",
 "last": "2026-10-31",
 "first": "2026-10-31",
-"status": "have"
+"status": "gone",
+"gone": "2026-10-31"
 },
 "8c296d05-3dc6-7c97-d0bb-5d1b0cd3b4d4": {
 "ko": "기스양키 쇠뇌",
@@ -5977,7 +5985,7 @@
 "amount": 1,
 "rarity": 4,
 "owner": "Wyll",
-"verdict": "🟢 보관",
+"verdict": "🛡️ 착용 중",
 "last": "2026-10-31",
 "first": "2026-10-31",
 "status": "have"
@@ -6042,7 +6050,7 @@
 "amount": 1,
 "rarity": 0,
 "owner": "아스타리온",
-"verdict": "🟢 보관",
+"verdict": "🛡️ 착용 중",
 "last": "2026-10-31",
 "first": "2026-10-31",
 "status": "have"
@@ -6095,6 +6103,19 @@
 "rarity": 2,
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
+"last": "2026-10-31",
+"first": "2026-10-31",
+"status": "have"
+},
+"fe7e56bd-6348-1cbd-c77b-f705011db692": {
+"ko": "",
+"en": "Shield Bag",
+"icon": "Item_CONT_GEN_LIA_ShieldBag",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
 "last": "2026-10-31",
 "first": "2026-10-31",
 "status": "have"
