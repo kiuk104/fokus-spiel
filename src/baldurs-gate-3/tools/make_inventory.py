@@ -253,21 +253,28 @@ if hist_path:
             if x.get('uuid') and not x.get('items') and x.get('stats') != 'OBJ_GoldPile': cur[x['uuid']] = (x, who)
     for u, (x, who) in cur.items():
         k, e = names(x)
+        prev = H.get(u, {})
+        back = prev.get('back') or ([{'sold': prev.get('gone'), 'back': date, 'trader': prev.get('trader')}] if prev.get('status') == 'sold' else [])
+        if prev.get('status') == 'sold' and prev.get('back'): back = prev['back'] + [{'sold': prev.get('gone'), 'back': date, 'trader': prev.get('trader')}]
         H[u] = {'ko': k, 'en': e, 'icon': x.get('icon'), 'value': x.get('value') or 0, 'amount': x.get('amount') or 1,
                 'rarity': x.get('rarity') or 0, 'owner': who, 'verdict': verdict(x)[0], 'cat': cat(x.get('stats')), 'last': date,
-                'first': H.get(u, {}).get('first', date), 'status': 'have'}
+                'first': prev.get('first', date), 'status': 'have', **({'back': back} if back else {})}
     for u, r in H.items():
         if r.get('status') == 'have' and u not in cur:
             if u in bb: r.update(status='sold', gone=date, trader=bb[u].get('trader'))
             elif r.get('verdict') == SELL or not is_used(r): r.update(status='sold', gone=date)   # 장비·잡동사니가 사라짐 = 판매로 봄
             else: r.update(status='gone', gone=date)   # 소모품이 사라짐 = 사용
     json.dump(hist, open(hist_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
-    gone = sorted([r for r in H.values() if r.get('status') in ('sold', 'gone')], key=lambda r: (r.get('gone', ''), -(r['value'] * r['amount'])), reverse=True)
+    for r in H.values():   # 판 뒤 다시 가져온 아이템도 기록에 남김
+        for b in r.get('back') or []:
+            if r.get('status') == 'have' and not any(g.get('_back_of') is r for g in []): pass
+    rebought = [dict(r, status='back', gone=b['back'], trader=b.get('trader'), sold_on=b.get('sold')) for r in H.values() if r.get('status') == 'have' for b in (r.get('back') or [])]
+    gone = sorted([r for r in H.values() if r.get('status') in ('sold', 'gone')] + rebought, key=lambda r: (r.get('gone', ''), -(r['value'] * r['amount'])), reverse=True)
     if gone:
         sold_total = sum(r['value'] * r['amount'] for r in gone if r['status'] == 'sold')
         grow = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td><td>%s</td></tr>' % (
             r.get('gone', ''), img({'icon': r.get('icon'), 'rarity': r.get('rarity')}), html.escape(r['ko'] or ''), html.escape(r['en'] or ''), r['amount'], r['value'] * r['amount'],
-            '💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '') if r['status'] == 'sold' else '➖ 사용함', html.escape(r.get('owner', ''))) for r in gone)
+            ('💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '')) if r['status'] == 'sold' else ('🔁 다시 가져옴 (%s 판매 → 지금 %s)' % (r.get('sold_on') or '?', html.escape(r.get('owner', ''))) if r['status'] == 'back' else '➖ 사용함'), html.escape(r.get('owner', ''))) for r in gone)
         parts.insert(4, ('### 💰 판매한 아이템 · 없어진 아이템 — 판매 %d종 · 기본가 %d골드\n\n'
             '이전 목록에 있다가 사라진 아이템이에요. **💰 판매됨** = 사라진 장비 · 잡동사니 · 책 등(교체 후 판 장비 포함), **➖ 사용함** = 사라진 소모품(물약 · 두루마리 · 음식 · 투척물 등).\n\n'
             '<details><summary><b>목록 펼치기</b> (최근 순)</summary>\n\n<table><thead><tr><th>날짜</th><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>상태</th><th>원래 누구</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n')
