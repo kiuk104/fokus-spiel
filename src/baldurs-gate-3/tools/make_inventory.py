@@ -123,6 +123,7 @@ def names(x):
     e = en.get(x.get('h') or '')
     if e is None:        # 원조 BagsBagsBags 처럼 한글 번역이 없는 모드 아이템
         return '', k
+    if k.endswith(' (%s)' % e): k = k[:-len(e) - 3]   # 한영 병기 모드(FokusBilingualKR) 이름 정리
     return k, e
 def img(x):
     ic = x.get('icon')
@@ -239,6 +240,11 @@ parts.insert(3, '#### 🗂️ 카테고리별 요약\n\n파티 + 여행용 궤�
 if hist_path:
     hist = json.load(open(hist_path, encoding='utf-8')) if os.path.exists(hist_path) else {'items': {}}
     H = hist['items']
+    USED_CATS = {'물약', '두루마리', '화살', '투척물', '독·도포제', '음식·술', '연금술 재료', '열쇠'}
+    USED_WORDS = ('Potion', 'Elixir', 'Scroll', 'Arrow', 'Bomb', 'Bottle', 'Flask', 'Poison', 'Oil', 'Grenade', 'Satchel', 'Wine', 'Ale', 'Sweet', 'Sup', 'Key', 'Draught', 'Coating')
+    def is_used(r):
+        if r.get('cat'): return r['cat'] in USED_CATS
+        return any(w in (r.get('en') or '') for w in USED_WORDS)
     bb = {b.get('uuid'): b for b in inv.get('buyback') or [] if b.get('uuid')}
     cur = {}
     for c in inv['chars']:
@@ -248,22 +254,22 @@ if hist_path:
     for u, (x, who) in cur.items():
         k, e = names(x)
         H[u] = {'ko': k, 'en': e, 'icon': x.get('icon'), 'value': x.get('value') or 0, 'amount': x.get('amount') or 1,
-                'rarity': x.get('rarity') or 0, 'owner': who, 'verdict': verdict(x)[0], 'last': date,
+                'rarity': x.get('rarity') or 0, 'owner': who, 'verdict': verdict(x)[0], 'cat': cat(x.get('stats')), 'last': date,
                 'first': H.get(u, {}).get('first', date), 'status': 'have'}
     for u, r in H.items():
         if r.get('status') == 'have' and u not in cur:
             if u in bb: r.update(status='sold', gone=date, trader=bb[u].get('trader'))
-            elif r.get('verdict') == SELL: r.update(status='sold', gone=date)
-            else: r.update(status='gone', gone=date)
+            elif r.get('verdict') == SELL or not is_used(r): r.update(status='sold', gone=date)   # 장비·잡동사니가 사라짐 = 판매로 봄
+            else: r.update(status='gone', gone=date)   # 소모품이 사라짐 = 사용
     json.dump(hist, open(hist_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
     gone = sorted([r for r in H.values() if r.get('status') in ('sold', 'gone')], key=lambda r: (r.get('gone', ''), -(r['value'] * r['amount'])), reverse=True)
     if gone:
         sold_total = sum(r['value'] * r['amount'] for r in gone if r['status'] == 'sold')
         grow = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td><td>%s</td></tr>' % (
             r.get('gone', ''), img({'icon': r.get('icon'), 'rarity': r.get('rarity')}), html.escape(r['ko'] or ''), html.escape(r['en'] or ''), r['amount'], r['value'] * r['amount'],
-            '💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '') if r['status'] == 'sold' else '➖ 없어짐', html.escape(r.get('owner', ''))) for r in gone)
+            '💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '') if r['status'] == 'sold' else '➖ 사용함', html.escape(r.get('owner', ''))) for r in gone)
         parts.insert(4, ('#### 💰 판매한 아이템 · 없어진 아이템 — 판매 %d종 · 기본가 %d골드\n\n'
-            '이전 목록에 있다가 사라진 아이템이에요. **💰 판매됨** = 🔴 팔 것이었거나 상인 되사기 목록에 있는 것, **➖ 없어짐** = 그 밖에 사용 · 버림 · 건네준 것.\n\n'
+            '이전 목록에 있다가 사라진 아이템이에요. **💰 판매됨** = 사라진 장비 · 잡동사니 · 책 등(교체 후 판 장비 포함), **➖ 사용함** = 사라진 소모품(물약 · 두루마리 · 음식 · 투척물 등).\n\n'
             '<details><summary><b>목록 펼치기</b> (최근 순)</summary>\n\n<table><thead><tr><th>날짜</th><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>상태</th><th>원래 누구</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n')
             % (sum(1 for r in gone if r['status'] == 'sold'), sold_total, grow))
 # ---- 책 원문 · 번역
