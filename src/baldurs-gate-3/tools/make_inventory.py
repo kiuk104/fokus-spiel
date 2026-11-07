@@ -190,7 +190,7 @@ tot = sum((x.get('value') or 0) * n for x, n, w in SELL_LIST)
 sell_rows = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td></tr>' % (
     img(x), html.escape(names(x)[0] or names(x)[1]), html.escape(names(x)[1] or ''), n, (x.get('value') or 0) * n, html.escape(w))
     for x, n, w in sorted(SELL_LIST, key=lambda t: -((t[0].get('value') or 0) * t[1])))
-summary = ('#### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골드\n\n'
+summary = ('### 🔴 팔 것 한눈에 — %d종 · 기본가 합계 약 %d골드\n\n'
   '상인 거래창에서 우클릭 → **판매 목록에 넣기**(Mark as Wares)로 모아 한 번에 파세요. 실제 판매가는 매력·상인 호감도에 따라 기본가보다 낮아요. 🟡 비교 항목은 지금 장착한 장비와 비교해 보고 결정하세요.\n\n'
   '<details><summary><b>팔 것 목록 펼치기</b> (비싼 순)</summary>\n\n<table><thead><tr><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>어디에</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n') % (len(SELL_LIST), tot, sell_rows)
 parts.insert(3, summary)
@@ -268,7 +268,7 @@ if hist_path:
         grow = ''.join('<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td style="text-align:right">%d</td><td style="text-align:right">%d</td><td>%s</td><td>%s</td></tr>' % (
             r.get('gone', ''), img({'icon': r.get('icon'), 'rarity': r.get('rarity')}), html.escape(r['ko'] or ''), html.escape(r['en'] or ''), r['amount'], r['value'] * r['amount'],
             '💰 판매됨' + (' (%s)' % html.escape(r['trader']) if r.get('trader') else '') if r['status'] == 'sold' else '➖ 사용함', html.escape(r.get('owner', ''))) for r in gone)
-        parts.insert(4, ('#### 💰 판매한 아이템 · 없어진 아이템 — 판매 %d종 · 기본가 %d골드\n\n'
+        parts.insert(4, ('### 💰 판매한 아이템 · 없어진 아이템 — 판매 %d종 · 기본가 %d골드\n\n'
             '이전 목록에 있다가 사라진 아이템이에요. **💰 판매됨** = 사라진 장비 · 잡동사니 · 책 등(교체 후 판 장비 포함), **➖ 사용함** = 사라진 소모품(물약 · 두루마리 · 음식 · 투척물 등).\n\n'
             '<details><summary><b>목록 펼치기</b> (최근 순)</summary>\n\n<table><thead><tr><th>날짜</th><th></th><th>한글 이름</th><th>영문 이름</th><th>개수</th><th>기본가</th><th>상태</th><th>원래 누구</th></tr></thead><tbody>%s</tbody></table>\n\n</details>\n')
             % (sum(1 for r in gone if r['status'] == 'sold'), sold_total, grow))
