@@ -60,5 +60,5 @@ if __name__ == '__main__':
     for p in sys.argv[1:]:
         s = open(p, encoding='utf-8').read()
         s = cardify(s)
-        if p.endswith('inv_section.md'): s = STYLE + s
+        if '@media (max-width:760px)' not in s and '지금 들고 있는 아이템' in s: s = STYLE + s
         open(p, 'w', encoding='utf-8').write(s)
