@@ -14,3 +14,11 @@
 - 판매 기록: `python make_inventory.py <json> <날짜> <아이콘> inv.md inventory_history.json party.md books.md`
   — `inventory_history.json` 에 uuid 별로 쌓고, 사라진 아이템은 판매됨(🔴 판정이었거나 되사기 목록) / 없어짐 으로 표시
 - 책 본문: `Data/Gustav.pak` 등의 `Localization/*Books*.lsf` (BookId → 본문 handle) → `books.pkl`
+
+## 이름표 · 책 본문 보관 위치 (2026-11-23~)
+- `loca.pkl`(한글·영문 이름표) · `books.pkl`(BookId → 본문 handle)은 git 에 넣지 않고 PC 의
+  `%LocalAppData%\Larian Studios\Baldur's Gate 3\Script Extender\` 에 둔다. 갱신할 때 이 둘을 `tools/` 로 가져와 실행.
+- `loca.pkl` 이 없으면 `make_inventory.py` 는 한영 병기 모드 이름("한글 (English)")에서 이름을 나눠 쓴다(책 섹션은 생략).
+- 다시 만들기: `Localization/English.pak` · `Korean/Korean.pak` 의 `english.loca` · `korean.loca`,
+  책은 `*Books*.lsf` 에서 "handle\0 … BookId\0" 순서로 짝을 찾는다(Content 가 UUID 앞에 온다).
+- 아이콘: `Game.pak` 의 `ControllerUIIcons/items_png/<icon>.DDS` → 64px PNG. BagsBagsBags 가방 아이콘은 모드 pak 에 있어 빠져 있다.

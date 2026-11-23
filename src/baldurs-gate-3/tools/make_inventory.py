@@ -9,8 +9,9 @@ books_out = sys.argv[7] if len(sys.argv) > 7 else None
 BOOKS = pickle.load(open(os.path.join(S, 'books.pkl'), 'rb')) if os.path.exists(os.path.join(S, 'books.pkl')) else {}
 if os.path.exists(os.path.join(S, 'loca.pkl')):
     en, kr = pickle.load(open(os.path.join(S, 'loca.pkl'), 'rb'))
-    mod = json.load(open(os.path.join(S, 'loca.json'), encoding='utf-8'))
-    en.update(mod['en']); kr.update(mod['kr'])
+    if os.path.exists(os.path.join(S, 'loca.json')):   # 모드 가방 이름 (없으면 영문 이름만 표시)
+        mod = json.load(open(os.path.join(S, 'loca.json'), encoding='utf-8'))
+        en.update(mod['en']); kr.update(mod['kr'])
 else:
     # 이름표(loca.pkl)가 없을 때: 한영 병기 모드(FokusBilingualKR)가 붙여 준 "한글 (English)" 이름에서 바로 나눈다
     en, kr = {}, {}

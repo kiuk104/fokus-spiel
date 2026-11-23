@@ -5,3 +5,5 @@ __pycache__/
 /data/
 /*/guide.html
 !/templates/guide.html
+# 게임 파일에서 뽑은 이름표 · 책 본문 (크고 다시 만들 수 있음)
+*.pkl

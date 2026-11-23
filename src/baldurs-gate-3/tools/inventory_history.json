@@ -577,7 +577,7 @@
 },
 "4030d903-9ea7-4017-b712-7aab6130da67": {
 "ko": "여사제의 열쇠",
-"en": "",
+"en": "Priestess' Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -591,7 +591,7 @@
 },
 "7a017921-e078-4123-9a08-bda5ecec6807": {
 "ko": "더러운 열쇠",
-"en": "",
+"en": "Grubby Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -605,7 +605,7 @@
 },
 "536107bd-277b-42bb-8eaf-2b787123615c": {
 "ko": "고문 기술자의 열쇠",
-"en": "",
+"en": "Torturer's Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -619,7 +619,7 @@
 },
 "62dda6b7-2992-488b-8ae7-07b82750e0cf": {
 "ko": "자물쇠 열쇠",
-"en": "",
+"en": "Padlock Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -633,7 +633,7 @@
 },
 "f76e7439-685b-42b0-a845-abae3b326470": {
 "ko": "감옥 열쇠",
-"en": "",
+"en": "Prison Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -675,7 +675,7 @@
 },
 "d9f6a4d9-e944-409c-aac2-fd0fb2ce9db6": {
 "ko": "빛나는 열쇠",
-"en": "",
+"en": "Shiny Key",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -689,7 +689,7 @@
 },
 "5800deab-10e2-4f78-9077-3b3d4d283fb6": {
 "ko": "낡은 열쇠",
-"en": "",
+"en": "Old Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -703,7 +703,7 @@
 },
 "ee17902e-74dc-4118-a271-ddaa383c95a7": {
 "ko": "무거운 열쇠",
-"en": "",
+"en": "Heavy Key",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -717,7 +717,7 @@
 },
 "82df88e8-f42f-4dd7-bb11-34b8bed5e622": {
 "ko": "우리 열쇠",
-"en": "",
+"en": "Cage Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -745,7 +745,7 @@
 },
 "3a23205c-a1fd-482c-aaf1-a793f8ef2585": {
 "ko": "낡은 열쇠",
-"en": "",
+"en": "Old Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -759,7 +759,7 @@
 },
 "b863e650-e375-6cf6-4c56-f4c34bc591ee": {
 "ko": "학회를 도와줄 모험가 공개 모집",
-"en": "",
+"en": "Open Call for Adventurers on Behalf of the Society",
 "icon": "Item_BOOK_GEN_Paper_Sheet_D",
 "value": 14,
 "amount": 1,
@@ -773,7 +773,7 @@
 },
 "06332bc8-19b5-4f9c-9013-6d433abd78a0": {
 "ko": "지성의 학회의 의뢰",
-"en": "",
+"en": "An Opportunity from the Society of Brilliance",
 "icon": "Item_BOOK_GEN_Envelope_A",
 "value": 14,
 "amount": 1,
@@ -787,7 +787,7 @@
 },
 "3efd8f10-2e7d-40ba-ae3f-aab65e693be7": {
 "ko": "몽크의 마지막 쪽지",
-"en": "",
+"en": "Last Notes of a Monk",
 "icon": "Item_BOOK_GEN_Book_E",
 "value": 14,
 "amount": 1,
@@ -815,7 +815,7 @@
 },
 "28f4b8ab-ef39-4680-9e2c-2ca1bd41feab": {
 "ko": "장밋빛 아침 수도원 방명록",
-"en": "",
+"en": "Guestbook of Rosymorn Abbey",
 "icon": "Item_BOOK_GEN_Book_A",
 "value": 14,
 "amount": 1,
@@ -829,7 +829,7 @@
 },
 "f9525113-7192-48ca-9c3e-c3e7a07d6776": {
 "ko": "기부품 재고",
-"en": "",
+"en": "Inventory of Offerings",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -843,7 +843,7 @@
 },
 "e1731c35-40f4-4644-9aeb-5a2386b079c6": {
 "ko": "약탈품 재고",
-"en": "",
+"en": "Inventory of Takings",
 "icon": "Item_BOOK_GTY_Book_A",
 "value": 14,
 "amount": 1,
@@ -1341,7 +1341,7 @@
 },
 "03ddecea-d7db-4fda-803b-5c81a0f3493b": {
 "ko": "밤의 노래를 찾아서",
-"en": "",
+"en": "In Search of the Nightsong",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -1355,7 +1355,7 @@
 },
 "6557e2a7-ee82-4c5a-a26b-9056e4eb03df": {
 "ko": "해독제에 대하여",
-"en": "",
+"en": "On Antidotes",
 "icon": "Item_BOOK_Wizards_Tome_Antidote_Recipe_A",
 "value": 14,
 "amount": 1,
@@ -1369,7 +1369,7 @@
 },
 "a10cb81b-ba44-446b-b736-f26d55475150": {
 "ko": "냄새나는 쪽지",
-"en": "",
+"en": "Rancid Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -1664,7 +1664,7 @@
 },
 "65c15c7d-5773-4f2f-abdb-19751e92eb26": {
 "ko": "빛바랜 로켓",
-"en": "",
+"en": "Tarnished Locket",
 "icon": "Item_LOOT_GEN_KeepsakeLocket_A",
 "value": 20,
 "amount": 1,
@@ -1706,7 +1706,7 @@
 },
 "4d93e3eb-c420-4c03-aadf-2c09b14726fe": {
 "ko": "개 목걸이",
-"en": "",
+"en": "Dog Collar",
 "icon": "Item_UNI_ClericPetCollar",
 "value": 20,
 "amount": 1,
@@ -2106,7 +2106,7 @@
 },
 "45a48cf7-baed-4d48-aaf4-1399948314e6": {
 "ko": "리할라의 류트",
-"en": "",
+"en": "Lihala's Lute",
 "icon": "Item_TOOL_GEN_Music_Guitar_Lute_B",
 "value": 14,
 "amount": 1,
@@ -2274,7 +2274,7 @@
 },
 "f938e0a4-fb50-4d69-8b40-18e9bba30a22": {
 "ko": "어둠의 정신",
-"en": "",
+"en": "Dark Mind",
 "icon": "Item_DEC_MF_Brain_Jar_Memory_A",
 "value": 1,
 "amount": 1,
@@ -3428,7 +3428,7 @@
 },
 "2e55e20f-2fb4-4a7a-9a0d-78bc61a19ee0": {
 "ko": "일리시드 필사본",
-"en": "",
+"en": "Illithid Manuscript",
 "icon": "Item_LOOT_MF_Rune_Tablet_A",
 "value": 1,
 "amount": 1,
@@ -3712,7 +3712,7 @@
 },
 "8287fe56-0e69-4a53-9854-5de0ed4352bd": {
 "ko": "총명한 럼프의 일기",
-"en": "",
+"en": "The Diary of Lump the Enlightened",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -4077,7 +4077,7 @@
 },
 "2c5bca7e-8649-4217-9ebb-52b20a506e99": {
 "ko": "노예의 정신",
-"en": "",
+"en": "Slave Mind",
 "icon": "Item_DEC_MF_Brain_Jar_Memory_A",
 "value": 1,
 "amount": 1,
@@ -4667,7 +4667,7 @@
 },
 "326324f9-0920-8f0f-3e85-3781fbf48282": {
 "ko": "신비한 유물",
-"en": "",
+"en": "Mysterious Artefact",
 "icon": "Item_Quest_Mysterious_Puzzlebox",
 "value": 1,
 "amount": 1,
@@ -5008,7 +5008,7 @@
 },
 "833be3b9-9492-4c28-aee4-21c64af4e675": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "",
+"en": "Scribbled Notes",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -5022,7 +5022,7 @@
 },
 "bcb0f46f-6e2d-4d87-ad48-2ed276771928": {
 "ko": "너덜너덜한 두루마리",
-"en": "",
+"en": "Tattered Scroll",
 "icon": "Item_BOOK_GEN_Paper_Poster_C",
 "value": 14,
 "amount": 1,
@@ -5036,7 +5036,7 @@
 },
 "e7ebf607-9e08-41d8-845d-f5f7184c6e82": {
 "ko": "버려진 일지",
-"en": "",
+"en": "Discarded Journal",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -5050,7 +5050,7 @@
 },
 "c81658d3-f2bd-4a44-aeaf-efe631bce4f9": {
 "ko": "피로 물든 일지",
-"en": "",
+"en": "Blood-Smeared Logbook",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -5064,7 +5064,7 @@
 },
 "257b83b3-ebd5-4d7e-968b-9b0fff340b97": {
 "ko": "너덜너덜한 쪽지",
-"en": "",
+"en": "Battered Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -5078,7 +5078,7 @@
 },
 "606542f8-af80-4102-b849-84e73d8a7f12": {
 "ko": "수서나무 꽃의 항마법 성질에 관한 논문",
-"en": "",
+"en": "Treatise on the Antimagic Properties of Sussur Tree Flowers",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -5092,7 +5092,7 @@
 },
 "681db24e-8658-4c43-b462-1e6cebdb42a9": {
 "ko": "너덜너덜한 책",
-"en": "",
+"en": "Threadbare Book",
 "icon": "Item_BOOK_GEN_Book_E",
 "value": 14,
 "amount": 1,
@@ -5134,7 +5134,7 @@
 },
 "50410620-68e2-450c-bb40-2a32a7d7fc06": {
 "ko": "공작새와 부조리에 관한 공개서한",
-"en": "",
+"en": "An Open Letter on Oppression and Peacocks",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -5204,7 +5204,7 @@
 },
 "2d2af4c4-66d5-4c3c-961c-7364165baec9": {
 "ko": "예배당 기록부",
-"en": "",
+"en": "Chapel Records",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -5218,7 +5218,7 @@
 },
 "14cb8b5a-ecf0-488e-b71b-fd0f7bbd1ca5": {
 "ko": "외딴곳 소식통 - 신판",
-"en": "",
+"en": "Findings from the Hinterlands - New Edition",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -5232,7 +5232,7 @@
 },
 "77c9fbe0-29ed-4022-8957-81b9ed2a830d": {
 "ko": "유언집",
-"en": "",
+"en": "Book of Final Breath",
 "icon": "Item_BOOK_GEN_Book_C",
 "value": 14,
 "amount": 1,
@@ -5878,7 +5878,7 @@
 },
 "1d133a46-0a33-4857-b156-30d4540ad7a9": {
 "ko": "일릭 양성소 설립에 관한 이야기",
-"en": "",
+"en": "Account of the Establishment of Crèche Y'llek",
 "icon": "Item_BOOK_GTY_Book_A",
 "value": 14,
 "amount": 1,
@@ -6202,7 +6202,7 @@
 },
 "4c5bbc63-61f4-43f1-b2a1-de29071fd87c": {
 "ko": "다음 여명장에게 남기는 쪽지",
-"en": "",
+"en": "Note to the Next Dawnmaster",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -6426,7 +6426,7 @@
 },
 "e26f0c19-6185-43a7-b7f7-7155b936c59c": {
 "ko": "라샌더의 피",
-"en": "",
+"en": "The Blood of Lathander",
 "icon": "Item_WPN_HUM_Sun_Mace_A",
 "value": 640,
 "amount": 1,
@@ -6643,7 +6643,7 @@
 },
 "5e2cca79-0258-4832-b7e7-bab4c78624c6": {
 "ko": "절대자 신도 탐험대 열쇠",
-"en": "",
+"en": "Absolutist Expedition Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -6699,7 +6699,7 @@
 },
 "46463c1a-06ab-4896-9012-abc446c7178a": {
 "ko": "암흑 심판관의 일지",
-"en": "",
+"en": "Dark Justiciar's Journal",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -6713,7 +6713,7 @@
 },
 "d1065ae1-bac8-4130-a852-18f34b716264": {
 "ko": "더러운 지도",
-"en": "",
+"en": "Grubby Map",
 "icon": "Item_BOOK_GEN_Paper_Sheet_C",
 "value": 14,
 "amount": 1,
@@ -6741,7 +6741,7 @@
 },
 "567c5052-4960-4446-920f-ffea4f2315c1": {
 "ko": "피투성이 쪽지",
-"en": "",
+"en": "Bloodied Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -7358,7 +7358,7 @@
 },
 "c85c5e3f-8bca-4f69-b223-c7731f1fdb7e": {
 "ko": "아다만틴 광재",
-"en": "",
+"en": "Adamantine Slag",
 "icon": "Item_LOOT_GEN_AdamantineScrap_A",
 "value": 1,
 "amount": 1,
@@ -7808,7 +7808,7 @@
 },
 "780c949d-70ef-4241-822a-a659bfee672c": {
 "ko": "철제 열쇠",
-"en": "",
+"en": "Iron Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -7822,7 +7822,7 @@
 },
 "3d7e3104-8788-4d8c-bf90-b1145d7596e4": {
 "ko": "빛바랜 은 열쇠",
-"en": "",
+"en": "Tarnished Silver Key",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -8139,7 +8139,7 @@
 },
 "7369fc0a-7e2d-4c4d-8602-86ba14933745": {
 "ko": "철편 갑옷 거푸집(중갑)",
-"en": "",
+"en": "Splint Mould (Heavy)",
 "icon": "Item_UNI_LOOT_AdamantineForge_SplintMold",
 "value": 1,
 "amount": 1,
@@ -8168,7 +8168,7 @@
 },
 "983fcc35-870c-4549-9090-722113bd0fcb": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "",
+"en": "Scribbled Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -8195,8 +8195,8 @@
 "status": "have"
 },
 "19b3cbd6-ddac-a099-c24c-885119361c0c": {
-"ko": "그레미쉬카 꼬리",
-"en": "Gremishka Tail",
+"ko": "그레미쉬카 꼬리 (Gremishka Tail)",
+"en": "Gremishka Tail ",
 "icon": "Item_ALCH_Ingredient_Part_Gremishka",
 "value": 11,
 "amount": 1,
@@ -8252,7 +8252,7 @@
 },
 "9d3de6ea-df9e-4eda-ac2d-939bc1149223": {
 "ko": "의무실 열쇠",
-"en": "",
+"en": "Infirmary Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8409,7 +8409,7 @@
 },
 "1075f497-108e-4697-90d1-4615963614f3": {
 "ko": "무거운 배낭",
-"en": "",
+"en": "Heavy Backpack",
 "icon": "Item_LOOT_GEN_Backpack_A_Posed_A",
 "value": 1,
 "amount": 1,
@@ -8512,7 +8512,7 @@
 },
 "77bb533f-e101-48a8-b9ef-e37e61d7dc65": {
 "ko": "최후의 빛 옆문 열쇠",
-"en": "",
+"en": "Last Light Side Entrance Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8526,7 +8526,7 @@
 },
 "fae075d1-bbb7-4288-9566-b2c1ff5c8e98": {
 "ko": "최후의 빛 유치장 열쇠",
-"en": "",
+"en": "Last Light Detention Cell Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8598,7 +8598,7 @@
 },
 "5e4aafd4-f56c-4b05-ad5a-00eccdb87d9d": {
 "ko": "할신의 일지 2권",
-"en": "",
+"en": "Halsin's Journal, Vol II",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -8697,7 +8697,7 @@
 },
 "f85b214b-9669-4e6b-99c8-588b5d82cd19": {
 "ko": "랜스보드",
-"en": "",
+"en": "Lanceboard",
 "icon": "Item_PUZ_GEN_Lanceboard_Board_A",
 "value": 1,
 "amount": 1,
@@ -8752,8 +8752,8 @@
 "status": "have"
 },
 "58f1d978-28dd-fdec-1ddd-4ea299672776": {
-"ko": "변화하는 본체 반지",
-"en": "Shifting Corpus Ring",
+"ko": "변화하는 본체 반지 (Shifting Corpus Ring)",
+"en": "Shifting Corpus Ring ",
 "icon": "Item_LOOT_GEN_Ring_A_Simple_Gold_1",
 "value": 70,
 "amount": 1,
@@ -9087,8 +9087,8 @@
 "status": "have"
 },
 "bf897298-bf42-743f-c7de-73f7fa6653f4": {
-"ko": "그림자 집착자 갑옷",
-"en": "Shadeclinger Armour",
+"ko": "그림자 집착자 갑옷 (Shadeclinger Armour)",
+"en": "Shadeclinger Armour ",
 "icon": "Item_ARM_Leather_4",
 "value": 510,
 "amount": 1,
@@ -9459,7 +9459,7 @@
 },
 "c3daa5ff-0f98-4cff-adcf-cb9cf9d8f993": {
 "ko": "조용한 발걸음의 시련 열쇠",
-"en": "",
+"en": "Soft-Step Trial Key",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -9529,7 +9529,7 @@
 },
 "281988ed-4b8e-4b8b-8d16-44b0fe3d48c0": {
 "ko": "발타자르의 방 열쇠",
-"en": "",
+"en": "Balthazar's Room Key",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -9557,7 +9557,7 @@
 },
 "a055e810-8fd3-4800-9027-a4ec55d0fdb0": {
 "ko": "뼈 열쇠",
-"en": "",
+"en": "Bone Key",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -9613,7 +9613,7 @@
 },
 "48b93893-4c8f-49cf-8686-530bb5a25700": {
 "ko": "먼지투성이 책",
-"en": "",
+"en": "Dusty Book",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -9627,7 +9627,7 @@
 },
 "8c5b8320-0954-4805-b453-a9fd22f55d83": {
 "ko": "샤 신도 명부",
-"en": "",
+"en": "Sharran Registry",
 "icon": "Item_BOOK_GEN_Book_C",
 "value": 14,
 "amount": 1,
@@ -9640,8 +9640,8 @@
 "status": "have"
 },
 "1559b688-0ad0-a691-f3e8-7921fe9c2cf4": {
-"ko": "ReallyShadowheart 모드 제작자의 노트.",
-"en": "",
+"ko": "",
+"en": "ReallyShadowheart 모드 제작자의 노트.",
 "icon": "Item_BOOK_GEN_Envelope_A",
 "value": 14,
 "amount": 1,
@@ -9655,7 +9655,7 @@
 },
 "254419ad-eaf6-4370-8d46-514a143889d8": {
 "ko": "사랑으로 묶인 사이 - 아내의 일기",
-"en": "",
+"en": "Bonded By Love - Wife's Diary",
 "icon": "Item_BOOK_GEN_Book_C",
 "value": 14,
 "amount": 1,
@@ -9669,7 +9669,7 @@
 },
 "eaee107b-bfb3-4550-8d81-193b4d07d7ac": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "",
+"en": "Scribbled Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -9683,7 +9683,7 @@
 },
 "fe37015f-b882-49f9-90f9-436dcf667fab": {
 "ko": "케더릭 토름의 일기, 1편",
-"en": "",
+"en": "Diary of Ketheric Thorm, Vol 1",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -9697,7 +9697,7 @@
 },
 "dfb4bb97-3d01-43ec-a6e9-632395149f7d": {
 "ko": "저렐의 개인 비망록",
-"en": "",
+"en": "Z'rell's Personal Reminder",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -9711,7 +9711,7 @@
 },
 "a4aa779b-7871-41b5-8792-10d4a4fbb71d": {
 "ko": "고타쉬의 쪽지",
-"en": "",
+"en": "Note from Gortash",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -9767,7 +9767,7 @@
 },
 "e55bff97-2bae-4bd4-bdf0-8aede57a9269": {
 "ko": "구겨진 쪽지",
-"en": "",
+"en": "Crumpled Note",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -10089,7 +10089,7 @@
 },
 "03f5f86a-1560-4121-9543-c3d1c87e5495": {
 "ko": "지옥의 금속",
-"en": "",
+"en": "Infernal Metal",
 "icon": "Item_LOOT_Ketheric_Infernal_Plate_A",
 "value": 100,
 "amount": 1,
@@ -10103,7 +10103,7 @@
 },
 "148ab978-d44c-4c5d-895d-1ca1c1680012": {
 "ko": "피르주의 거래의 반지",
-"en": "",
+"en": "Firzu's Ring of Trading",
 "icon": "Item_LOOT_GEN_Ring_I",
 "value": 40,
 "amount": 1,
@@ -10159,7 +10159,7 @@
 },
 "1329c22c-d23a-4d31-96b0-6b734074f1dc": {
 "ko": "낡아빠진 류트",
-"en": "",
+"en": "Battered Lute",
 "icon": "Item_TOOL_GEN_Music_Guitar_Lute_A",
 "value": 14,
 "amount": 1,
@@ -10397,7 +10397,7 @@
 },
 "06b8891b-e71c-423b-8482-2680c3c16a4d": {
 "ko": "케더릭의 네더스톤",
-"en": "",
+"en": "Ketheric's Netherstone",
 "icon": "Item_QUEST_Netherstone_Ketheric",
 "value": 1,
 "amount": 1,
@@ -10803,7 +10803,7 @@
 },
 "5c322223-3247-481a-87f8-849631181a92": {
 "ko": "조용한 발걸음의 시련의 서",
-"en": "",
+"en": "Tome of the Soft-Step Trial",
 "icon": "Item_BOOK_GEN_Book_Rich_C",
 "value": 14,
 "amount": 1,
@@ -10831,7 +10831,7 @@
 },
 "e13458d8-4726-48d1-b232-f81e59c6cd87": {
 "ko": "상실의 가르침: 비밀",
-"en": "",
+"en": "Teachings of Loss: Own Secret",
 "icon": "Item_BOOK_Wizards_Tome_Simple_F",
 "value": 14,
 "amount": 1,
@@ -10887,7 +10887,7 @@
 },
 "e69403e4-1aa6-4cfb-9cc5-6135fa17cae2": {
 "ko": "\n자신과 맞서는 시련의 서",
-"en": "",
+"en": "Tome of the Self-Same Trial",
 "icon": "Item_BOOK_GEN_Book_Rich_A",
 "value": 14,
 "amount": 1,
@@ -10956,8 +10956,8 @@
 "status": "have"
 },
 "1d1cc3ed-856b-46aa-d7b2-8ae1c2cd49fc": {
-"ko": "예상 밖의 변수",
-"en": "Least Expected",
+"ko": "예상 밖의 변수 (Least Expected)",
+"en": "Least Expected ",
 "icon": "Item_WPN_HUM_Shortbow_A_1",
 "value": 190,
 "amount": 1,
@@ -11012,8 +11012,8 @@
 "status": "have"
 },
 "e6dc9107-2b1b-0647-7999-7a92c75c2f55": {
-"ko": "백열 지팡이",
-"en": "Incandescent Staff",
+"ko": "백열 지팡이 (Incandescent Staff)",
+"en": "Incandescent Staff ",
 "icon": "Item_WPN_HUM_Quarterstaff_A_1",
 "value": 770,
 "amount": 1,
@@ -11222,8 +11222,8 @@
 "status": "have"
 },
 "191197c9-2f66-835e-d7c1-e3933a800e72": {
-"ko": "영원 감시 반지",
-"en": "Eversight Ring",
+"ko": "영원 감시 반지 (Eversight Ring)",
+"en": "Eversight Ring ",
 "icon": "Item_LOOT_GEN_Ring_I_Silver_A_1",
 "value": 40,
 "amount": 1,
