@@ -7,9 +7,29 @@ hist_path = sys.argv[5] if len(sys.argv) > 5 else None
 party_out = sys.argv[6] if len(sys.argv) > 6 else None
 books_out = sys.argv[7] if len(sys.argv) > 7 else None
 BOOKS = pickle.load(open(os.path.join(S, 'books.pkl'), 'rb')) if os.path.exists(os.path.join(S, 'books.pkl')) else {}
-en, kr = pickle.load(open(os.path.join(S, 'loca.pkl'), 'rb'))
-mod = json.load(open(os.path.join(S, 'loca.json'), encoding='utf-8'))
-en.update(mod['en']); kr.update(mod['kr'])
+if os.path.exists(os.path.join(S, 'loca.pkl')):
+    en, kr = pickle.load(open(os.path.join(S, 'loca.pkl'), 'rb'))
+    mod = json.load(open(os.path.join(S, 'loca.json'), encoding='utf-8'))
+    en.update(mod['en']); kr.update(mod['kr'])
+else:
+    # 이름표(loca.pkl)가 없을 때: 한영 병기 모드(FokusBilingualKR)가 붙여 준 "한글 (English)" 이름에서 바로 나눈다
+    en, kr = {}, {}
+    def _loca(items):
+        for x in items or []:
+            h, nm = x.get('h'), x.get('name') or ''
+            if h and h not in en and re.search('[가-힣]', nm):
+                m = re.match(r'^(.*?) \(([^가-힣]*)\)$', nm)
+                kr[h], en[h] = (m.group(1), m.group(2)) if m else (nm, '')
+            _loca(x.get('items'))
+    for _c in inv['chars']:
+        _loca(_c.get('items')); _loca((_c.get('charStats') or {}).get('equipped'))
+    KO_CLASS = {'Paladin': '팔라딘', 'Wizard': '위저드', 'Rogue': '로그', 'Fighter': '파이터', 'Cleric': '클레릭', 'Warlock': '워락', 'Barbarian': '바바리안', 'Druid': '드루이드',
+                'Ancients': '선조의 맹세', 'EvocationSchool': '방출술', 'Evocation': '방출술', 'BattleMaster': '전투의 대가', 'TrickeryDomain': '기만 권역', 'Trickery': '기만 권역',
+                'ArcaneTrickster': '비전 괴도', 'Fiend': '마족', 'Berserker': '광전사', 'BerserkerPath': '광전사', 'CircleOfTheLand': '대지의 회합', 'CircleOfTheMoon': '달의 회합'}
+    for _c in inv['chars']:
+        for _cl in (_c.get('charStats') or {}).get('classes', []):
+            for _h, _n in ((_cl.get('classH'), _cl.get('className')), (_cl.get('subH'), _cl.get('subName'))):
+                if _h and _n: kr[_h] = KO_CLASS.get(_n, _n)
 have_icon = {os.path.splitext(f)[0] for f in os.listdir(icon_dir)}
 CATS = [('가방', ('OBJ_LIA_', 'OBJ_Bag_', 'OBJ_Backpack', 'OBJ_Keychain', 'OBJ_Chest', 'DOR_')),
         ('물약', ('OBJ_Potion', 'ALCH_Solution_Elixir', 'OBJ_Antitoxin', 'OBJ_Elixir')),
@@ -123,7 +143,7 @@ def names(x):
     e = en.get(x.get('h') or '')
     if e is None:        # 원조 BagsBagsBags 처럼 한글 번역이 없는 모드 아이템
         return '', k
-    if k.endswith(' (%s)' % e): k = k[:-len(e) - 3]   # 한영 병기 모드(FokusBilingualKR) 이름 정리
+    if e and k.endswith(' (%s)' % e): k = k[:-len(e) - 3]   # 한영 병기 모드(FokusBilingualKR) 이름 정리
     return k, e
 def img(x):
     ic = x.get('icon')
@@ -304,8 +324,8 @@ if books_out:
 # ---- 파티 현황판
 if party_out:
     AB = ['근력', '민첩', '건강', '지능', '지혜', '매력']
-    ROLE = {'Paladin': '탱커 겸 근접 딜러', 'Wizard': '원거리 광역 딜러', 'Rogue': '딜러 · 자물쇠/함정', 'Fighter': '근접 딜러', 'Cleric': '힐러 · 버프', 'Warlock': '원거리 딜러', 'Barbarian': '근접 탱커 · 딜러'}
-    MAIN = {'Paladin': 0, 'Wizard': 3, 'Rogue': 1, 'Fighter': 0, 'Cleric': 4, 'Warlock': 5, 'Barbarian': 0}
+    ROLE = {'Paladin': '탱커 겸 근접 딜러', 'Wizard': '원거리 광역 딜러', 'Rogue': '딜러 · 자물쇠/함정', 'Fighter': '근접 딜러', 'Cleric': '힐러 · 버프', 'Warlock': '원거리 딜러', 'Barbarian': '근접 탱커 · 딜러', 'Druid': '힐러 · 변신 탱커'}
+    MAIN = {'Paladin': 0, 'Wizard': 3, 'Rogue': 1, 'Fighter': 0, 'Cleric': 4, 'Warlock': 5, 'Barbarian': 0, 'Druid': 4}
     rowsP = []
     for c in inv['chars']:
         cs = c.get('charStats') or {}

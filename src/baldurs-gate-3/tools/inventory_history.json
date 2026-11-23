@@ -54,7 +54,8 @@
 "cat": "가방",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "2145da8c-48c4-4ea8-b2d0-00ccd13e67b7": {
 "ko": "드래곤알버섯",
@@ -66,7 +67,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -80,7 +81,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -94,7 +95,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -108,7 +109,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -122,7 +123,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -136,7 +137,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -145,12 +146,12 @@
 "en": "Hyena Ear",
 "icon": "Item_LOOT_Alchemy_Hyena_Ear_A",
 "value": 5,
-"amount": 3,
+"amount": 5,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -164,7 +165,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -178,7 +179,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -192,7 +193,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -206,7 +207,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -220,7 +221,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -234,7 +235,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -248,7 +249,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -262,7 +263,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -276,7 +277,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -290,7 +291,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -304,7 +305,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -318,7 +319,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -332,7 +333,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -346,7 +347,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -360,7 +361,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -374,7 +375,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -388,7 +389,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -402,7 +403,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -416,7 +417,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -430,7 +431,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -444,7 +445,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -458,7 +459,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -472,7 +473,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -486,7 +487,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -500,7 +501,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -514,7 +515,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -528,7 +529,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -542,7 +543,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -556,7 +557,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -570,13 +571,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "4030d903-9ea7-4017-b712-7aab6130da67": {
 "ko": "여사제의 열쇠",
-"en": "Priestess' Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -584,13 +585,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "7a017921-e078-4123-9a08-bda5ecec6807": {
 "ko": "더러운 열쇠",
-"en": "Grubby Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -598,13 +599,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "536107bd-277b-42bb-8eaf-2b787123615c": {
 "ko": "고문 기술자의 열쇠",
-"en": "Torturer's Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -612,13 +613,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "62dda6b7-2992-488b-8ae7-07b82750e0cf": {
 "ko": "자물쇠 열쇠",
-"en": "Padlock Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -626,13 +627,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "f76e7439-685b-42b0-a845-abae3b326470": {
 "ko": "감옥 열쇠",
-"en": "Prison Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -640,7 +641,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -654,7 +655,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -668,13 +669,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "d9f6a4d9-e944-409c-aac2-fd0fb2ce9db6": {
 "ko": "빛나는 열쇠",
-"en": "Shiny Key",
+"en": "",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -682,13 +683,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "5800deab-10e2-4f78-9077-3b3d4d283fb6": {
 "ko": "낡은 열쇠",
-"en": "Old Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -696,13 +697,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "ee17902e-74dc-4118-a271-ddaa383c95a7": {
 "ko": "무거운 열쇠",
-"en": "Heavy Key",
+"en": "",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -710,13 +711,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "82df88e8-f42f-4dd7-bb11-34b8bed5e622": {
 "ko": "우리 열쇠",
-"en": "Cage Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -724,7 +725,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -738,13 +739,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "3a23205c-a1fd-482c-aaf1-a793f8ef2585": {
 "ko": "낡은 열쇠",
-"en": "Old Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -752,13 +753,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "b863e650-e375-6cf6-4c56-f4c34bc591ee": {
 "ko": "학회를 도와줄 모험가 공개 모집",
-"en": "Open Call for Adventurers on Behalf of the Society",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Sheet_D",
 "value": 14,
 "amount": 1,
@@ -766,13 +767,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "06332bc8-19b5-4f9c-9013-6d433abd78a0": {
 "ko": "지성의 학회의 의뢰",
-"en": "An Opportunity from the Society of Brilliance",
+"en": "",
 "icon": "Item_BOOK_GEN_Envelope_A",
 "value": 14,
 "amount": 1,
@@ -780,13 +781,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "3efd8f10-2e7d-40ba-ae3f-aab65e693be7": {
 "ko": "몽크의 마지막 쪽지",
-"en": "Last Notes of a Monk",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_E",
 "value": 14,
 "amount": 1,
@@ -794,7 +795,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -808,13 +809,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "28f4b8ab-ef39-4680-9e2c-2ca1bd41feab": {
 "ko": "장밋빛 아침 수도원 방명록",
-"en": "Guestbook of Rosymorn Abbey",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_A",
 "value": 14,
 "amount": 1,
@@ -822,13 +823,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "f9525113-7192-48ca-9c3e-c3e7a07d6776": {
 "ko": "기부품 재고",
-"en": "Inventory of Offerings",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -836,13 +837,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "e1731c35-40f4-4644-9aeb-5a2386b079c6": {
 "ko": "약탈품 재고",
-"en": "Inventory of Takings",
+"en": "",
 "icon": "Item_BOOK_GTY_Book_A",
 "value": 14,
 "amount": 1,
@@ -850,7 +851,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -893,7 +894,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -907,7 +908,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -921,7 +922,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -937,7 +938,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "676f49ee-c199-4eb3-a4e9-35dbd6e1a65f": {
 "ko": "순례자의 기도",
@@ -951,7 +953,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "a22bc990-2237-4eae-aa91-00fc3f046280": {
 "ko": "순례자의 저주",
@@ -965,7 +968,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "1d84e458-938e-40df-8deb-ebe884391101": {
 "ko": "순례자의 기도",
@@ -979,7 +983,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "296deb0e-e685-4b6f-91cd-f6bc3228a7a8": {
 "ko": "향수 뿌린 편지",
@@ -993,7 +998,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "dd51a1c0-307d-4f86-b44e-1d65fa2b35a1": {
 "ko": "라샌더에게 바치는 기도",
@@ -1007,7 +1013,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "51c81d94-c36d-8a28-f5fa-8938a6803ca6": {
 "ko": "",
@@ -1019,7 +1026,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1033,7 +1040,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1047,7 +1054,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1061,7 +1068,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1075,7 +1082,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1118,7 +1125,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1132,7 +1139,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1160,7 +1167,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1188,7 +1195,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1202,7 +1209,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1216,7 +1223,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1230,7 +1237,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1244,7 +1251,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1255,10 +1262,10 @@
 "value": 16,
 "amount": 4,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1267,12 +1274,12 @@
 "en": "Potion of Healing",
 "icon": "Item_CONS_Potion_Healing_A",
 "value": 10,
-"amount": 4,
+"amount": 1,
 "rarity": 0,
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1286,7 +1293,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1300,7 +1307,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1314,7 +1321,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1328,13 +1335,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "03ddecea-d7db-4fda-803b-5c81a0f3493b": {
 "ko": "밤의 노래를 찾아서",
-"en": "In Search of the Nightsong",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -1342,13 +1349,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "6557e2a7-ee82-4c5a-a26b-9056e4eb03df": {
 "ko": "해독제에 대하여",
-"en": "On Antidotes",
+"en": "",
 "icon": "Item_BOOK_Wizards_Tome_Antidote_Recipe_A",
 "value": 14,
 "amount": 1,
@@ -1356,13 +1363,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "a10cb81b-ba44-446b-b736-f26d55475150": {
 "ko": "냄새나는 쪽지",
-"en": "Rancid Note",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -1370,7 +1377,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1384,7 +1391,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1398,7 +1405,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1412,7 +1419,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1426,7 +1433,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1440,7 +1447,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1454,7 +1461,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1468,7 +1475,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1482,7 +1489,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1496,7 +1503,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1510,7 +1517,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1524,7 +1531,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1533,12 +1540,12 @@
 "en": "Scroll of Revivify",
 "icon": "Item_LOOT_SCROLL_Resurrection",
 "value": 100,
-"amount": 3,
+"amount": 1,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1552,7 +1559,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1566,7 +1573,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1580,7 +1587,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1594,7 +1601,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1605,10 +1612,10 @@
 "value": 70,
 "amount": 1,
 "rarity": 1,
-"owner": "Wyll",
-"verdict": "🛡️ 착용 중",
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1636,7 +1643,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "반지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1657,7 +1664,7 @@
 },
 "65c15c7d-5773-4f2f-abdb-19751e92eb26": {
 "ko": "빛바랜 로켓",
-"en": "Tarnished Locket",
+"en": "",
 "icon": "Item_LOOT_GEN_KeepsakeLocket_A",
 "value": 20,
 "amount": 1,
@@ -1665,7 +1672,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "목걸이",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1679,7 +1686,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1699,7 +1706,7 @@
 },
 "4d93e3eb-c420-4c03-aadf-2c09b14726fe": {
 "ko": "개 목걸이",
-"en": "Dog Collar",
+"en": "",
 "icon": "Item_UNI_ClericPetCollar",
 "value": 20,
 "amount": 1,
@@ -1707,7 +1714,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "목걸이",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1736,7 +1743,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "목걸이",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1764,7 +1771,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1778,7 +1785,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1792,7 +1799,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1806,7 +1813,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1820,7 +1827,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1829,12 +1836,12 @@
 "en": "Rotten Mushroom",
 "icon": "Item_CONS_Fungi_Mushroom_Agaric_B_Rotten",
 "value": 1,
-"amount": 3,
+"amount": 5,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1848,7 +1855,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1862,7 +1869,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1876,7 +1883,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1890,7 +1897,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1904,7 +1911,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1918,7 +1925,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1934,7 +1941,8 @@
 "cat": "화살",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "219b528f-47eb-d961-d363-e2e2f22f74f6": {
 "ko": "산성 화살",
@@ -1948,7 +1956,8 @@
 "cat": "화살",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "12ceee23-2eea-42e3-93ac-e2443b0da5c4": {
 "ko": "삽",
@@ -1960,7 +1969,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -1976,7 +1985,8 @@
 "cat": "화살",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "05fa23f8-6a08-2372-c79e-e0e189e9d100": {
 "ko": "얼음 화살",
@@ -1990,7 +2000,8 @@
 "cat": "화살",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "dea2f5dc-06f6-4dd5-9a2e-66071a359274": {
 "ko": "포효하는 천둥 화살",
@@ -2002,7 +2013,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2016,7 +2027,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2032,7 +2043,8 @@
 "cat": "도구",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "d175691e-ea8b-8dca-afbf-9aeb4b2db371": {
 "ko": "단검",
@@ -2075,7 +2087,8 @@
 "cat": "반지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "d0d0b920-ba55-4848-818c-688438682a64": {
 "ko": "은 애뮬릿",
@@ -2093,7 +2106,7 @@
 },
 "45a48cf7-baed-4d48-aaf4-1399948314e6": {
 "ko": "리할라의 류트",
-"en": "Lihala's Lute",
+"en": "",
 "icon": "Item_TOOL_GEN_Music_Guitar_Lute_B",
 "value": 14,
 "amount": 1,
@@ -2101,7 +2114,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2115,7 +2128,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "염료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2157,7 +2170,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2168,10 +2181,10 @@
 "value": 5,
 "amount": 12,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2185,7 +2198,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "염료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2199,7 +2212,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2208,12 +2221,12 @@
 "en": "Bottle",
 "icon": "Items_CONS_Drink_Bottle_Small_A",
 "value": 1,
-"amount": 6,
+"amount": 7,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2227,7 +2240,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2238,10 +2251,10 @@
 "value": 180,
 "amount": 1,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2255,13 +2268,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "f938e0a4-fb50-4d69-8b40-18e9bba30a22": {
 "ko": "어둠의 정신",
-"en": "Dark Mind",
+"en": "",
 "icon": "Item_DEC_MF_Brain_Jar_Memory_A",
 "value": 1,
 "amount": 1,
@@ -2269,7 +2282,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2283,7 +2296,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2299,7 +2312,8 @@
 "cat": "야영지 옷",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "e2e911ed-6dda-2525-e8c6-7cc5adc2b47d": {
 "ko": "혈석",
@@ -2326,7 +2340,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2340,7 +2354,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2354,7 +2368,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2368,7 +2382,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2396,7 +2410,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2504,7 +2518,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2577,7 +2591,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2608,7 +2622,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "bc25e7b1-2b66-c36f-6355-7d5251a2d0bb": {
 "ko": "원호의 장화",
@@ -2648,7 +2663,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2662,7 +2677,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2690,7 +2705,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2704,7 +2719,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2720,7 +2735,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "1274d7b0-63e3-47b8-820d-4ead0e0976c7": {
 "ko": "정신 보호 반지",
@@ -2732,7 +2748,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2743,12 +2759,12 @@
 "value": 1,
 "amount": 1,
 "rarity": 0,
-"owner": "게일",
+"owner": "Wyll",
 "verdict": "🟢 보관",
-"last": "2026-10-31",
+"cat": "가방",
+"last": "2026-11-23",
 "first": "2026-10-27",
-"status": "gone",
-"gone": "2026-11-07"
+"status": "have"
 },
 "00c6ef7d-1583-2ac9-25d6-18a3de47f645": {
 "ko": "연금술 주머니",
@@ -2788,7 +2804,7 @@
 "owner": "게일",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2832,7 +2848,7 @@
 "owner": "게일",
 "verdict": "🔴 팔기",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2876,7 +2892,7 @@
 "owner": "게일",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2890,7 +2906,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2904,7 +2920,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2934,7 +2950,8 @@
 "cat": "반지",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "0382b4a8-42eb-0423-ff7b-1612caddbd9b": {
 "ko": "평범한 장화",
@@ -2946,7 +2963,7 @@
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2962,7 +2979,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "3b176122-d332-8af5-fa8a-0666c684b271": {
 "ko": "구부러진 지성의 머리띠",
@@ -2974,7 +2992,7 @@
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -2985,10 +3003,10 @@
 "value": 16,
 "amount": 1,
 "rarity": 0,
-"owner": "게일",
-"verdict": "🛡️ 착용 중",
+"owner": "Lae'zel",
+"verdict": "🔴 팔기",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3002,7 +3020,7 @@
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3016,7 +3034,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3047,7 +3065,8 @@
 "cat": "방어구",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "9a3d5974-44e1-6d47-c5ae-c95c52378213": {
 "ko": "야영 물자 자루",
@@ -3056,10 +3075,10 @@
 "value": 1,
 "amount": 1,
 "rarity": 0,
-"owner": "아스타리온",
+"owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3075,7 +3094,8 @@
 "cat": "가방",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "8e8bf7ab-470f-656d-9dab-0873229e622a": {
 "ko": "열쇠 사슬",
@@ -3101,7 +3121,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3129,7 +3149,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3157,7 +3177,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3227,7 +3247,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3241,7 +3261,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3255,7 +3275,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3269,7 +3289,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3283,7 +3303,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3311,7 +3331,7 @@
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3325,7 +3345,7 @@
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3353,10 +3373,16 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-07",
+"last": "2026-11-23",
 "first": "2026-10-27",
-"status": "sold",
-"gone": "2026-11-09"
+"status": "have",
+"back": [
+{
+"sold": "2026-11-09",
+"back": "2026-11-23",
+"trader": null
+}
+]
 },
 "e1e46025-8528-80e5-b7cd-f0e4214ef726": {
 "ko": "연금술 주머니",
@@ -3396,13 +3422,13 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "2e55e20f-2fb4-4a7a-9a0d-78bc61a19ee0": {
 "ko": "일리시드 필사본",
-"en": "Illithid Manuscript",
+"en": "",
 "icon": "Item_LOOT_MF_Rune_Tablet_A",
 "value": 1,
 "amount": 1,
@@ -3410,7 +3436,7 @@
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3424,7 +3450,7 @@
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "반지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3438,7 +3464,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3452,7 +3478,7 @@
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3509,7 +3535,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3523,7 +3549,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3537,7 +3563,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3551,7 +3577,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3567,7 +3593,8 @@
 "cat": "방어구",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "292996cf-34d2-026b-3ffb-29218f8b4bf5": {
 "ko": "기스양키 장화",
@@ -3579,7 +3606,7 @@
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3595,7 +3622,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "5e3bb83a-1d07-4598-80bb-850bb1bbd23b": {
 "ko": "정의의 검",
@@ -3623,7 +3651,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "760e76df-926e-c1a5-d30f-92cca7d35ac3": {
 "ko": "횃불",
@@ -3635,7 +3664,7 @@
 "owner": "게일",
 "verdict": "🔴 팔기",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3649,7 +3678,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3663,7 +3692,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3677,13 +3706,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "8287fe56-0e69-4a53-9854-5de0ed4352bd": {
 "ko": "총명한 럼프의 일기",
-"en": "The Diary of Lump the Enlightened",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -3691,7 +3720,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3705,7 +3734,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3719,7 +3748,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3733,7 +3762,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3747,7 +3776,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3761,7 +3790,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3775,7 +3804,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3789,7 +3818,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3803,7 +3832,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3817,7 +3846,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3831,7 +3860,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3845,7 +3874,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3859,7 +3888,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3873,7 +3902,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3887,7 +3916,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3901,7 +3930,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3915,7 +3944,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3929,7 +3958,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3943,7 +3972,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3957,7 +3986,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3971,7 +4000,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3985,7 +4014,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -3999,7 +4028,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4013,7 +4042,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4027,7 +4056,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4048,7 +4077,7 @@
 },
 "2c5bca7e-8649-4217-9ebb-52b20a506e99": {
 "ko": "노예의 정신",
-"en": "Slave Mind",
+"en": "",
 "icon": "Item_DEC_MF_Brain_Jar_Memory_A",
 "value": 1,
 "amount": 1,
@@ -4056,7 +4085,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4250,7 +4279,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4279,7 +4308,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4293,7 +4322,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4307,7 +4336,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4350,7 +4379,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4364,7 +4393,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4378,7 +4407,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4392,7 +4421,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "염료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4406,7 +4435,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4420,7 +4449,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4434,7 +4463,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4448,7 +4477,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4462,7 +4491,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4476,7 +4505,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4490,7 +4519,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4504,7 +4533,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4518,7 +4547,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4532,7 +4561,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4548,7 +4577,8 @@
 "cat": "보석·귀중품",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "d9bd9b8a-f3fb-48d0-ac2a-648d15340932": {
 "ko": "드래곤알버섯",
@@ -4557,10 +4587,10 @@
 "value": 2,
 "amount": 1,
 "rarity": 0,
-"owner": "여행용 궤짝 (Traveller's Chest)",
+"owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4574,7 +4604,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4588,7 +4618,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4617,7 +4647,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4631,13 +4661,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "326324f9-0920-8f0f-3e85-3781fbf48282": {
 "ko": "신비한 유물",
-"en": "Mysterious Artefact",
+"en": "",
 "icon": "Item_Quest_Mysterious_Puzzlebox",
 "value": 1,
 "amount": 1,
@@ -4645,7 +4675,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4661,7 +4691,8 @@
 "cat": "가방",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "ba601b92-16c9-98da-350f-622c07c79c91": {
 "ko": "지능 포식자 소뇌",
@@ -4673,7 +4704,7 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4687,7 +4718,7 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4745,7 +4776,7 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4759,7 +4790,7 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4773,7 +4804,7 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4789,7 +4820,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "b84b88ca-2778-8f3a-4b63-ac27b711b8ec": {
 "ko": "사슬 셔츠",
@@ -4803,7 +4835,8 @@
 "cat": "방어구",
 "last": "2026-11-09",
 "first": "2026-10-27",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "990ac396-1234-0aee-3e8b-b254767f8cde": {
 "ko": "징 방패",
@@ -4813,9 +4846,9 @@
 "amount": 1,
 "rarity": 0,
 "owner": "섀도하트",
-"verdict": "🛡️ 착용 중",
+"verdict": "🔴 팔기",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4829,7 +4862,7 @@
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4843,7 +4876,7 @@
 "owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
 "cat": "반지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4857,7 +4890,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4871,7 +4904,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4885,7 +4918,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4899,7 +4932,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4913,7 +4946,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4927,7 +4960,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4941,7 +4974,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4955,7 +4988,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -4969,13 +5002,13 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "833be3b9-9492-4c28-aee4-21c64af4e675": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "Scribbled Notes",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_C",
 "value": 14,
 "amount": 1,
@@ -4983,13 +5016,13 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "bcb0f46f-6e2d-4d87-ad48-2ed276771928": {
 "ko": "너덜너덜한 두루마리",
-"en": "Tattered Scroll",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Poster_C",
 "value": 14,
 "amount": 1,
@@ -4997,13 +5030,13 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "e7ebf607-9e08-41d8-845d-f5f7184c6e82": {
 "ko": "버려진 일지",
-"en": "Discarded Journal",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -5011,13 +5044,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "c81658d3-f2bd-4a44-aeaf-efe631bce4f9": {
 "ko": "피로 물든 일지",
-"en": "Blood-Smeared Logbook",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -5025,13 +5058,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "257b83b3-ebd5-4d7e-968b-9b0fff340b97": {
 "ko": "너덜너덜한 쪽지",
-"en": "Battered Note",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -5039,13 +5072,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "606542f8-af80-4102-b849-84e73d8a7f12": {
 "ko": "수서나무 꽃의 항마법 성질에 관한 논문",
-"en": "Treatise on the Antimagic Properties of Sussur Tree Flowers",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -5053,13 +5086,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "681db24e-8658-4c43-b462-1e6cebdb42a9": {
 "ko": "너덜너덜한 책",
-"en": "Threadbare Book",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_E",
 "value": 14,
 "amount": 1,
@@ -5067,7 +5100,7 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5081,7 +5114,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5095,13 +5128,13 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "50410620-68e2-450c-bb40-2a32a7d7fc06": {
 "ko": "공작새와 부조리에 관한 공개서한",
-"en": "An Open Letter on Oppression and Peacocks",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_B",
 "value": 14,
 "amount": 1,
@@ -5109,7 +5142,7 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5151,7 +5184,7 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5171,7 +5204,7 @@
 },
 "2d2af4c4-66d5-4c3c-961c-7364165baec9": {
 "ko": "예배당 기록부",
-"en": "Chapel Records",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_Rich_B",
 "value": 14,
 "amount": 1,
@@ -5179,13 +5212,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "14cb8b5a-ecf0-488e-b71b-fd0f7bbd1ca5": {
 "ko": "외딴곳 소식통 - 신판",
-"en": "Findings from the Hinterlands - New Edition",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -5193,13 +5226,13 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "77c9fbe0-29ed-4022-8957-81b9ed2a830d": {
 "ko": "유언집",
-"en": "Book of Final Breath",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_C",
 "value": 14,
 "amount": 1,
@@ -5207,7 +5240,7 @@
 "owner": "윌",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5236,7 +5269,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5250,7 +5283,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5264,7 +5297,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5278,7 +5311,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5292,7 +5325,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5306,7 +5339,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5320,7 +5353,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5334,7 +5367,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5348,7 +5381,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5362,7 +5395,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5376,7 +5409,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5390,7 +5423,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5404,7 +5437,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5418,7 +5451,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5432,7 +5465,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5446,7 +5479,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5460,7 +5493,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5474,7 +5507,7 @@
 "owner": "윌",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5488,7 +5521,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5502,7 +5535,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5516,7 +5549,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5530,7 +5563,7 @@
 "owner": "윌",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5544,7 +5577,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5573,7 +5606,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5587,7 +5620,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5601,7 +5634,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5615,7 +5648,7 @@
 "owner": "윌",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5629,7 +5662,7 @@
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5643,7 +5676,7 @@
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5657,7 +5690,7 @@
 "owner": "윌",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5671,7 +5704,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5685,7 +5718,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5699,7 +5732,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5713,7 +5746,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5727,7 +5760,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5741,7 +5774,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5755,7 +5788,7 @@
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5769,7 +5802,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5783,7 +5816,7 @@
 "owner": "카를라크",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5797,7 +5830,7 @@
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5811,7 +5844,7 @@
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5825,7 +5858,7 @@
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
@@ -5839,13 +5872,13 @@
 "owner": "카를라크",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-27",
 "status": "have"
 },
 "1d133a46-0a33-4857-b156-30d4540ad7a9": {
 "ko": "일릭 양성소 설립에 관한 이야기",
-"en": "Account of the Establishment of Crèche Y'llek",
+"en": "",
 "icon": "Item_BOOK_GTY_Book_A",
 "value": 14,
 "amount": 1,
@@ -5853,7 +5886,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5882,7 +5915,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5910,7 +5943,7 @@
 "owner": "Lae'zel",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5924,7 +5957,7 @@
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5938,7 +5971,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5952,7 +5985,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5981,7 +6014,7 @@
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-28",
 "status": "have"
 },
@@ -5995,7 +6028,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-29",
 "status": "have"
 },
@@ -6149,7 +6182,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6163,13 +6196,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
 "4c5bbc63-61f4-43f1-b2a1-de29071fd87c": {
 "ko": "다음 여명장에게 남기는 쪽지",
-"en": "Note to the Next Dawnmaster",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -6177,7 +6210,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6191,7 +6224,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6205,7 +6238,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6219,7 +6252,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6233,7 +6266,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6300,10 +6333,10 @@
 "value": 240,
 "amount": 1,
 "rarity": 2,
-"owner": "Wyll",
+"owner": "Lae'zel",
 "verdict": "🟡 비교",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6393,7 +6426,7 @@
 },
 "e26f0c19-6185-43a7-b7f7-7155b936c59c": {
 "ko": "라샌더의 피",
-"en": "The Blood of Lathander",
+"en": "",
 "icon": "Item_WPN_HUM_Sun_Mace_A",
 "value": 640,
 "amount": 1,
@@ -6401,7 +6434,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6427,10 +6460,10 @@
 "value": 85,
 "amount": 1,
 "rarity": 1,
-"owner": "Wyll",
+"owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6446,7 +6479,8 @@
 "cat": "물약",
 "last": "2026-11-09",
 "first": "2026-10-31",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "3611dd7e-82ed-6cd9-293c-699cc91f5613": {
 "ko": "함정 해제 도구",
@@ -6460,7 +6494,8 @@
 "cat": "도구",
 "last": "2026-11-09",
 "first": "2026-10-31",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "5aff783c-9f41-e298-bbab-f1cde65c2d1a": {
 "ko": "징 박힌 가죽 갑옷",
@@ -6515,7 +6550,7 @@
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6527,9 +6562,9 @@
 "amount": 1,
 "rarity": 2,
 "owner": "Lae'zel",
-"verdict": "🛡️ 착용 중",
+"verdict": "🟡 비교",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6543,7 +6578,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-10-31",
 "status": "have"
 },
@@ -6572,7 +6607,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6588,7 +6623,8 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "00ac5dfa-3f87-4e1b-b5a8-7adf32633461": {
 "ko": "밤의 난초",
@@ -6607,7 +6643,7 @@
 },
 "5e2cca79-0258-4832-b7e7-bab4c78624c6": {
 "ko": "절대자 신도 탐험대 열쇠",
-"en": "Absolutist Expedition Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -6615,7 +6651,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6629,7 +6665,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6643,7 +6679,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6657,13 +6693,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "46463c1a-06ab-4896-9012-abc446c7178a": {
 "ko": "암흑 심판관의 일지",
-"en": "Dark Justiciar's Journal",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_D",
 "value": 14,
 "amount": 1,
@@ -6671,13 +6707,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "d1065ae1-bac8-4130-a852-18f34b716264": {
 "ko": "더러운 지도",
-"en": "Grubby Map",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Sheet_C",
 "value": 14,
 "amount": 1,
@@ -6685,7 +6721,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6699,13 +6735,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "567c5052-4960-4446-920f-ffea4f2315c1": {
 "ko": "피투성이 쪽지",
-"en": "Bloodied Note",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -6713,7 +6749,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6727,7 +6763,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6741,7 +6777,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6755,7 +6791,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6769,7 +6805,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6778,12 +6814,12 @@
 "en": "Smokepowder Bomb",
 "icon": "Item_GRN_Bomb_A",
 "value": 16,
-"amount": 1,
+"amount": 3,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6797,7 +6833,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6811,7 +6847,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6825,7 +6861,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6834,12 +6870,12 @@
 "en": "Potion of Healing",
 "icon": "Item_CONS_Potion_Healing_A",
 "value": 10,
-"amount": 3,
+"amount": 4,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6848,12 +6884,12 @@
 "en": "Antidote",
 "icon": "Item_CONS_Potion_Antitoxin",
 "value": 13,
-"amount": 1,
+"amount": 2,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6867,7 +6903,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6881,7 +6917,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6895,7 +6931,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6904,12 +6940,12 @@
 "en": "Scroll of Speak with Dead",
 "icon": "Item_LOOT_SCROLL_SpeakWithDead",
 "value": 65,
-"amount": 1,
+"amount": 2,
 "rarity": 1,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6923,7 +6959,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6937,7 +6973,7 @@
 "owner": "Wyll",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6951,7 +6987,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -6967,7 +7003,8 @@
 "cat": "도구",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "0dcb6128-b80d-ecf1-1e60-2ceb65eb2d70": {
 "ko": "도둑 도구",
@@ -6981,7 +7018,8 @@
 "cat": "도구",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "24b59e3a-f089-43ab-8e23-f38667ae05e7": {
 "ko": "장검 거푸집",
@@ -6993,7 +7031,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7024,7 +7062,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "4aca442e-5ecb-4611-b481-5eaf35596dea": {
 "ko": "쿼니스 초능력 감지기",
@@ -7036,7 +7075,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7097,7 +7136,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "5082bfbf-0961-5ce9-222c-6dfacd55c255": {
 "ko": "향",
@@ -7111,7 +7151,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "30fa25c9-e684-dd95-253c-3524617024d7": {
 "ko": "청동 술잔",
@@ -7125,7 +7166,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "20c9e7bb-06a6-482a-aa0d-1c0164c484de": {
 "ko": "악마의 금박 가면",
@@ -7167,7 +7209,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7196,7 +7238,7 @@
 "owner": "Wyll",
 "verdict": "🛡️ 착용 중",
 "cat": "방어구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7222,10 +7264,10 @@
 "value": 70,
 "amount": 1,
 "rarity": 2,
-"owner": "게일",
+"owner": "섀도하트",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7236,10 +7278,10 @@
 "value": 40,
 "amount": 1,
 "rarity": 1,
-"owner": "아스타리온",
+"owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7253,7 +7295,7 @@
 "owner": "Wyll",
 "verdict": "🟡 비교",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7267,7 +7309,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7281,7 +7323,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7290,12 +7332,12 @@
 "en": "Bone",
 "icon": "Item_LOOT_GEN_DryBone_A",
 "value": 1,
-"amount": 2,
+"amount": 4,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7311,11 +7353,12 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "c85c5e3f-8bca-4f69-b223-c7731f1fdb7e": {
 "ko": "아다만틴 광재",
-"en": "Adamantine Slag",
+"en": "",
 "icon": "Item_LOOT_GEN_AdamantineScrap_A",
 "value": 1,
 "amount": 1,
@@ -7323,7 +7366,7 @@
 "owner": "Wyll",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7339,7 +7382,8 @@
 "cat": "잡동사니",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "26e7ac9f-9194-bb01-f6e3-fcf621ad272c": {
 "ko": "비전 열 장갑",
@@ -7471,7 +7515,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7515,7 +7559,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7529,7 +7573,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7545,7 +7589,8 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "d47de7e9-d3ce-0c0b-ddb6-db88016cd239": {
 "ko": "실샘",
@@ -7557,7 +7602,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7571,7 +7616,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7585,7 +7630,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7599,7 +7644,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7615,7 +7660,8 @@
 "cat": "물약",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "a8d6b232-0396-4a14-a98d-fe34b14fea15": {
 "ko": "주머니",
@@ -7627,7 +7673,7 @@
 "owner": "게일",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7656,7 +7702,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7670,7 +7716,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7684,7 +7730,7 @@
 "owner": "게일",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7698,7 +7744,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7712,7 +7758,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7726,7 +7772,7 @@
 "owner": "게일",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7742,7 +7788,8 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "794ce735-efc7-0bd7-cff2-c2fe260fd3b3": {
 "ko": "썩은 버섯",
@@ -7756,11 +7803,12 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "780c949d-70ef-4241-822a-a659bfee672c": {
 "ko": "철제 열쇠",
-"en": "Iron Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -7768,13 +7816,13 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "3d7e3104-8788-4d8c-bf90-b1145d7596e4": {
 "ko": "빛바랜 은 열쇠",
-"en": "Tarnished Silver Key",
+"en": "",
 "icon": "Item_PUZ_GEN_Key_Silver_A",
 "value": 1,
 "amount": 1,
@@ -7782,7 +7830,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7798,7 +7846,8 @@
 "cat": "보석·귀중품",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "d9a900dd-fda8-6abf-b971-0aa040ef3d30": {
 "ko": "뼈다귀",
@@ -7812,7 +7861,8 @@
 "cat": "잡동사니",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "c3fe7639-b26c-e47a-f7ee-c73b5c38c128": {
 "ko": "망치",
@@ -7826,7 +7876,8 @@
 "cat": "도구",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "54b38d78-a8f5-c511-2d70-89726ff2b13d": {
 "ko": "물",
@@ -7838,7 +7889,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7852,7 +7903,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7866,7 +7917,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7880,7 +7931,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "야영지 옷",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7894,7 +7945,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "투척물",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7918,12 +7969,12 @@
 "en": "Candle",
 "icon": "Item_LTS_DUN_Candles_C",
 "value": 1,
-"amount": 1,
+"amount": 2,
 "rarity": 0,
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7937,7 +7988,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7951,7 +8002,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "물약",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7962,10 +8013,10 @@
 "value": 100,
 "amount": 1,
 "rarity": 1,
-"owner": "Lae'zel",
+"owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7979,7 +8030,7 @@
 "owner": "아스타리온",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -7995,7 +8046,8 @@
 "cat": "화살",
 "last": "2026-11-09",
 "first": "2026-11-07",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "7c36d2e8-0e53-7dc0-27d0-dafd4dd175df": {
 "ko": "방패 거푸집",
@@ -8007,7 +8059,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8051,7 +8103,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8087,7 +8139,7 @@
 },
 "7369fc0a-7e2d-4c4d-8602-86ba14933745": {
 "ko": "철편 갑옷 거푸집(중갑)",
-"en": "Splint Mould (Heavy)",
+"en": "",
 "icon": "Item_UNI_LOOT_AdamantineForge_SplintMold",
 "value": 1,
 "amount": 1,
@@ -8095,7 +8147,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8116,7 +8168,7 @@
 },
 "983fcc35-870c-4549-9090-722113bd0fcb": {
 "ko": "휘갈겨 쓴 쪽지",
-"en": "Scribbled Note",
+"en": "",
 "icon": "Item_BOOK_GEN_Paper_Letter_A",
 "value": 14,
 "amount": 1,
@@ -8124,7 +8176,7 @@
 "owner": "아스타리온",
 "verdict": "🔴 팔기",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8138,13 +8190,13 @@
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "19b3cbd6-ddac-a099-c24c-885119361c0c": {
-"ko": "그레미쉬카 꼬리 (Gremishka Tail)",
-"en": "Gremishka Tail ",
+"ko": "그레미쉬카 꼬리",
+"en": "Gremishka Tail",
 "icon": "Item_ALCH_Ingredient_Part_Gremishka",
 "value": 11,
 "amount": 1,
@@ -8152,7 +8204,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8166,7 +8218,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8180,7 +8232,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8194,13 +8246,13 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "9d3de6ea-df9e-4eda-ac2d-939bc1149223": {
 "ko": "의무실 열쇠",
-"en": "Infirmary Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8208,7 +8260,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8222,7 +8274,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8234,9 +8286,9 @@
 "amount": 1,
 "rarity": 2,
 "owner": "Lae'zel",
-"verdict": "🛡️ 착용 중",
+"verdict": "🟡 비교",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8250,7 +8302,7 @@
 "owner": "Lae'zel",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8279,7 +8331,7 @@
 "owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "무기",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8293,7 +8345,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8337,7 +8389,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8351,13 +8403,13 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "도구",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
 "1075f497-108e-4697-90d1-4615963614f3": {
 "ko": "무거운 배낭",
-"en": "Heavy Backpack",
+"en": "",
 "icon": "Item_LOOT_GEN_Backpack_A_Posed_A",
 "value": 1,
 "amount": 1,
@@ -8365,7 +8417,7 @@
 "owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-07",
 "status": "have"
 },
@@ -8381,7 +8433,8 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "afb30e91-9ff2-4573-965e-046472a81727": {
 "ko": "장밋빛 아침 불포도주",
@@ -8395,7 +8448,8 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "3b10b8ec-cae2-a958-1746-8d1a4d787dbf": {
 "ko": "물자 꾸러미",
@@ -8409,7 +8463,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "4272f3bc-a44e-4f09-8371-81fe7a2180f1": {
 "ko": "고구마",
@@ -8423,7 +8478,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "77bcd372-c118-4929-b1be-73653153b2c0": {
 "ko": "양배추",
@@ -8437,25 +8493,26 @@
 "cat": "음식·술",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "c105f263-b00c-eadc-5e4d-65bdb8699cee": {
 "ko": "부패 종양",
 "en": "Putrefied Tumour",
 "icon": "Item_ALCH_Ingredient_Part_Shadowcursed",
 "value": 11,
-"amount": 1,
+"amount": 3,
 "rarity": 0,
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
 "77bb533f-e101-48a8-b9ef-e37e61d7dc65": {
 "ko": "최후의 빛 옆문 열쇠",
-"en": "Last Light Side Entrance Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8463,13 +8520,13 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
 "fae075d1-bbb7-4288-9566-b2c1ff5c8e98": {
 "ko": "최후의 빛 유치장 열쇠",
-"en": "Last Light Detention Cell Key",
+"en": "",
 "icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
 "value": 1,
 "amount": 1,
@@ -8477,7 +8534,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "열쇠",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8491,7 +8548,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8505,7 +8562,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "화살",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8521,7 +8578,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "c2827852-5cc1-46ec-8ab0-254e52150966": {
 "ko": "할프레드의 쪽지",
@@ -8535,11 +8593,12 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "5e4aafd4-f56c-4b05-ad5a-00eccdb87d9d": {
 "ko": "할신의 일지 2권",
-"en": "Halsin's Journal, Vol II",
+"en": "",
 "icon": "Item_BOOK_GEN_Book_B",
 "value": 14,
 "amount": 1,
@@ -8547,7 +8606,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "책·쪽지",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8563,7 +8622,8 @@
 "cat": "책·쪽지",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "c0dd99ac-b78f-47bd-9265-98dd8dc05872": {
 "ko": "화약통",
@@ -8572,10 +8632,10 @@
 "value": 5,
 "amount": 1,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8586,10 +8646,10 @@
 "value": 5,
 "amount": 1,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "Lae'zel",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8603,7 +8663,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8617,7 +8677,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "잡동사니",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8631,21 +8691,21 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "독·도포제",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
 "f85b214b-9669-4e6b-99c8-588b5d82cd19": {
 "ko": "랜스보드",
-"en": "Lanceboard",
+"en": "",
 "icon": "Item_PUZ_GEN_Lanceboard_Board_A",
 "value": 1,
 "amount": 1,
 "rarity": 0,
-"owner": "Wyll",
+"owner": "여행용 궤짝 (Traveller's Chest)",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8659,7 +8719,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8673,7 +8733,7 @@
 "owner": "Wyll",
 "verdict": "🟡 비교",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8687,21 +8747,21 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "음식·술",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
 "58f1d978-28dd-fdec-1ddd-4ea299672776": {
-"ko": "변화하는 본체 반지 (Shifting Corpus Ring)",
-"en": "Shifting Corpus Ring ",
+"ko": "변화하는 본체 반지",
+"en": "Shifting Corpus Ring",
 "icon": "Item_LOOT_GEN_Ring_A_Simple_Gold_1",
 "value": 70,
 "amount": 1,
 "rarity": 2,
-"owner": "Wyll",
-"verdict": "🟡 비교",
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8715,7 +8775,7 @@
 "owner": "Wyll",
 "verdict": "🔴 팔기",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8731,7 +8791,8 @@
 "cat": "목걸이",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "bf9cb4bc-d811-5a6c-a735-28d60f2d2c2d": {
 "ko": "세련된 반지",
@@ -8745,7 +8806,8 @@
 "cat": "반지",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "f4f30873-0dca-841c-24c9-97c96e2351c6": {
 "ko": "거미줄 갑옷",
@@ -8759,7 +8821,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "faf4690f-859f-d6e6-66d1-a2bdc8c8a1f7": {
 "ko": "자이어나이드",
@@ -8773,7 +8836,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "0054e844-cc8a-4b4e-89f0-b79dafcef0e5": {
 "ko": "거미의 리라",
@@ -8785,7 +8849,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "기타",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8799,7 +8863,7 @@
 "owner": "Wyll",
 "verdict": "🟢 보관",
 "cat": "가방",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8815,7 +8879,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "f64a278b-3ead-97f0-3efd-8f99122f7ce5": {
 "ko": "양초",
@@ -8829,7 +8894,8 @@
 "cat": "잡동사니",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "1ad4df38-ba3a-7c68-00d9-4e23a86e4c47": {
 "ko": "고상한 장화",
@@ -8843,7 +8909,8 @@
 "cat": "야영지 옷",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "7e6b5644-98b1-8fb8-633a-c412820f8576": {
 "ko": "연금술 주머니",
@@ -8857,7 +8924,8 @@
 "cat": "가방",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "ed086d05-4b35-9253-8423-1d437eef504a": {
 "ko": "보호의 망토",
@@ -8869,7 +8937,7 @@
 "owner": "게일",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8885,7 +8953,8 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "082eb9a6-c733-4cd3-af53-bf708f55b6f6": {
 "ko": "물자 꾸러미",
@@ -8899,7 +8968,8 @@
 "cat": "기타",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "3c700a62-0c0f-8c0a-5615-34fedba97433": {
 "ko": "화약 폭탄",
@@ -8913,7 +8983,8 @@
 "cat": "투척물",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "ebc6613a-0b3f-17bd-240e-8ff4d93eccd3": {
 "ko": "하퍼 결사의 애뮬릿",
@@ -8923,9 +8994,9 @@
 "amount": 1,
 "rarity": 2,
 "owner": "Lae'zel",
-"verdict": "🟡 비교",
+"verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8941,7 +9012,8 @@
 "cat": "물약",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "gone",
+"gone": "2026-11-23"
 },
 "f5f1628a-a0c3-42f2-a00d-30a75fea1cd8": {
 "ko": "가죽 갑옷",
@@ -8955,7 +9027,8 @@
 "cat": "방어구",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "02f1c240-39fb-23de-c680-eb5686486466": {
 "ko": "인간형 포박 두루마리",
@@ -8967,7 +9040,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8981,7 +9054,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -8995,7 +9068,7 @@
 "owner": "Lae'zel",
 "verdict": "🟢 보관",
 "cat": "두루마리",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -9009,13 +9082,13 @@
 "owner": "섀도하트",
 "verdict": "🟢 보관",
 "cat": "연금술 재료",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
 "bf897298-bf42-743f-c7de-73f7fa6653f4": {
-"ko": "그림자 집착자 갑옷 (Shadeclinger Armour)",
-"en": "Shadeclinger Armour ",
+"ko": "그림자 집착자 갑옷",
+"en": "Shadeclinger Armour",
 "icon": "Item_ARM_Leather_4",
 "value": 510,
 "amount": 1,
@@ -9023,7 +9096,7 @@
 "owner": "아스타리온",
 "verdict": "🛡️ 착용 중",
 "cat": "마법 장비",
-"last": "2026-11-09",
+"last": "2026-11-23",
 "first": "2026-11-09",
 "status": "have"
 },
@@ -9039,7 +9112,8 @@
 "cat": "야영지 옷",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "a113cd9c-10bc-76ba-691f-9989d1b432ca": {
 "ko": "경쇠뇌",
@@ -9053,7 +9127,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "ecd8b02c-fcb1-c561-0076-eb9f0359cad9": {
 "ko": "가죽 갑옷",
@@ -9067,7 +9142,8 @@
 "cat": "방어구",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "7c63896a-f93c-aa4f-1c05-73cbf32e985e": {
 "ko": "곤봉",
@@ -9081,7 +9157,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "cee60784-1509-2a5b-5e32-f09e7235ceee": {
 "ko": "단검",
@@ -9095,7 +9172,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "36127da1-fc47-925b-a157-837425e976d3": {
 "ko": "철퇴",
@@ -9109,7 +9187,8 @@
 "cat": "무기",
 "last": "2026-11-09",
 "first": "2026-11-09",
-"status": "have"
+"status": "sold",
+"gone": "2026-11-23"
 },
 "2bebc8c2-3ef0-6164-52af-cdc8b39f40df": {
 "ko": "활보의 장화",
@@ -9123,6 +9202,2387 @@
 "cat": "마법 장비",
 "last": "2026-11-09",
 "first": "2026-11-09",
+"status": "sold",
+"gone": "2026-11-23"
+},
+"4ed782ea-0f9b-9a2a-c66c-e327c7c1ca44": {
+"ko": "에스멜타르 레드",
+"en": "Esmeltar Red",
+"icon": "Item_CONS_Drink_Wine_A_Wicker",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"336ee4ef-5ae6-4f0e-d699-d58a8e2377b9": {
+"ko": "물자 꾸러미",
+"en": "Supply Pack",
+"icon": "Item_LOOT_Camp_Pack",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"3c126cc3-ccff-9223-9021-efaeecac4b40": {
+"ko": "향긋한 버섯 스튜",
+"en": "Fragrant Fungus Stew",
+"icon": "Item_CONS_GEN_Food_Stew_B",
+"value": 20,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2da06bc2-8367-c5c6-25c7-ec2ceccf538f": {
+"ko": "발더스 게이트 매시",
+"en": "Baldurian Mash",
+"icon": "Item_CONS_GEN_Food_Stew_B",
+"value": 15,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"08a873b4-1194-d2e9-26d4-2a24799fbdaa": {
+"ko": "맥주 한 잔",
+"en": "Pitcher of Beer",
+"icon": "Item_CONS_Drink_Beer_Pitcher_A",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"280c98b0-4f1d-2e1e-bda7-9d73948a867b": {
+"ko": "물자 꾸러미",
+"en": "Supply Pack",
+"icon": "Item_LOOT_Camp_Pack",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"ededff2a-f9e0-1d9f-a877-6eef33e58ad7": {
+"ko": "다발버섯",
+"en": "Swarming Toadstool",
+"icon": "Item_LOOT_Mushroom_Swarmingtoadstool_A",
+"value": 9,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"20ccbd69-d8ae-4b2c-c452-11ebd5ba2eaa": {
+"ko": "야광 고사리 줄기",
+"en": "Nightlight Frond",
+"icon": "Item_LOOT_Underdark_Mushroom_Nightlight_Piece",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"dda2183e-c8f4-8ea5-351c-0984423ea213": {
+"ko": "미치광이혓바닥",
+"en": "Tongue of Madness",
+"icon": "Item_LOOT_Underdark_MushroomPieces_D",
+"value": 9,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"6d6e3abe-f93d-f391-93c9-6649b7e2a9de": {
+"ko": "도토리송로버섯",
+"en": "Acorn Truffle",
+"icon": "Item_LOOT_Underdark_Mushroom_Silvantruffle",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1a4f9e06-b7b8-c922-32e6-c9162efc6a9e": {
+"ko": "지능 포식자 소뇌",
+"en": "Intellect Devourer Cerebellum",
+"icon": "Item_LOOT_GEN_Brain_A",
+"value": 16,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"83406a00-7db4-5ec0-d0d2-ce4b4aa27331": {
+"ko": "페가수스 깃털",
+"en": "Pegasus Feather",
+"icon": "Item_LOOT_Alchemy_Harpy_Feather_A",
+"value": 9,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"bf8c0b03-b8a4-2b61-6b1a-7852d69adf61": {
+"ko": "심장 모양 바위",
+"en": "Heart-Shaped Rock",
+"icon": "Item_LOOT_Alchemy_Mephit_Heart_A",
+"value": 9,
+"amount": 6,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f82f49bf-deb3-01c3-d079-0c0949da19e9": {
+"ko": "신성한 뼛조각",
+"en": "Divine Bone Shard",
+"icon": "Item_ALCH_Ingredient_Loot_DivineBoneShard",
+"value": 55,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"9c78d713-d0c4-6958-4f64-3c2f4e016ca8": {
+"ko": "서리 낀 귀",
+"en": "Frosted Ear",
+"icon": "Item_ALCH_Ingredient_Part_IceMephitEar",
+"value": 7,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"08d100c7-7294-4aa9-9a0d-c3c375338e20": {
+"ko": "시체 장미",
+"en": "Corpse Rose",
+"icon": "Item_DEC_GEN_Corpse_Rose_A",
+"value": 55,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"0848f66f-e4bd-4057-ada7-2c45dadd3165": {
+"ko": "열쇠",
+"en": "Key",
+"icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"70c5da13-7bf6-4be4-b490-81d2ec2ddaa7": {
+"ko": "열쇠",
+"en": "Key",
+"icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"c3daa5ff-0f98-4cff-adcf-cb9cf9d8f993": {
+"ko": "조용한 발걸음의 시련 열쇠",
+"en": "",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"9ffc9ca3-1b33-9e1d-c226-e7939fe29b90": {
+"ko": "사령 연구실 보조 열쇠",
+"en": "Necrotic Laboratory Spare Key",
+"icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4cfdc0d4-9d76-5bc4-ba94-39cffc5dac27": {
+"ko": "달오름 탑 경비의 열쇠",
+"en": "Moonrise Guard's Key",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"bac28e30-6337-03c1-a41f-c3e886dd48ee": {
+"ko": "달오름 탑 경비의 열쇠",
+"en": "Moonrise Guard's Key",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1e82ac7c-feca-d230-0366-0756a73da3d3": {
+"ko": "달오름 탑 경비의 열쇠",
+"en": "Moonrise Guard's Key",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"281988ed-4b8e-4b8b-8d16-44b0fe3d48c0": {
+"ko": "발타자르의 방 열쇠",
+"en": "",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8eb73f8e-9fda-3641-4511-7b0439bcb6aa": {
+"ko": "달오름 탑 경비의 열쇠",
+"en": "Moonrise Guard's Key",
+"icon": "Item_PUZ_GEN_Key_Silver_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"a055e810-8fd3-4800-9027-a4ec55d0fdb0": {
+"ko": "뼈 열쇠",
+"en": "",
+"icon": "Item_S_FOR_IncompleteMasterwork_CellarKey",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "열쇠",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"79fea011-aa4d-59bd-d7a1-0903344dc9fc": {
+"ko": "다중 표적 화살",
+"en": "Arrow of Many Targets",
+"icon": "Item_ARR_Arrow_Of_Ricochet",
+"value": 50,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "화살",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"55ff3886-b5e7-16eb-9311-ac08f62fbea0": {
+"ko": "야수 척결 화살",
+"en": "Arrow of Beast Slaying",
+"icon": "Item_ARR_Arrow_Of_Slaying",
+"value": 20,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "화살",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8080515a-0d9f-f016-ee5d-18f3687efdc0": {
+"ko": "갈고리 화살",
+"en": "Barbed Arrow",
+"icon": "Item_ARR_Arrow_Of_Ricochet",
+"value": 10,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"48b93893-4c8f-49cf-8686-530bb5a25700": {
+"ko": "먼지투성이 책",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_B",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8c5b8320-0954-4805-b453-a9fd22f55d83": {
+"ko": "샤 신도 명부",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1559b688-0ad0-a691-f3e8-7921fe9c2cf4": {
+"ko": "ReallyShadowheart 모드 제작자의 노트.",
+"en": "",
+"icon": "Item_BOOK_GEN_Envelope_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"254419ad-eaf6-4370-8d46-514a143889d8": {
+"ko": "사랑으로 묶인 사이 - 아내의 일기",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"eaee107b-bfb3-4550-8d81-193b4d07d7ac": {
+"ko": "휘갈겨 쓴 쪽지",
+"en": "",
+"icon": "Item_BOOK_GEN_Paper_Letter_B",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fe37015f-b882-49f9-90f9-436dcf667fab": {
+"ko": "케더릭 토름의 일기, 1편",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_Rich_B",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"dfb4bb97-3d01-43ec-a6e9-632395149f7d": {
+"ko": "저렐의 개인 비망록",
+"en": "",
+"icon": "Item_BOOK_GEN_Paper_Letter_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"a4aa779b-7871-41b5-8792-10d4a4fbb71d": {
+"ko": "고타쉬의 쪽지",
+"en": "",
+"icon": "Item_BOOK_GEN_Paper_Letter_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d485ba7e-c3c4-fcb0-6b68-1631b2f2e420": {
+"ko": "얼룩진 편지",
+"en": "Stained Letter",
+"icon": "Item_BOOK_GEN_Paper_Letter_Torn_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d998a4cd-15a0-898a-fc3c-3efdb51e2b68": {
+"ko": "빠르고 갑작스러운 죽음",
+"en": "A Swift and Sudden Death",
+"icon": "Item_BOOK_GEN_Book_Rich_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f0cfbd51-c6e7-9cce-b2ba-d067201a896a": {
+"ko": "드로우 독약 제조법",
+"en": "Recipe of Drow Poison",
+"icon": "Item_BOOK_Wizards_Tome_Generic_D",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e55bff97-2bae-4bd4-bdf0-8aede57a9269": {
+"ko": "구겨진 쪽지",
+"en": "",
+"icon": "Item_BOOK_GEN_Paper_Letter_B",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"008f55f1-e280-3c15-8915-effa587656ca": {
+"ko": "치유 물약",
+"en": "Potion of Healing",
+"icon": "Item_CONS_Potion_Healing_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"6537c1f1-cedc-44c9-8006-f81cb6235264": {
+"ko": "화염 저항의 영약",
+"en": "Elixir of Fire Resistance",
+"icon": "Item_CONS_Potion_Fire_Resistance_2",
+"value": 13,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"bab0582d-40cf-4e51-8478-3ec8d37b310a": {
+"ko": "언덕 거인의 힘 영약",
+"en": "Elixir of Hill Giant Strength",
+"icon": "Item_CONS_Potion_Hill_Giant_Strength_2",
+"value": 30,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8d6a178a-0933-0ced-2700-a0f4761c8e2b": {
+"ko": "중급 치유 물약",
+"en": "Potion of Greater Healing",
+"icon": "Item_CONS_Potion_Healing_A_Greater",
+"value": 16,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e9533714-6edf-5538-ab20-fb786715ac1f": {
+"ko": "포악함의 영약",
+"en": "Elixir of Viciousness",
+"icon": "Item_ALCH_Solution_Elixir_Criticals",
+"value": 50,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"48899576-7878-ae9d-113d-115603b9c29b": {
+"ko": "탁월한 집중력의 영약",
+"en": "Elixir of Peerless Focus",
+"icon": "Item_CONS_Potion_Invulnerability",
+"value": 20,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2ea30279-9e5e-a4c0-5ca1-42739919e183": {
+"ko": "둔화 두루마리",
+"en": "Scroll of Slow",
+"icon": "Item_LOOT_SCROLL_Slow",
+"value": 100,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d476da1f-97df-0e9d-0820-d44ed75e4a34": {
+"ko": "변신 두루마리",
+"en": "Scroll of Polymorph",
+"icon": "Item_LOOT_SCROLL_Polymorph",
+"value": 180,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"40ba2426-d7f7-b897-156a-d1d3fd3f48f7": {
+"ko": "파쇄 두루마리",
+"en": "Scroll of Shatter",
+"icon": "Item_LOOT_SCROLL_Shatter",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d2bf9f9a-c931-0e75-ce29-6e9825011987": {
+"ko": "공포 두루마리",
+"en": "Scroll of Fear",
+"icon": "Item_LOOT_SCROLL_Fear",
+"value": 100,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"494c3f48-123e-430f-a371-ca00e1f7d945": {
+"ko": "카라바산의 독",
+"en": "Karabasan's Poison",
+"icon": "Item_CONS_Poison_Paralytic_A",
+"value": 50,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4482e6a5-4924-4c03-b11b-e92f1cb0df83": {
+"ko": "스펀지 쟁반",
+"en": "Sponge Tray",
+"icon": "Item_LOOT_Bathroom_Bucket_Sponges_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d1bf6c2c-86b8-4be4-a1ce-d6da09b1ac32": {
+"ko": "스펀지",
+"en": "Sponge",
+"icon": "Item_LOOT_Bathroom_Sponge_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"0384d2a1-2af8-353c-fe42-fd88c380e7eb": {
+"ko": "썩은 바나나",
+"en": "Rotten Banana",
+"icon": "Item_CONS_FOOD_Fruit_Banana_A_Rotten",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"b25873af-55e9-4816-a81c-3be5b95574a2": {
+"ko": "골렘 소환 종",
+"en": "Summon Golem Bell",
+"icon": "Item_CINE_LOOT_GEN_Necromancer_Bell_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f487943a-3448-475d-a176-43cf2174a59c": {
+"ko": "공명석",
+"en": "Resonance Stone",
+"icon": "Item_TOOL_MF_Resonance_Crystal_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4c9c6225-da7e-4207-9ad4-54b08b83d11c": {
+"ko": "경판금 갑옷",
+"en": "Half Plate Armour",
+"icon": "Item_ARM_HalfPlate",
+"value": 180,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f41d4774-ab90-5063-d7d9-d66b2daba02a": {
+"ko": "대검",
+"en": "Greatsword",
+"icon": "Item_WPN_HUM_Greatsword_A_0",
+"value": 65,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"c7e674b6-8418-bf47-baf6-e20f1625d428": {
+"ko": "도둑 도구",
+"en": "Thieves' Tools",
+"icon": "Item_TOOL_GEN_ThievesTools_A_Closed_A",
+"value": 25,
+"amount": 6,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "도구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4c85a878-61d3-0691-12fe-2e8c27770456": {
+"ko": "함정 해제 도구",
+"en": "Trap Disarm Toolkit",
+"icon": "Item_TOOL_GEN_Disam_Toolkit_A",
+"value": 25,
+"amount": 6,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "도구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"38f9b655-9a40-465b-8f15-f5e7227ce71e": {
+"ko": "지렛대 손잡이",
+"en": "Lever Handle",
+"icon": "Item_LOOT_GEN_Lever_Floor_Metal_A_Broken_Handle_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"bb4235e9-0cd4-290f-62bc-5618ff09bfd6": {
+"ko": "식칼",
+"en": "Cleaver",
+"icon": "Item_WPN_HUM_CleaverAxe_A",
+"value": 16,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"03f5f86a-1560-4121-9543-c3d1c87e5495": {
+"ko": "지옥의 금속",
+"en": "",
+"icon": "Item_LOOT_Ketheric_Infernal_Plate_A",
+"value": 100,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"148ab978-d44c-4c5d-895d-1ca1c1680012": {
+"ko": "피르주의 거래의 반지",
+"en": "",
+"icon": "Item_LOOT_GEN_Ring_I",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f4517263-4bc1-1219-d30c-3871dc361c1a": {
+"ko": "기묘한 덩굴 애뮬릿",
+"en": "Strange Tendril Amulet",
+"icon": "Item_LOOT_GEN_Amulet_Necklace_B_Gold_A_1",
+"value": 190,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1fc41529-2d78-1048-e048-439583bd39e6": {
+"ko": "의사의 구속 애뮬릿",
+"en": "Surgeon's Subjugation Amulet",
+"icon": "Item_LOOT_GEN_Amulet_Necklace_A_Silver_A_1",
+"value": 125,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"de2ea5a9-943a-4794-9ef7-208be7747178": {
+"ko": "의식이 깃든 애뮬릿",
+"en": "Sentient Amulet",
+"icon": "Item_UNI_UND_MonkAmulet_GLOW",
+"value": 125,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1329c22c-d23a-4d31-96b0-6b734074f1dc": {
+"ko": "낡아빠진 류트",
+"en": "",
+"icon": "Item_TOOL_GEN_Music_Guitar_Lute_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"beec4869-7c83-0104-ccd8-539e089a11b5": {
+"ko": "공작석",
+"en": "Malachite",
+"icon": "Item_LOOT_GEM_Malachite_A",
+"value": 25,
+"amount": 6,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "보석·귀중품",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"17803511-1636-473f-acd3-e4b2e794949b": {
+"ko": "굳은 피가 든 병",
+"en": "Jar of Coagulated Blood",
+"icon": "Item_UNI_TWN_Hospital_Bloodbank_Transfusion_Bottle_B",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2ae6074b-fa55-89a7-703e-4d23672058cb": {
+"ko": "물",
+"en": "Water",
+"icon": "Item_CONS_Drink_Water_A",
+"value": 5,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"a8424e6f-bce7-5ee8-6d93-0dedfa594741": {
+"ko": "미스랄 광석",
+"en": "Mithral Ore",
+"icon": "Item_LOOT_GEN_Ore_Mithral_A",
+"value": 100,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"735682ca-a61e-4263-beaa-410e88fde549": {
+"ko": "수건 더미",
+"en": "Towels Pile",
+"icon": "Item_LOOT_Bathroom_Towel_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d68c3235-41d5-7755-b4c0-566bc41919a3": {
+"ko": "양초",
+"en": "Candle",
+"icon": "Item_LTS_DUN_Candles_C",
+"value": 1,
+"amount": 2,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "잡동사니",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f9068f94-def4-1132-c181-fddfbebd7286": {
+"ko": "자수정",
+"en": "Amethyst",
+"icon": "Item_LOOT_GEM_Amethyst_A",
+"value": 55,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"17bbc0d6-c568-4c45-9939-7192d523a576": {
+"ko": "은제 케이크 받침대",
+"en": "Silver Cake Stand",
+"icon": "Item_LOOT_GEN_Dining_Plate_Elevated_Silver_Rich_B",
+"value": 30,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"3f411de2-9387-0bab-cc66-34a3a682b858": {
+"ko": "머쿨의 재앙",
+"en": "Myrkulite Scourge",
+"icon": "Item_WPN_HUM_Flail_A_1",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4df7c5c2-c2b8-16b6-ec86-7b4500c46050": {
+"ko": "청동 주괴",
+"en": "Bronze Ingot",
+"icon": "Item_LOOT_GEN_Metalbar_Bronze_A",
+"value": 20,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "보석·귀중품",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"7b81762d-84f3-45b7-20ad-688d48a8c374": {
+"ko": "등 전율 애뮬릿",
+"en": "Spineshudder Amulet",
+"icon": "Item_LOOT_GEN_Amulet_Necklace_C_Silver_A_1",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"cae06fd8-287b-dfa7-8022-c96f4cefa87b": {
+"ko": "은접시",
+"en": "Silver Plate",
+"icon": "Item_LOOT_GEN_Dining_Plate_Silver_Rich_E",
+"value": 20,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"efd859a1-da96-aeed-2c44-5e228bc001e9": {
+"ko": "가죽끈 샌들",
+"en": "Slashstrip Sandals",
+"icon": "Item_ARM_Camp_Shoes_Sandals_A_1",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "야영지 옷",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2dcc6a54-f07b-4b4c-98d4-ca7ec92a59fd": {
+"ko": "월광등",
+"en": "Moonlantern",
+"icon": "Item_QUEST_SCL_Moonlantern",
+"value": 30,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"bcfc274e-76cc-4873-8c25-f8575b020458": {
+"ko": "수정구",
+"en": "Crystal Ball",
+"icon": "Item_LOOT_Alchemy_Miscellaneous_CrystalBall",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🔴 팔기",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e03d245e-63e0-49bd-b3ea-db221156a9ce": {
+"ko": "억압된 영혼의 검",
+"en": "Blade of Oppressed Souls",
+"icon": "Item_WPN_HUM_Longsword_A_1",
+"value": 250,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"06b8891b-e71c-423b-8482-2680c3c16a4d": {
+"ko": "케더릭의 네더스톤",
+"en": "",
+"icon": "Item_QUEST_Netherstone_Ketheric",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "Wyll",
+"verdict": "🟢 보관",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f15f2e36-6128-8ddd-a94e-18f03d4abd18": {
+"ko": "사신의 포옹",
+"en": "Reaper's Embrace",
+"icon": "Item_ARM_Ketheric_Body_B",
+"value": 6400,
+"amount": 1,
+"rarity": 3,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e4f1c8ed-5230-46dd-64dc-b40f0de5c21f": {
+"ko": "케더릭의 전쟁 망치",
+"en": "Ketheric's Warhammer",
+"icon": "Item_WPN_HUM_WarHammer_A_1",
+"value": 310,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"404f2af7-6b92-132c-50ea-2a6b8516833b": {
+"ko": "케더릭의 방패",
+"en": "Ketheric's Shield",
+"icon": "Item_WPN_Drow_Shield_A_0_Absolute",
+"value": 300,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"03e019aa-ba54-81d1-235b-deaf5e99007c": {
+"ko": "살인자의 연인",
+"en": "Killer's Sweetheart",
+"icon": "Item_LOOT_GEN_Ring_I_Gold_A_1",
+"value": 140,
+"amount": 1,
+"rarity": 3,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2e778a6e-e356-ef65-5e39-b4d6a4e8c25d": {
+"ko": "절대자의 수호자",
+"en": "Absolute's Protector",
+"icon": "Item_WPN_HUM_Shield_A_1",
+"value": 300,
+"amount": 1,
+"rarity": 2,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d373250f-3ae8-1809-2f51-c40f99b49bb0": {
+"ko": "지옥불 손 쇠뇌",
+"en": "Hellfire Hand Crossbow",
+"icon": "Item_WPN_HUM_HandCrossbow_A_1",
+"value": 770,
+"amount": 1,
+"rarity": 3,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"c076f993-140c-77a6-a5f2-f1e54e7f1964": {
+"ko": "절망의 머리 투구",
+"en": "Grymskull Helm",
+"icon": "Item_UNI_UND_KC_AdamantineGolem_Helmet",
+"value": 570,
+"amount": 1,
+"rarity": 3,
+"owner": "Wyll",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1cc048c7-d5f8-4517-da0c-e4becd726483": {
+"ko": "스테이크 날고기",
+"en": "Raw Steak",
+"icon": "Item_CONS_GEN_Food_Steaks_Raw_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4b2d5e28-1c22-4640-976b-5a98405a67e9": {
+"ko": "호박",
+"en": "Pumpkin",
+"icon": "Item_CONS_FOOD_Vegetable_Pumpkin_A",
+"value": 15,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "음식·술",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"0355b075-610a-496f-a7f4-85a48247f84b": {
+"ko": "물자 꾸러미",
+"en": "Supply Pack",
+"icon": "Item_LOOT_Camp_Pack",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"aa9d831e-e997-477e-802e-d2f74637a9b1": {
+"ko": "그림자 버섯",
+"en": "Shadow Fungus",
+"icon": "Item_LOOT_Alchemy_Mushroom_Shadow_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🔴 팔기",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"5c8b25bf-7d88-5c5f-4c84-9e02cafc605b": {
+"ko": "하이에나 귀",
+"en": "Hyena Ear",
+"icon": "Item_LOOT_Alchemy_Hyena_Ear_A",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"ce2fa0a1-bced-1e88-bf81-79be24dafdcc": {
+"ko": "오커 젤리 점액",
+"en": "Ochre Jelly Slime",
+"icon": "Item_LOOT_HAG_Throwable_Goo_Ball_A_Fire_A",
+"value": 11,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"be991c09-3bc0-39bf-f2c0-d3de62922032": {
+"ko": "불 호박",
+"en": "Fire Amber",
+"icon": "Item_LOOT_Alchemy_Crystal_C",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"5e5c2578-2868-532e-83ed-e2a06e055041": {
+"ko": "노란색 사향 크리퍼 꽃잎",
+"en": "Yellow Musk Creeper Petals",
+"icon": "Item_ALCH_Ingredient_Loot_YellowMuskCreeper_A",
+"value": 14,
+"amount": 2,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fbf23b19-6a1e-8f42-430e-36f7eb736b83": {
+"ko": "진흙 같은 붉은색 염료",
+"en": "Muddy Red Dye",
+"icon": "Item_LOOT_Dye_RedBrown_01",
+"value": 3,
+"amount": 3,
+"rarity": 1,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "염료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"5bb23439-0219-4dd4-a0d0-300a4d11078f": {
+"ko": "천사의 유예 물약",
+"en": "Potion of Angelic Reprieve",
+"icon": "Item_CONS_Potion_Rare_B",
+"value": 90,
+"amount": 1,
+"rarity": 2,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"b07267e9-15ad-54d4-7bed-e6c50b8bc4f0": {
+"ko": "뼈다귀",
+"en": "Bone",
+"icon": "Item_LOOT_GEN_DryBone_A",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🔴 팔기",
+"cat": "잡동사니",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"c1c615f6-477c-de99-5c8a-32ec1e1a7963": {
+"ko": "치유 물약",
+"en": "Potion of Healing",
+"icon": "Item_CONS_Potion_Healing_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fd7d9deb-80d6-490f-93e0-f7bedf2c04d3": {
+"ko": "오색 보주 두루마리",
+"en": "Scroll of Chromatic Orb",
+"icon": "Item_LOOT_SCROLL_ChromaticOrb",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"790b4152-7db2-4b62-b0c9-ae3ea74b978b": {
+"ko": "도둑 도구",
+"en": "Thieves' Tools",
+"icon": "Item_TOOL_GEN_ThievesTools_A_Closed_A",
+"value": 25,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "도구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"476f99b1-6631-48fa-a6f4-5c6cee5f5c0a": {
+"ko": "횃불",
+"en": "Torch",
+"icon": "Item_WPN_HUM_Torch_A",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "섀도하트",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"b8839cd6-0116-47f9-8f08-7790fbb6a82b": {
+"ko": "드로우 독약",
+"en": "Drow Poison",
+"icon": "Item_CONS_Poison_Drow",
+"value": 30,
+"amount": 1,
+"rarity": 1,
+"owner": "섀도하트",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2de78691-766e-442a-8eee-93a2eaa8f6d8": {
+"ko": "방화범의 기름",
+"en": "Arsonist's Oil",
+"icon": "Item_LOOT_Alchemy_Myconid_Grenade_Positive",
+"value": 25,
+"amount": 1,
+"rarity": 1,
+"owner": "섀도하트",
+"verdict": "🟢 보관",
+"cat": "독·도포제",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"134ac3a4-2a65-4baf-93eb-3de91c314558": {
+"ko": "셀루네의 밤의 창",
+"en": "Selûne's Spear of Night",
+"icon": "Item_MAG_SHA_SeluneBlessing_Spear_GLOW",
+"value": 640,
+"amount": 1,
+"rarity": 4,
+"owner": "섀도하트",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fe6fbae7-995d-69fc-92da-f92663da3c2f": {
+"ko": "암흑 심판관 헬멧",
+"en": "Dark Justiciar Helmet",
+"icon": "Item_ARM_Helmet_Metal_Dark_Justiciar_A_Magic",
+"value": 1600,
+"amount": 1,
+"rarity": 3,
+"owner": "섀도하트",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"474441f3-5dea-4669-a6f0-57c8406f445b": {
+"ko": "암흑 심판관 경판금 갑옷",
+"en": "Dark Justiciar Half-Plate",
+"icon": "Generated_MAG_DarkJusticiar_HalfPlate_Magic",
+"value": 1450,
+"amount": 1,
+"rarity": 2,
+"owner": "섀도하트",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"991e593f-e81d-e4a0-fbb0-a54013aa1fbc": {
+"ko": "대형 곤봉+1",
+"en": "Greatclub +1",
+"icon": "Item_WPN_HUM_Greatclub_A_1",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "섀도하트",
+"verdict": "🛡️ 착용 중",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"5c322223-3247-481a-87f8-849631181a92": {
+"ko": "조용한 발걸음의 시련의 서",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_Rich_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f8df7fe8-b39e-2e73-86e8-0f4ac58eb924": {
+"ko": "깃털 낙하 물약",
+"en": "Potion of Feather Fall",
+"icon": "Item_ALCH_Solution_Potion_FeatherFall",
+"value": 13,
+"amount": 1,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e13458d8-4726-48d1-b232-f81e59c6cd87": {
+"ko": "상실의 가르침: 비밀",
+"en": "",
+"icon": "Item_BOOK_Wizards_Tome_Simple_F",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🔴 팔기",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"511a6027-68c2-f6b3-52ad-c16acbac1f97": {
+"ko": "투명체 감지 두루마리",
+"en": "Scroll of See Invisibility",
+"icon": "Item_LOOT_SCROLL_SeeInvisibility",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Lae'zel",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"16a90234-6c06-eefc-b974-2e7a9770d178": {
+"ko": "죽음 구름 두루마리",
+"en": "Scroll of Cloudkill",
+"icon": "Item_LOOT_SCROLL_CloudKill",
+"value": 400,
+"amount": 1,
+"rarity": 3,
+"owner": "Lae'zel",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f84dc685-3fa4-08f8-f54d-bed65f738d17": {
+"ko": "망자와 대화 두루마리",
+"en": "Scroll of Speak with Dead",
+"icon": "Item_LOOT_SCROLL_SpeakWithDead",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "Lae'zel",
+"verdict": "🟢 보관",
+"cat": "두루마리",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e69403e4-1aa6-4cfb-9cc5-6135fa17cae2": {
+"ko": "\n자신과 맞서는 시련의 서",
+"en": "",
+"icon": "Item_BOOK_GEN_Book_Rich_A",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"12e023ef-1d67-d972-d594-122457d0f575": {
+"ko": "달의 딸의 마지막 희생",
+"en": "The Final Sacrifice of the Moon Daughter",
+"icon": "Item_BOOK_GEN_Scroll_Parchment_C_Open_C",
+"value": 14,
+"amount": 1,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🔴 팔기",
+"cat": "책·쪽지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d0c763f9-baf6-f712-d986-1cf856e59f51": {
+"ko": "중급 치유 물약",
+"en": "Potion of Greater Healing",
+"icon": "Item_CONS_Potion_Healing_A_Greater",
+"value": 16,
+"amount": 4,
+"rarity": 0,
+"owner": "Lae'zel",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"6ca5966b-467d-64b7-da3c-968d98273e22": {
+"ko": "달빛 협도",
+"en": "Moonlight Glaive",
+"icon": "Item_WPN_HUM_Glaive_A_1",
+"value": 380,
+"amount": 1,
+"rarity": 2,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d6bf51f9-aa20-635c-1377-fb140e1d6869": {
+"ko": "아다만틴 비늘 갑옷",
+"en": "Adamantine Scale Mail",
+"icon": "Item_ARM_Scalemail_Adamantine_A",
+"value": 1300,
+"amount": 1,
+"rarity": 3,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1d1cc3ed-856b-46aa-d7b2-8ae1c2cd49fc": {
+"ko": "예상 밖의 변수",
+"en": "Least Expected",
+"icon": "Item_WPN_HUM_Shortbow_A_1",
+"value": 190,
+"amount": 1,
+"rarity": 2,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"725d1869-1754-e7ee-4211-0e3ce25bdbb5": {
+"ko": "고귀한 골수 반지",
+"en": "Ring of Exalted Marrow",
+"icon": "Item_MAG_Myrkulites_RingofMyrkul_Ring_GLOW",
+"value": 70,
+"amount": 1,
+"rarity": 2,
+"owner": "Lae'zel",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"48f0e610-34f1-1308-b48d-e4e075579a60": {
+"ko": "눈 폭발 반지",
+"en": "Snowburst Ring",
+"icon": "Item_LOOT_GEN_Ring_A_Gem_A_Gold_1",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "게일",
+"verdict": "🟡 비교",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"ecb80735-bc18-206f-9ac9-d7f2408f8900": {
+"ko": "얼음 물림 로브",
+"en": "Icebite Robe",
+"icon": "Generated_MAG_Frost_GenerateFrostOnDamage_Robe_Magic",
+"value": 800,
+"amount": 1,
+"rarity": 2,
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"e6dc9107-2b1b-0647-7999-7a92c75c2f55": {
+"ko": "백열 지팡이",
+"en": "Incandescent Staff",
+"icon": "Item_WPN_HUM_Quarterstaff_A_1",
+"value": 770,
+"amount": 1,
+"rarity": 3,
+"owner": "게일",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4e6b7f0a-84a0-4589-7770-2c06ae5ff970": {
+"ko": "도둑 도구",
+"en": "Thieves' Tools",
+"icon": "Item_TOOL_GEN_ThievesTools_A_Closed_A",
+"value": 25,
+"amount": 2,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "도구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"20982c7b-c4cf-68e8-fa91-1f1d3688d486": {
+"ko": "동물과의 대화 물약",
+"en": "Potion of Animal Speaking",
+"icon": "Item_CONS_Potion_AnimalSpeaking_A",
+"value": 13,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "물약",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"57b9f7a9-3786-e49e-55ae-99c7780e6fdb": {
+"ko": "하이에나 귀",
+"en": "Hyena Ear",
+"icon": "Item_LOOT_Alchemy_Hyena_Ear_A",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2afb89da-3dcb-3713-d4e6-8d8300b7dd32": {
+"ko": "래컬라이트",
+"en": "Laculite",
+"icon": "Item_LOOT_Alchemy_Crystal_Laculite_A",
+"value": 9,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"ddd0db9d-a710-4a2d-b253-e1ed8959c58c": {
+"ko": "다발버섯",
+"en": "Swarming Toadstool",
+"icon": "Item_LOOT_Mushroom_Swarmingtoadstool_A",
+"value": 9,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"6a57118c-1fd4-4601-b376-e102ce676219": {
+"ko": "로그의 끼닛거리",
+"en": "Rogue's Morsel",
+"icon": "Item_LOOT_Underdark_Mushroom_Roguemorsel",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"35577d02-6b09-4304-96e3-545325608d38": {
+"ko": "드래곤알버섯",
+"en": "Dragon Egg Mushroom",
+"icon": "Item_LOOT_Mushroom_Dragonegg_B",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f2ec2f9b-3380-4257-a2f3-255b80f57c32": {
+"ko": "도토리송로버섯",
+"en": "Acorn Truffle",
+"icon": "Item_LOOT_Underdark_Mushroom_Silvantruffle",
+"value": 2,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "연금술 재료",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"443e8e9c-e545-4b68-be02-0d3ac16f7750": {
+"ko": "은접시",
+"en": "Silver Plate",
+"icon": "Item_LOOT_GEN_Dining_Plate_Silver_Rich_B",
+"value": 20,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟡 비교",
+"cat": "기타",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"7bd125e8-7b1c-10c6-f166-47529fb6c488": {
+"ko": "함정 해제 도구",
+"en": "Trap Disarm Toolkit",
+"icon": "Item_TOOL_GEN_Disam_Toolkit_A",
+"value": 25,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🟢 보관",
+"cat": "도구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1af73c86-f93d-8f19-881d-b99f9f46d5eb": {
+"ko": "은목걸이",
+"en": "Silver Necklace",
+"icon": "Item_LOOT_GEN_Amulet_Necklace_B_Silver_A",
+"value": 25,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🔴 팔기",
+"cat": "목걸이",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"81cea470-245b-7fcd-f7f3-0d6aa3ee81f8": {
+"ko": "해골",
+"en": "Skull",
+"icon": "Item_DEC_Dungeon_Skeleton_Skull_A",
+"value": 1,
+"amount": 3,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🔴 팔기",
+"cat": "잡동사니",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"1d4b86b4-d704-cdb2-5eda-65a43c6612ec": {
+"ko": "세련된 반지",
+"en": "Polished Ring",
+"icon": "Item_LOOT_GEN_Ring_E_Silver_A",
+"value": 18,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🔴 팔기",
+"cat": "반지",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"af4ed87d-6c52-2589-0f7c-64d068798c29": {
+"ko": "혈석",
+"en": "Bloodstone",
+"icon": "Item_LOOT_GEM_Bloodstone_A",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "아스타리온",
+"verdict": "🔴 팔기",
+"cat": "보석·귀중품",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"191197c9-2f66-835e-d7c1-e3933a800e72": {
+"ko": "영원 감시 반지",
+"en": "Eversight Ring",
+"icon": "Item_LOOT_GEN_Ring_I_Silver_A_1",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "아스타리온",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"0e1dea1d-6422-2408-fea7-9408ab1125ee": {
+"ko": "연금술 주머니",
+"en": "Alchemy Pouch",
+"icon": "Item_CONT_GEN_AlchemyPouch",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🟢 보관",
+"cat": "가방",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fbd3bbbc-3e70-3805-970a-1e20543f2f5c": {
+"ko": "야영 물자 자루",
+"en": "Camp Supply Sack",
+"icon": "Item_CONT_GEN_CampSupplySack",
+"value": 1,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🟢 보관",
+"cat": "가방",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8b44b90c-f326-0b96-7a1d-ea56361fd805": {
+"ko": "자헤이라의 속옷",
+"en": "Jaheira's Underwear",
+"icon": "Item_Underwear_Elves_A",
+"value": 6,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🟢 보관",
+"cat": "야영지 옷",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"c2c56171-a754-67d0-16d9-7f739a712e6b": {
+"ko": "고상한 장화",
+"en": "Tasteful Boots",
+"icon": "Generated_ARM_Camp_Shoes_Jaheira",
+"value": 5,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🟢 보관",
+"cat": "야영지 옷",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d3a11cf5-b48b-c6b9-95d0-164a05e8b2f3": {
+"ko": "자헤이라의 훌륭한 옷",
+"en": "Jaheira's Respectable Clothes",
+"icon": "Generated_ARM_Camp_Body_Jaheira",
+"value": 11,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🟢 보관",
+"cat": "야영지 옷",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"15f367d8-a80d-01bc-43da-c74c60505138": {
+"ko": "자헤이라의 장화",
+"en": "Jaheira's Boots",
+"icon": "Item_ARM_Boots_Leather_2",
+"value": 15,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"dec2b3c9-b5e1-21ae-d96c-b2636b09abc3": {
+"ko": "가죽 장갑",
+"en": "Leather Gloves",
+"icon": "Item_ARM_Gloves_Leather_3",
+"value": 20,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"32d3bf45-0d0b-5865-0ef2-592c9dae35e7": {
+"ko": "가죽 갑옷",
+"en": "Leather Armour",
+"icon": "Generated_UNI_Leather_Jaheira",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "자헤이라",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"2c723618-7470-d47f-b02e-c7709cab151a": {
+"ko": "삼림 언월도",
+"en": "Sylvan Scimitar",
+"icon": "Item_WPN_HUM_Scimitar_A_1",
+"value": 65,
+"amount": 1,
+"rarity": 1,
+"owner": "자헤이라",
+"verdict": "🛡️ 착용 중",
+"cat": "마법 장비",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"d85f2ebf-e277-bb0c-2f6c-e0b876eb10f6": {
+"ko": "언월도+1",
+"en": "Scimitar +1",
+"icon": "Item_WPN_HUM_Scimitar_A_1",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "자헤이라",
+"verdict": "🛡️ 착용 중",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"533ccb50-d7d8-694d-50e9-199070f6ded7": {
+"ko": "손도끼+1",
+"en": "Handaxe +1",
+"icon": "Item_WPN_HUM_Handaxe_A_1",
+"value": 40,
+"amount": 1,
+"rarity": 1,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4bede26e-c8f9-2284-7f8b-f168141a55c6": {
+"ko": "손 쇠뇌",
+"en": "Hand Crossbow",
+"icon": "Item_WPN_HUM_HandCrossbow_A_0",
+"value": 50,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"fa2fc78e-6159-b02d-0412-1f25f48e2f10": {
+"ko": "징 박힌 가죽 갑옷",
+"en": "Studded Leather Armour",
+"icon": "Item_ARM_StuddedLeather",
+"value": 130,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟢 보관",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"16b92f7f-9a86-77a5-9fba-3ae7b52da40c": {
+"ko": "가죽 갑옷",
+"en": "Leather Armour",
+"icon": "Item_ARM_Leather_3",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4454fd62-5e8a-23c0-2c63-1b10f7e3ba57": {
+"ko": "비늘 갑옷",
+"en": "Scale Mail",
+"icon": "Item_ARM_ScaleMail",
+"value": 65,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"06625d44-50e5-e5cc-3f59-0f612754419a": {
+"ko": "비늘 갑옷",
+"en": "Scale Mail",
+"icon": "Item_ARM_ScaleMail",
+"value": 65,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"f8684e52-cf56-f8b3-1304-1f17dc5151d3": {
+"ko": "가죽 갑옷",
+"en": "Leather Armour",
+"icon": "Item_ARM_Leather_3",
+"value": 40,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"8de4d6fa-38de-c005-7ec8-b768cacc16c7": {
+"ko": "판금 갑옷",
+"en": "Plate Armour",
+"icon": "Item_ARM_Plate",
+"value": 400,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"9cf72812-ef71-aa27-5a32-634a9e101b95": {
+"ko": "미늘창",
+"en": "Halberd",
+"icon": "Item_WPN_HUM_Halberd_A_0",
+"value": 65,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4dedddec-9a70-f67e-cc24-9d8393f2fee6": {
+"ko": "전투 도끼",
+"en": "Battleaxe",
+"icon": "Item_WPN_HUM_Battleaxe_A_0",
+"value": 50,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"55e416b4-0232-4a8e-8d82-e610943005f3": {
+"ko": "철테 방패+1",
+"en": "Iron-Banded Shield +1",
+"icon": "Item_WPN_HUM_Shield_D_1",
+"value": 300,
+"amount": 1,
+"rarity": 2,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"6f2d8f3e-7a53-c031-d76b-5954631e7be2": {
+"ko": "육척봉",
+"en": "Quarterstaff",
+"icon": "Item_WPN_HUM_Quarterstaff_B_0",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"0b174840-04b0-4ed8-f77d-ba4d6ab5feb6": {
+"ko": "육척봉",
+"en": "Quarterstaff",
+"icon": "Item_WPN_HUM_Quarterstaff_B_0",
+"value": 10,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"3e810dab-083f-29a6-b493-a57b56e844a5": {
+"ko": "단궁",
+"en": "Shortbow",
+"icon": "Item_WPN_HUM_Shortbow_A_0",
+"value": 16,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🔴 팔기",
+"cat": "무기",
+"last": "2026-11-23",
+"first": "2026-11-23",
+"status": "have"
+},
+"4c163bf5-04d6-8038-0d12-6de9ad001d51": {
+"ko": "경판금 갑옷",
+"en": "Half Plate Armour",
+"icon": "Item_ARM_HalfPlate",
+"value": 180,
+"amount": 1,
+"rarity": 0,
+"owner": "여행용 궤짝 (Traveller's Chest)",
+"verdict": "🟡 비교",
+"cat": "방어구",
+"last": "2026-11-23",
+"first": "2026-11-23",
 "status": "have"
 }
 }
